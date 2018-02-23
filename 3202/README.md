@@ -3,11 +3,11 @@
 
 ## Materiel HP Proliant Server
 
-| Materiel                           | Guide                                                                  |LG|
-|------------------------------------|------------------------------------------------------------------------|--|
-| DL 360 G6                          | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c01728723 |FR|
-| HP Proliant G6 Server (quick Specs)| https://h20195.www2.hpe.com/v2/getpdf.aspx/c04284365.pdf               |EN|
-| HP Proliant G7 Server              | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02149854 |EN|
+| Materiel                | Guide                                                                  |LG|
+|-------------------------|------------------------------------------------------------------------|--|
+| DL360 G6                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c01728723 |FR|
+| DL360 G6 (quick Specs)  | https://h20195.www2.hpe.com/v2/getpdf.aspx/c04284365.pdf               |EN|
+| DL380 G7                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02149854 |EN|
 
 
 
