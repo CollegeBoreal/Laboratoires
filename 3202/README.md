@@ -24,3 +24,4 @@
 | App                               | Guide                                                         |
 |-----------------------------------|---------------------------------------------------------------|
 |  UnetBooting sur USB stick        | http://unetbootin.github.io/                                  |
+|  Rufus (Windows Only) .           | https://rufus.akeo.ie/                                        |
