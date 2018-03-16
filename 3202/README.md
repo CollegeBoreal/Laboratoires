@@ -46,4 +46,4 @@ https://www.youtube.com/watch?v=9osh7X_ozqY
  
  
  
-3 . To configurer a Raid 5, you need a minimum of 3 disks.
+3 . To configure in Raid 5, you need a minimum of 3 disks.
