@@ -34,9 +34,10 @@
  
 https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant-dl380-g7/
  
+ ```
  Pressing F8 to access ILO
  Exiting ILO will give access to Raid Setup Utility
-  
+ ```
  
  
 2 . Running Raid setup utility and then install Operating system 
