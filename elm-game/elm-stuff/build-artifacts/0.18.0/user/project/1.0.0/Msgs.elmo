@@ -1,3 +1,0 @@
-var _user$project$Msgs$OnFetchPlayers = function (a) {
-	return {ctor: 'OnFetchPlayers', _0: a};
-};
