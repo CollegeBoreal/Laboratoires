@@ -1,35 +1,61 @@
 module View exposing (..)
 
 import Html exposing (Html, div, text)
+import Models exposing (Model, PlayerId)
 import Msgs exposing (Msg)
-import Models exposing (Model, Player, List)
+import Players.Edit
 import Players.List
-import RemoteData exposing (WebData)
+import RemoteData
 
 
-view : WebData (List Player) -> Html Msg
-view response =
+view : Model -> Html Msg
+view model =
     div []
-        [ nav
-        , maybeList response
-        ]
-
-maybeList : WebData (List Player) -> Html Msg
-maybeList response =
-    case response of
-        RemoteData.NotAsked ->
-            text ""
-
-        RemoteData.Loading ->
-            text "Loading..."
-
-        RemoteData.Success players ->
-            list players
-
-        RemoteData.Failure error ->
-            text (toString error)
+        [ page model ]
 
 
 page : Model -> Html Msg
 page model =
-    Players.List.view model.players
+    case model.route of
+        Models.PlayersRoute ->
+            Players.List.view model.players
+
+        Models.PlayerRoute id ->
+            playerEditPage model id
+
+        Models.NotFoundRoute ->
+            notFoundView
+
+
+playerEditPage : Model -> PlayerId -> Html Msg
+playerEditPage model playerId =
+    case model.players of
+        RemoteData.NotAsked ->
+            text ""
+
+        RemoteData.Loading ->
+            text "Loading ..."
+
+        RemoteData.Success players ->
+            let
+                maybePlayer =
+                    players
+                        |> List.filter (\player -> player.id == playerId)
+                        |> List.head
+            in
+                case maybePlayer of
+                    Just player ->
+                        Players.Edit.view player
+
+                    Nothing ->
+                        notFoundView
+
+        RemoteData.Failure err ->
+            text (toString err)
+
+
+notFoundView : Html msg
+notFoundView =
+    div []
+        [ text "Not found"
+        ]
