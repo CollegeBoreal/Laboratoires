@@ -5,4 +5,4 @@ Inventaire
 |                Matériel   |               Commentaires      |
 |---------------------------|---------------------------------|
 | [Proliant](./Proliant.md) |                                 |
-| [MacProd](./MacProd.md)   |                                 |
+| [MacPro](./MacPro.md)     |                                 |
