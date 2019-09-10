@@ -1,5 +1,3 @@
-# Salle 3202
-
 
 ## Materiel HP Proliant Server
 
