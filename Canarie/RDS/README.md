@@ -1,10 +1,10 @@
 # RDS
 
 
-| Platform | Link | Comments |
-|-----------------------------------------------------|----------------------------------------|------------------|
-| [DuraCloud](https://github.com/duracloud/duracloud) | https://github.com/duracloud/duracloud | HLS Streaming    |
-| [DataVerse](https://github.com/IQSS/dataverse) | https://github.com/IQSS/dataverse | | 
+| Platform                                            | Open Source      | HLS Streaming    |
+|-----------------------------------------------------|------------------|------------------|
+| [DuraCloud](https://github.com/duracloud/duracloud) |:white_check_mark:|:white_check_mark:|
+| [DataVerse](https://github.com/IQSS/dataverse)      |:white_check_mark:|                  |        
 
 
 [National Data Services Framework (NDSF)](https://www.rdc-drc.ca/activities/ndsf/)
