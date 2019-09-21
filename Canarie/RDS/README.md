@@ -2,8 +2,8 @@
 
 
 | Platform | Link | Comments |
-|---------------|------------------|------------------|
-| [DuraCloud](https://github.com/duracloud/duracloud) | https://github.com/duracloud/duracloud | |
+|-----------------------------------------------------|----------------------------------------|------------------|
+| [DuraCloud](https://github.com/duracloud/duracloud) | https://github.com/duracloud/duracloud | HLS Streaming    |
 | [DataVerse](https://github.com/IQSS/dataverse) | https://github.com/IQSS/dataverse | | 
 
 
