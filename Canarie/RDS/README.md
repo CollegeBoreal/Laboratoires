@@ -1,10 +1,10 @@
 # RDS
 
 
-| Platform                                            | Open Source      | HLS Streaming    |
-|-----------------------------------------------------|------------------|------------------|
-| [DuraCloud](https://github.com/duracloud/duracloud) |:white_check_mark:|:white_check_mark:|
-| [DataVerse](https://github.com/IQSS/dataverse)      |:white_check_mark:|                  |        
+| Product                   | Code Source                                         | Open Source      | HLS Streaming    |
+|---------------------------|-----------------------------------------------------|------------------|------------------|
+| [DuraCloud](DuraCloud.md) | https://github.com/duracloud/duracloud              |:white_check_mark:|:white_check_mark:|
+| [DataVerse](DataVerse.md) | https://github.com/IQSS/dataverse                   |:white_check_mark:|                  |
 
 
 ## References:
