@@ -6,3 +6,4 @@ Inventaire
 |---------------------------|---------------------------------|
 | [Proliant](./Proliant.md) |                                 |
 | [MacPro](./MacPro.md)     |                                 |
+| [Pi](./Pi.md)     |                                 |
