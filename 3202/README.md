@@ -4,6 +4,6 @@ Inventaire
 
 |                Matériel   |               Commentaires      |
 |---------------------------|---------------------------------|
-| [Proliant](./Proliant.md) |                                 |
+| [Proliant](./proliant) |                                 |
 | [MacPro](./MacPro.md)     |                                 |
 | [Pi](./Pi.md)     |                                 |
