@@ -1,6 +1,9 @@
 
 ## Materiel HP Proliant Server
 
+
+https://support.hpe.com/hpesc/public/home
+
 | Materiel                | Guide                                                                  |LG|
 |-------------------------|------------------------------------------------------------------------|--|
 | DL360 G6                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c01728723 |FR|
