@@ -71,3 +71,13 @@ If a ProLiant DL380p Gen8 server fails to boot from an SD card or a USB device, 
 :pushpin: `Troubleshooting the USB Port or Device`
 
 https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
+
+ Confirming USB port configuration
+ Follow the directions in this section to answer the following questions, or as many as possible:
+
+ Is the USB port enabled?
+ To determine if the USB port is enabled or disabled, access the BIOS Setup Utility by pressing F2 during POST.
+ NOTE: If parameters are changed in the BIOS it may affect the computer’s performance, or the computer may not restart. For more information, consult the User’s guide.
+ Verify that the USB port is set to ENABLED.
+
+ Exit the BIOS Setup Utility and save any changes. The system will complete its startup procedure.
