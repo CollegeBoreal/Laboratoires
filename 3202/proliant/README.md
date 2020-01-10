@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=9osh7X_ozqY
 
 ## :warning: Troubleshoot
 
-`red screen of death`
+:pushpin: `red screen of death`
 
 https://alpacapowered.wordpress.com/2014/06/23/illegal-opcode-red-screen-of-death-while-booting-a-hp-proliant-server-from-an-usb-sd-card/
 
@@ -67,3 +67,7 @@ Any HP ProLiant DL380p Gen8 server with HP Integrated Lights-Out 4 (iLO 4).
 RESOLUTION
 If a ProLiant DL380p Gen8 server fails to boot from an SD card or a USB device, cold boot the server to recover from this issue.
 ```
+
+:pushpin: Troubleshooting the USB Port or Device
+
+https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
