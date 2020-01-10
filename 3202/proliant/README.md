@@ -68,6 +68,6 @@ RESOLUTION
 If a ProLiant DL380p Gen8 server fails to boot from an SD card or a USB device, cold boot the server to recover from this issue.
 ```
 
-:pushpin: `Troubleshooting the USB Port or Device
+:pushpin: `Troubleshooting the USB Port or Device`
 
 https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
