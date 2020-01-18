@@ -81,3 +81,7 @@ https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
  Verify that the USB port is set to ENABLED.
 
  Exit the BIOS Setup Utility and save any changes. The system will complete its startup procedure.
+
+
+
+https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-kc0121549en_us&docLocale=en_US
