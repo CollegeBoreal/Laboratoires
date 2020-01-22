@@ -2,24 +2,6 @@
 ## Materiel HP Proliant Server
 
 
-https://support.hpe.com/hpesc/public/home
-
-| Materiel                | Guide                                                                  |LG|
-|-------------------------|------------------------------------------------------------------------|--|
-| DL360 G6                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c01728723 |FR|
-| DL360 G6 (quick Specs)  | https://h20195.www2.hpe.com/v2/getpdf.aspx/c04284365.pdf               |EN|
-| DL380 G7                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02149854 |EN|
-
-
-
-
-## Installation
-
-| CD                                | Guide                                                         |
-|-----------------------------------|---------------------------------------------------------------|
-| SmartStart CD pour HP Proliant G7 | https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0121805 |
-| SmartStart CD Download Page       |  https://support.hpe.com/hpesc/public/home/result?qt=SmartStart+CD   |
-
 
 ## Utilitaires
 | App                               | Guide                                                         |
@@ -50,38 +32,23 @@ https://www.youtube.com/watch?v=9osh7X_ozqY
 3 . To configure in Raid 5, you need a minimum of 3 disks.
 
 
-## :warning: Troubleshoot
+# Documentation
 
-:pushpin: `red screen of death`
+https://support.hpe.com/hpesc/public/home
 
-https://alpacapowered.wordpress.com/2014/06/23/illegal-opcode-red-screen-of-death-while-booting-a-hp-proliant-server-from-an-usb-sd-card/
+| Materiel                | Guide                                                                  |LG|
+|-------------------------|------------------------------------------------------------------------|--|
+| DL360 G6                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c01728723 |FR|
+| DL360 G6 (quick Specs)  | https://h20195.www2.hpe.com/v2/getpdf.aspx/c04284365.pdf               |EN|
+| DL380 G7                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02149854 |EN|
 
-![image](../images/red-screen-of-death.jpeg)
 
-```
-DESCRIPTION
-In rare instances, a ProLiant DL380p Gen8 server may fail to boot from an SD card or a USB device after frequent reboots while Virtual Media is mounted in the HP Integrated Lights-Out 4 (iLO 4) Integrated Remote Console (IRC).
-This issue can occur if the server is rebooted approximately every five minutes. If this occurs, the following message will be displayed: Non-System disk or disk error-replace and strike any key when ready
-SCOPE
-Any HP ProLiant DL380p Gen8 server with HP Integrated Lights-Out 4 (iLO 4).
-RESOLUTION
-If a ProLiant DL380p Gen8 server fails to boot from an SD card or a USB device, cold boot the server to recover from this issue.
-```
 
-:pushpin: `Troubleshooting the USB Port or Device`
 
-https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
+## Installation
 
- Confirming USB port configuration
- Follow the directions in this section to answer the following questions, or as many as possible:
+| CD                                | Guide                                                         |
+|-----------------------------------|---------------------------------------------------------------|
+| SmartStart CD pour HP Proliant G7 | https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0121805 |
+| SmartStart CD Download Page       |  https://support.hpe.com/hpesc/public/home/result?qt=SmartStart+CD   |
 
- Is the USB port enabled?
- To determine if the USB port is enabled or disabled, access the BIOS Setup Utility by pressing F2 during POST.
- NOTE: If parameters are changed in the BIOS it may affect the computer’s performance, or the computer may not restart. For more information, consult the User’s guide.
- Verify that the USB port is set to ENABLED.
-
- Exit the BIOS Setup Utility and save any changes. The system will complete its startup procedure.
-
-:pushpin: Enabling Virtualization
-
-https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-kc0121549en_us&docLocale=en_US
