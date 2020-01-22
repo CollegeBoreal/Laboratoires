@@ -23,5 +23,5 @@ https://www.youtube.com/watch?v=9osh7X_ozqY
 ![image](images/IMG_1798.jpeg)
 ![image](images/IMG_1799.jpeg)
 ![image](images/IMG_1800.jpeg)
-![image](IMG_1801.jpeg)
+![image](images/IMG_1801.jpeg)
 
