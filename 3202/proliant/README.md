@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=9osh7X_ozqY
 
 https://alpacapowered.wordpress.com/2014/06/23/illegal-opcode-red-screen-of-death-while-booting-a-hp-proliant-server-from-an-usb-sd-card/
 
-![image](../images/red-screen-of-death.jpeg)
+![image](images/red-screen-of-death.jpeg)
 
 ```
 DESCRIPTION
