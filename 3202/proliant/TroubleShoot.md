@@ -1,6 +1,6 @@
 ## :warning: Troubleshoot
 
-:pushpin: `red screen of death`
+### :pushpin: `red screen of death`
 
 https://alpacapowered.wordpress.com/2014/06/23/illegal-opcode-red-screen-of-death-while-booting-a-hp-proliant-server-from-an-usb-sd-card/
 
@@ -16,7 +16,7 @@ RESOLUTION
 If a ProLiant DL380p Gen8 server fails to boot from an SD card or a USB device, cold boot the server to recover from this issue.
 ```
 
-:pushpin: `Troubleshooting the USB Port or Device`
+### :pushpin: `Troubleshooting the USB Port or Device`
 
 https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
 
@@ -30,7 +30,7 @@ https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
 
  Exit the BIOS Setup Utility and save any changes. The system will complete its startup procedure.
 
-:pushpin: Enabling Virtualization
+### :pushpin: Enabling Virtualization
 
 https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-kc0121549en_us&docLocale=en_US
 
