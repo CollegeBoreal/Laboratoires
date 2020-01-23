@@ -17,7 +17,7 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 ![image](images/IMG_1797.jpeg)
 
-:two: Select Hard Drives
+:two: Assign Physical Drives
 
 
 ![image](images/IMG_1799.jpeg)
