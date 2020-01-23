@@ -4,15 +4,12 @@
  
 https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant-dl380-g7/
  
- ```
- Pressing F8 to access ILO
- Exiting ILO will give access to Raid Setup Utility
- ```
+    Pressing F8 to access ILO
+    Exiting ILO will give access to Raid Setup Utility
  
  ![image](images/IMG_1801.jpeg)
  
-:two: . To configure in Raid 5, you need a minimum of 3 disks.
-
+:two: To configure Disks in Raid 5, you need a minimum of 3 disks.
 
 ![image](images/IMG_1797.jpeg)
 ![image](images/IMG_1798.jpeg)
