@@ -22,7 +22,8 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 ![image](images/IMG_1799.jpeg)
 
-![image](images/IMG_1798.jpeg)
+:three: Check Logical Drives
+
 ![image](images/IMG_1800.jpeg)
 
 
