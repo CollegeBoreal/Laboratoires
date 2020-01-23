@@ -1,6 +1,6 @@
 # Raid Setup Utility
   
-:one: . Accessing the Raid Setup Utility on G6 and G7
+:one: Accessing the `Raid Setup Utility` on G6 and G7
  
 https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant-dl380-g7/
  
@@ -9,7 +9,7 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
  
  ![image](images/IMG_1801.jpeg)
  
-:two: To configure Disks in Raid 5, you need a minimum of 3 disks.
+:two: To configure Disks in [Raid 5](https://www.computerweekly.com/answer/RAID-5-recovery-What-is-the-maximum-number-of-physical-drives-in-a-RAID-5-configuration), you need a minimum of 3 disks.
 
 ![image](images/IMG_1797.jpeg)
 ![image](images/IMG_1798.jpeg)
