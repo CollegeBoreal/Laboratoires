@@ -17,5 +17,5 @@
 
 :pushpin: Partie supérieure du "Rack" en Salle 3202
 
-<img src="images/IMG_1847.JPG" width="640" height="480"></img>
+<img src="images/IMG_1847.JPG" width="320" height="240"></img>
 
