@@ -1,2 +1,2 @@
 
-![image](images/IMG_1845.JPG)
+![image](images/IMG_1845.jpg)
