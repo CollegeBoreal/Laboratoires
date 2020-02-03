@@ -1,2 +1,2 @@
 
-![image](images/IMG_1845.jpg)
+<img src="images/IMG_1845.jpg"></img>
