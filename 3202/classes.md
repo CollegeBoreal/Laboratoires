@@ -30,6 +30,8 @@ Veuillez brancher vos cables "patch" RJ45 sur cette "switch"
 
 * La connection vers le routeur est le cable Jaune 💛
 
-* La connection vers la switch est le cable Jaune 🌫️
+* La connection vers la switch est le cable Gris 🌫️
 
 <img src="images/IMG_1848.png" width="240" height="320"></img>
+
+:x: Ne pas débrancher
