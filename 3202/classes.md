@@ -15,7 +15,7 @@
 
 ## :m: Connection Switch 2ème année
 
-:pushpin: Partie supérieure du "Rack" en Salle 3202
+:pushpin: Switch Catalyst 1900 100BaseT utilisée uniquement pour les serveurs des 2èmes années
 
 <img src="images/IMG_1847.JPG" width="320" height="240"></img>
 
