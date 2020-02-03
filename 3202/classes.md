@@ -12,3 +12,10 @@
 
 <img src="images/IMG_1846.png"></img>
 
+
+## :m: Connection Switch 2ème année
+
+:pushpin: Partie supérieure du "Rack" en Salle 3202
+
+<img src="images/IMG_1847.JPG"></img>
+
