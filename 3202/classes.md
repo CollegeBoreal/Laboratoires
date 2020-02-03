@@ -4,7 +4,7 @@
 
 :pushpin: Partie supérieure du "Rack" en Salle 3202
 
-<img src="images/IMG_1845.png"></img>
+<img src="images/IMG_1845.png" width="240" height="320"></img>
 
 ## :m: Vue frontale
 
