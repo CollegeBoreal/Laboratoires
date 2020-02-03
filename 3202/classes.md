@@ -15,7 +15,13 @@
 
 ## :m: Connection Switch 2ème année
 
-:pushpin: Switch Catalyst 1900 100BaseT utilisée uniquement pour les serveurs des 2èmes années
+:pushpin: Switch Catalyst 1900 100BaseX utilisée uniquement pour les serveurs des 2èmes années
 
 <img src="images/IMG_1847.JPG" width="320" height="240"></img>
 
+
+## :m: Connection Switch au réseau `10.13.237.0/25`
+
+:pushpin: Switch Catalyst 1900 100BaseX utilisée uniquement pour les serveurs des 2èmes années
+
+<img src="images/IMG_1847.JPG" width="320" height="240"></img>
