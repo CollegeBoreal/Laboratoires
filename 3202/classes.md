@@ -24,4 +24,4 @@
 
 :pushpin: Switch Catalyst 1900 100BaseX utilisée uniquement pour les serveurs des 2èmes années
 
-<img src="images/IMG_1848.png"></img>
+<img src="images/IMG_1848.png" width="240" height="320"></img>
