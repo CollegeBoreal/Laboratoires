@@ -32,4 +32,8 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 * Running Raid setup utility and then install Operating system 
  
 https://www.youtube.com/watch?v=9osh7X_ozqY
+
+* HP P410/P410i Array Configuration Guide
+
+https://techmikeny.com/pages/hp-p410-p410i-array-configuration-guide
  
