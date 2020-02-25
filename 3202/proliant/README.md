@@ -16,7 +16,7 @@
 
 ## TroubleShoot
 
-[Trouble Shoot](troubleshoot.cmd) 
+See [Trouble Shoot](TroubleShoot.cmd) 
 
 
 # Documentation
