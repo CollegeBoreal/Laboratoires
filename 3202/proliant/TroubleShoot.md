@@ -22,7 +22,8 @@ If a ProLiant DL380p Gen8 server fails to boot from an SD card or a USB device, 
 https://community.hpe.com/t5/ProLiant-Servers-ML-DL-SL/DL180-USB-ports-disabled-LO100-KVM-keyboard-amp-mouse-don-t-work/td-p/5248034#
 
 
-    but I removed the CMOS battery and left it for a while - this reset the BIOS settings and the USB ports worked again.
+    but I removed the CMOS battery and left it for a while - 
+    this reset the BIOS settings and the USB ports worked again.
 
 https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
 
