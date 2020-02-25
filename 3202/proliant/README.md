@@ -9,8 +9,12 @@
 |  UnetBooting sur USB stick        | http://unetbootin.github.io/                                  |
 |  Rufus (Windows Only) .           | https://rufus.akeo.ie/                                        |
 
+## DIMM - Memory Setup
+ 
+[Configuration de la memoire](DIMM) 
 
-## Raid Setup Utility
+
+## HDD - Raid Setup Utility
  
 [Configuration des disques en RAID 5](RAID) 
 
