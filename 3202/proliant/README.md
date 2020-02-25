@@ -14,6 +14,10 @@
  
 [Configuration des disques en RAID 5](RAID) 
 
+## TroubleShoot
+
+[Trouble Shoot](troubleshoot.cmd) 
+
 
 # Documentation
 
