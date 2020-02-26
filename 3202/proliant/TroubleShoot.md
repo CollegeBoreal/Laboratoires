@@ -42,3 +42,6 @@ https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-lpn13770
 
 https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-kc0121549en_us&docLocale=en_US
 
+### :pushpin: Smart Array P410i controller: Initializing....
+
+https://community.hpe.com/t5/ProLiant-Servers-ML-DL-SL/Problem-with-P410i-controller-on-ML350-G6-after-firmware-update/td-p/5213407#.XlbrXJNKhBw
