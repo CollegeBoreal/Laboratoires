@@ -1,29 +1,28 @@
 
-## Materiel HP Proliant Server
+# Materiel HP Proliant Server
 
 
 
-## Utilitaires
+## :o: Utilitaires
 | App                               | Guide                                                         |
 |-----------------------------------|---------------------------------------------------------------|
 |  UnetBooting sur USB stick        | http://unetbootin.github.io/                                  |
 |  Rufus (Windows Only) .           | https://rufus.akeo.ie/                                        |
 
-## DIMM - Memory Setup
+## :a: DIMM - Memory Setup
  
 [Configuration de la memoire](DIMM) 
 
 
-## HDD - Raid Setup Utility
+## :b: HDD - Raid Setup Utility
  
 [Configuration des disques en RAID 5](RAID) 
 
-## TroubleShoot
+## :ab: TroubleShoot
 
 See [Trouble Shoot](TroubleShoot.md) 
 
-
-# Documentation
+## :red_book: Documentation
 
 https://support.hpe.com/hpesc/public/home
 
