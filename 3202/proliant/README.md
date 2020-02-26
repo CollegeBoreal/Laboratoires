@@ -22,7 +22,7 @@
 
 See [Trouble Shoot](TroubleShoot.md) 
 
-## :red_book: Documentation
+## :closed_book: Documentation
 
 https://support.hpe.com/hpesc/public/home
 
