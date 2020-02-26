@@ -35,7 +35,7 @@ https://support.hpe.com/hpesc/public/home
 
 
 
-## Installation
+## :open_book: Installation
 
 | CD                                | Guide                                                         |
 |-----------------------------------|---------------------------------------------------------------|
