@@ -36,7 +36,7 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 <img src="images/IMG_1876.JPG" width="1224" heidth="1632"></img>
 
-
+:pushpin: Only with the controller that RAID5 functionnality is ON (otherwise only RAID0 works)
 
 <img src="images/IMG_1877.JPG" width="1632" heidth="1224"></img>
 
