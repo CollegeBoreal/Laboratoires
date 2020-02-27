@@ -26,11 +26,14 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 ![image](images/IMG_1800.jpeg)
 
-## :ab: TroubleShooting Smart Array P410i Controller
+## :ab: TroubleShooting RAID Cache Module Controller (a.k.a HP Smart Array P410i)
+
+
+
+<img src="images/IMG_1876.JPG" width="1224" heidth="1632"></img>
 
 <img src="images/IMG_1875.JPG" width="1224" heidth="1632"></img>
 
-<img src="images/IMG_1876.JPG" width="1224" heidth="1632"></img>
 
 <img src="images/IMG_1877.JPG" width="1632" heidth="1224"></img>
 
