@@ -32,6 +32,7 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 <img src="images/IMG_1875.JPG" width="612" heidth="816"></img>
 
+:pushpin: Place into the connector #5 on the board 
 
 <img src="images/IMG_1876.JPG" width="1224" heidth="1632"></img>
 
