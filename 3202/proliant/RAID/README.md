@@ -26,7 +26,11 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 ![image](images/IMG_1800.jpeg)
 
-## :ab: TroubleShooting RAID Cache Module Controller (a.k.a HP Smart Array P410i Controller)
+## :ab: TroubleShooting RAID Cache Module Controller 
+
+When the SAS 
+
+:bulb: (a.k.a HP Smart Array P410i Controller)
 
 :pushpin: HP Smart Array P410i Controller
 
@@ -36,7 +40,7 @@ https://www.kevinhooke.com/2017/10/30/accessing-the-raid-setup-on-an-hp-proliant
 
 <img src="images/IMG_1876.JPG" width="1224" heidth="1632"></img>
 
-:pushpin: Only with the controller that RAID5 functionnality is ON (otherwise only RAID0 works)
+:pushpin: Only with the controller that RAID5 functionnality is ON (otherwise only RAID0 is ON)
 
 <img src="images/IMG_1877.JPG" width="1632" heidth="1224"></img>
 
