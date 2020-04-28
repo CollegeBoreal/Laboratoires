@@ -1,9 +1,10 @@
 # Archives de cours
 
 
-| Années  | Liens                                |
-|---------|--------------------------------------|
-| :two::zero::one::six:    |                                      |
-| Automne | https://github.com/CollegeBoreal/16A |
+| Années              | Liens                                |
+|---------------------|--------------------------------------|
+|:two::zero::one::six:|                                      |
+|:maple_leaf: Automne | https://github.com/CollegeBoreal/16A |
+|:snowman: Hiver      | https://github.com/CollegeBoreal/16H |
 
 
