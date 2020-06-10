@@ -2,6 +2,7 @@
 
 
 ## [:strawberry: Inventaire](images/19121615_50_24.pdf)
+<img src="images/19121615_50_24.png" width="" heigth=""></img>
 
 ## [Retour Gary](images/IMG_20200515_145043.jpg)
 
