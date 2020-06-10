@@ -1,6 +1,11 @@
 # Raspberry Pi
 
-BR1 : dc:a6:32:1a:5b:63
+BR1 : `dc:a6:32:1a:5b:63`
+
+```
+$ ip addr | grep dc:a6:32:1a
+```
+
 
 
 ## [:strawberry: Inventaire](images/19121615_50_24.pdf)
@@ -11,7 +16,4 @@ BR1 : dc:a6:32:1a:5b:63
 <img src="images/20061017_13_59.png" width="" heigth=""></img>
 
 
-```
-$ ip addr | grep dc:a6:32:1a
-```
 
