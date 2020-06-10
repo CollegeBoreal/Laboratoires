@@ -5,6 +5,8 @@
 
 ## [Retour Gary](images/IMG_20200515_145043.jpg)
 
+<img src="images/20061017_13_59.png" width="" heigth=""></img>
+
 
 ```
 $ ip addr | grep dc:a6:32:1a
