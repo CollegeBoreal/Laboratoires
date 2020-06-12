@@ -8,7 +8,7 @@ $ ip addr | grep dc:a6:32:1a
 
 - [ ] Halima Fadde: :id: 300108234: eth0: `dc:a6:32:1a:2d:db`
 
-- [ ] Olaitan Adechoubou :id: 300112017: eth0 `dc:a6:32:1a`
+- [ ] Olaitan Adechoubou :id: 300112017: eth0 `dc:a6:32:1a:61:50`
 
 
 ## [:strawberry: Inventaire](images/19121615_50_24.pdf)
