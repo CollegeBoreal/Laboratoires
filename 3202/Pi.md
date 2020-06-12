@@ -6,9 +6,9 @@ $ ip addr | grep dc:a6:32:1a
 
 ## Manquants
 
-- [ ] Halima: 
+- [ ] Halima Fadde: :id: 300108234: eth0: `dc:a6:32:1a`
 
-- [ ] Olaitan:
+- [ ] Olaitan Adechoubou :id: 300112017: eth0 `dc:a6:32:1a`
 
 
 ## [:strawberry: Inventaire](images/19121615_50_24.pdf)
