@@ -4,6 +4,11 @@
 $ ip addr | grep dc:a6:32:1a
 ```
 
+## Manquants
+
+- [ ] Halima: 
+
+- [ ] Olaitan:
 
 
 ## [:strawberry: Inventaire](images/19121615_50_24.pdf)
