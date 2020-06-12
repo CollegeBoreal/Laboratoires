@@ -14,6 +14,8 @@ isaha     : `dc:a6:32:1a:61:32`
 
 ## [Retour Gary](images/IMG_20200515_145043.jpg)
 
+<img src="images/IMG_20200515_145043.jpg" width="" heigth=""></img>
+
 <img src="images/20061017_13_59.png" width="" heigth=""></img>
 
 Abbas: `dc:a6:32:1a:1d:82` (83: wlan0)
