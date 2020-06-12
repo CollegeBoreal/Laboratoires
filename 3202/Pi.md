@@ -4,9 +4,6 @@
 $ ip addr | grep dc:a6:32:1a
 ```
 
-moodlebox : `dc:a6:32:1a:5b:63`
-
-isaha     : `dc:a6:32:1a:61:32`
 
 
 ## [:strawberry: Inventaire](images/19121615_50_24.pdf)
@@ -19,6 +16,9 @@ isaha     : `dc:a6:32:1a:61:32`
 ## [Inventaire après confinement]
 
 <img src="images/20061017_13_59.png" width="" heigth=""></img>
+
+
+- [x] joseph: `dc:a6:32:1a:61:32`
 
 - [x] Abbas: `dc:a6:32:1a:1d:82` (83: wlan0)
 
