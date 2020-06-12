@@ -6,7 +6,7 @@ $ ip addr | grep dc:a6:32:1a
 
 ## Manquants
 
-- [ ] Halima Fadde: :id: 300108234: eth0: `dc:a6:32:1a`
+- [ ] Halima Fadde: :id: 300108234: eth0: `dc:a6:32:1a:2d:db`
 
 - [ ] Olaitan Adechoubou :id: 300112017: eth0 `dc:a6:32:1a`
 
