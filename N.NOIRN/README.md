@@ -2,7 +2,7 @@
 
 Nouvelle Organisation de l’Infrastructure de Recherche Numérique
 
-engagedri.ca
+https://engagedri.ca/?lang=fr
 
 ```
 Chers collègues,
