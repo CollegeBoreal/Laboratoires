@@ -22,6 +22,10 @@
 
 See [Trouble Shoot](TroubleShoot.md) 
 
+## :x: Railing
+
+https://www.youtube.com/watch?v=MTtL-yPS_4I
+
 ## :closed_book: Documentation
 
 https://support.hpe.com/hpesc/public/home
