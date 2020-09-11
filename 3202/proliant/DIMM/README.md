@@ -6,4 +6,4 @@
 
 :pushpin: Pas plus de 2 barrettes par cannaux [CH1, CH2, ...]
 
-<img src="images/DIMM.jpeg" width="612" height="816"></img>
+<img src="../images/DIMM.jpeg" width="612" height="816"></img>
