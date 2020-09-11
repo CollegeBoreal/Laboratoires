@@ -1,6 +1,9 @@
 
 # :computer: Materiel HP Proliant Server
 
+## :x: Railing
+
+https://www.youtube.com/watch?v=MTtL-yPS_4I
 
 
 ## :o: Utilitaires
@@ -22,9 +25,6 @@
 
 See [Trouble Shoot](TroubleShoot.md) 
 
-## :x: Railing
-
-https://www.youtube.com/watch?v=MTtL-yPS_4I
 
 ## :closed_book: Documentation
 
