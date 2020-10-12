@@ -24,3 +24,6 @@ Cordialement,
 Lori MacMullen
 Présidente du conseil d’administration provisoire (NOIRN) et directrice générale du Conseil des dirigeants principaux de l’information des universités (CUCCIO)
 ```
+
+
+https://engagedri.ca/wp-content/uploads/2020/09/Fiche-Descriptive.pdf
