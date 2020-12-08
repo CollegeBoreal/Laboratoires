@@ -3,6 +3,10 @@
 
 | Années                | Liens                                |
 |-----------------------|--------------------------------------|
+|:two::zero::one::eight:|                                      |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/18H |
+|:sunny: Été            | https://github.com/CollegeBoreal/18E |
+|:maple_leaf: Automne   | https://github.com/CollegeBoreal/18A |
 |:two::zero::one::seven:|                                      |
 |:snowman: Hiver        | https://github.com/CollegeBoreal/17H |
 |:sunny: Été            | https://github.com/CollegeBoreal/17E |
