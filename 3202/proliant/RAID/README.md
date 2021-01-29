@@ -45,6 +45,14 @@ When the SAS
 <img src="images/IMG_1877.JPG" width="1632" heidth="1224"></img>
 
 
+### :x: Ensure that Disk Controller is enabled in Computer's BIOS menu
+
+error message that "You Cannot install the OS on this Drive" and "Windows Cannot be installed on this disk, the Computer Hardware may not support booting to this disk, Ensure that Disk Controller is enabled in Computer's BIOS menu"
+
+https://community.hpe.com/t5/ProLiant-Servers-ML-DL-SL/HP-proliant-380-G7-Server-not-Detecting-the-Hard-Drives/m-p/6206927#M138410
+
+
+
 # Référence
 
 * Running Raid setup utility and then install Operating system 
