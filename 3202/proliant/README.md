@@ -25,6 +25,8 @@
 
 See [Trouble Shoot](TroubleShoot.md) 
 
+:round_pushpin: [Clearing NVRAM](https://support.hpe.com/hpesc/public/docDisplay?docId=c02206928&docLocale=en_US)
+
 
 ## :closed_book: Documentation
 
