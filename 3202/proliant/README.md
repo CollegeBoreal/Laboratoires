@@ -25,7 +25,9 @@
 
 See [Trouble Shoot](TroubleShoot.md) 
 
-:round_pushpin: [Clearing NVRAM](https://support.hpe.com/hpesc/public/docDisplay?docId=c02206928&docLocale=en_US)
+:round_pushpin: [Switch On Board](https://support.hpe.com/hpesc/public/docDisplay?docId=c02206928&docLocale=en_US)
+
+:Warning: [Clearing NVRAM](https://www.running-system.com/how-to-clear-or-reset-a-hp-server-gen9-nvram-using-system-maintenance-switch-on-the-system-board)
 
 
 ## :closed_book: Documentation
