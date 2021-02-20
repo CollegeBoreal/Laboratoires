@@ -21,7 +21,11 @@
  
 [Configuration des disques en RAID 5](RAID) 
 
-## :ab: TroubleShoot
+## :ab: ILO3
+
+https://support.hpe.com/hpesc/public/docDisplay?docId=mmr_kc-0103121
+
+## :x: TroubleShoot
 
 See [Trouble Shoot](TroubleShoot.md) 
 
