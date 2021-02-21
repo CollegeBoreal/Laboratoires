@@ -25,6 +25,8 @@
 
 https://support.hpe.com/hpesc/public/docDisplay?docId=mmr_kc-0103121
 
+https://wysotsky.info/access-to-hp-ilo-remote-console-via-ssh/
+
 ## :x: TroubleShoot
 
 See [Trouble Shoot](TroubleShoot.md) 
