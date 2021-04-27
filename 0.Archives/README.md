@@ -3,6 +3,9 @@
 
 | Années                | Liens                                |
 |-----------------------|--------------------------------------|
+|:two::zero::two::zero: |                                      |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/20H |
+|:maple_leaf: Automne   | https://github.com/CollegeBoreal/20A |
 |:two::zero::one::nine: |                                      |
 |:snowman: Hiver        | https://github.com/CollegeBoreal/19H |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/19A |
