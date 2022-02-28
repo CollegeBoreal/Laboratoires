@@ -27,6 +27,10 @@ https://support.hpe.com/hpesc/public/docDisplay?docId=mmr_kc-0103121
 
 https://wysotsky.info/access-to-hp-ilo-remote-console-via-ssh/
 
+:magnet: PXE Boot
+
+- [ ] [HPE ProLiant Servers - How to Enable PXE Boot on Intel NIC from Linux OS](https://support.hpe.com/hpesc/public/docDisplay?docId=mmr_kc-0125810)
+
 ## :x: TroubleShoot
 
 See [Trouble Shoot](TroubleShoot.md) 
