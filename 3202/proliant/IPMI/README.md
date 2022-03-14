@@ -104,3 +104,4 @@ Get Device ID command failed
 # References
 
 - [ ] [Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
+- [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
