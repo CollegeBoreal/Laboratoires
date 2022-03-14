@@ -241,6 +241,34 @@ FRU Device Description : Builtin FRU Device (ID 0)
  Product Asset Tag     :
 ```
 
+## :b: Others [FRU](https://linux.die.net/man/8/ipmi-fru) Field Replaceable Unit
+
+```
+sudo apt install freeipmi-tools
+```
+
+```
+sudo ipmi-fru
+```
+> Return
+```
+Caching SDR repository information: /root/.freeipmi/sdr-cache/sdr-cache-dave-serveur.localhost
+Caching SDR record 46 of 46 (current record ID 45)
+FRU Inventory Device: Default FRU Device (ID 00h)
+
+  FRU Chassis Type: Rack Mount Chassis
+  FRU Chassis Part Number:
+  FRU Chassis Serial Number:
+
+  FRU Board Manufacturing Date/Time: 01/01/96 - 00:00:00
+  FRU Board Manufacturer: HP
+  FRU Board Product Name: ProLiant DL360 G6
+  FRU Board Serial Number:
+  FRU Board Part Number:
+
+  FRU Error: product info area checksum invalid
+```
+
 - [ ] :x: Error
 
 The following will be displayed:
