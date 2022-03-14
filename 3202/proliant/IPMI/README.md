@@ -91,7 +91,7 @@ Power Meter      | 2Ah | ok  |  7.6 | 100 Watts, Device Enabled
 Memory           | 2Bh | ok  |  7.7 | Correctable ECC, Correctable ECC logging limit reached, Presence Detected
 ```
 
-- [ ] To See All Fan-Related Sensors
+- [ ] To See All SDR Entities
 
 ```
 sudo ipmitool sdr entity
@@ -137,6 +137,23 @@ Entity IDs:
    192  PICMG Rear Transition Module         193  PICMG AdvancedMC Module
    240  PICMG Shelf Management Controller     241  PICMG Filtration Unit
    242  PICMG Shelf FRU Information          243  PICMG Alarm Panel
+```
+
+- [ ] To See All Fan-Related Sensors
+
+```
+sudo ipmitool sdr entity 29
+```
+
+- [ ] To See All SEL (System Event Log)
+
+```
+sudo ipmitool sel list
+```
+> Return
+```
+   0 | 06/29/2021 | 08:18:06 | Memory #0x2b | Correctable ECC logging limit reached | Asserted
+   1 | 11/03/2021 | 15:01:48 | Memory #0x2b | Correctable ECC logging limit reached | Asserted
 ```
 
 - [ ] :x: Error
