@@ -10,6 +10,26 @@ On an HP ProLiant server with an Integrated Lights-Out 2 (iLO 2) and running Ubu
 ```
 ipmitool mc info
 ```
+> Return
+```
+Device ID                 : 19
+Device Revision           : 1
+Firmware Revision         : 1.28
+IPMI Version              : 2.0
+Manufacturer ID           : 11
+Manufacturer Name         : Hewlett-Packard
+Product ID                : 8192 (0x2000)
+Product Name              : Unknown (0x2000)
+Device Available          : yes
+Provides Device SDRs      : yes
+Additional Device Support :
+    Sensor Device
+    SDR Repository Device
+    SEL Device
+    FRU Inventory Device
+```
+
+- [ ] :x: Error
 
 The following will be displayed:
 
