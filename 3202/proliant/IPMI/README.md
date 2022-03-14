@@ -29,6 +29,15 @@ Additional Device Support :
     FRU Inventory Device
 ```
 
+Verifiy that the following devices exist: /dev/ipmi0 or /dev/ipmi1
+
+```
+ls -l /dev/ipmi*
+```
+> Return
+```
+crw------- 1 root root 240, 0 Nov 24 03:52 /dev/ipmi0
+```
 - [ ] :x: Error
 
 The following will be displayed:
