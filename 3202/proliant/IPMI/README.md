@@ -198,6 +198,28 @@ sudo ipmitool sel list
 SEL has no entries
 ```
 
+- [ ] To Read the FRU Inventory Information
+
+```
+sudo ipmitool fru print
+```
+> Return
+```
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Serial        :
+ Board Mfg Date        : Mon Jan  1 00:00:00 1996
+ Board Mfg             : HP
+ Board Product         : ProLiant DL360 G7
+ Board Serial          :
+ Board Part Number     :
+ Product Manufacturer  : HP
+ Product Name          : ProLiant DL360 G7
+ Product Part Number   :
+ Product Serial        :
+ Product Asset Tag     :
+```
+
 - [ ] :x: Error
 
 The following will be displayed:
