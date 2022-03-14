@@ -140,6 +140,8 @@ Power Meter      | 2Ah | ok  |  7.6 | 100 Watts, Device Enabled
 Memory           | 2Bh | ok  |  7.7 | Correctable ECC, Correctable ECC logging limit reached, Presence Detected
 ```
 
+Amps = Watts / Voltage - In this example, 100Watts / 120V = 0.8333 - if 40 servers,  33 Amps which is high for 30A limit per cable
+
 - [ ] To See All SDR Entities
 
 ```
