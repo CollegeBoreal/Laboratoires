@@ -156,6 +156,26 @@ sudo ipmitool sel list
    1 | 11/03/2021 | 15:01:48 | Memory #0x2b | Correctable ECC logging limit reached | Asserted
 ```
 
+- [ ] To See All SEL Data (from the previous event table, 1st column event :id:)
+
+```
+sudo ipmitool sel get 0
+```
+> Return
+```
+SEL Record ID          : 0000
+ Record Type           : 00
+ Timestamp             : 06/29/2021 08:18:06
+ Generator ID          : 0041
+ EvM Revision          : 04
+ Sensor Type           : Memory
+ Sensor Number         : 2b
+ Event Type            : Sensor-specific Discrete
+ Event Direction       : Assertion Event
+ Event Data            : 05ffff
+ Description           : Correctable ECC logging limit reached
+```
+
 - [ ] :x: Error
 
 The following will be displayed:
