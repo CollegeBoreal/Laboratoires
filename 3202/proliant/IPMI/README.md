@@ -39,7 +39,7 @@ ls -l /dev/ipmi*
 crw------- 1 root root 240, 0 Nov 24 03:52 /dev/ipmi0
 ```
 
- - [ ] To See Only the Temperature, Voltage, and Fan Sensors
+ - [ ] To See Only the Temperature, Voltage, and Fan Sensors - SDR (Sensor Data Record)
 
 ```
 sudo ipmitool sdr elist full
