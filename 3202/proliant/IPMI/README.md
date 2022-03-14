@@ -176,6 +176,24 @@ SEL Record ID          : 0000
  Description           : Correctable ECC logging limit reached
 ```
 
+- [ ] Clear the SEL table
+
+```
+sudo ipmitool sel clear
+```
+> Return
+```
+Clearing SEL.  Please allow a few seconds to erase.
+```
+
+```
+sudo ipmitool sel list
+```
+> Return
+```
+SEL has no entries
+```
+
 - [ ] :x: Error
 
 The following will be displayed:
