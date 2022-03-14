@@ -8,7 +8,7 @@ DESCRIPTION
 On an HP ProLiant server with an Integrated Lights-Out 2 (iLO 2) and running Ubuntu Linux Server, the Linux IPMI management utility, IPMITOOL, does not function. For example, when typing the following command:
 
 ```
-ipmitool mc info
+sudo ipmitool mc info
 ```
 > Return
 ```
