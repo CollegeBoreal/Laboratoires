@@ -178,6 +178,8 @@ SEL Record ID          : 0000
 
 - [ ] Clear the SEL table
 
+* Play the command
+
 ```
 sudo ipmitool sel clear
 ```
@@ -185,6 +187,8 @@ sudo ipmitool sel clear
 ```
 Clearing SEL.  Please allow a few seconds to erase.
 ```
+
+* get the results
 
 ```
 sudo ipmitool sel list
