@@ -91,6 +91,54 @@ Power Meter      | 2Ah | ok  |  7.6 | 100 Watts, Device Enabled
 Memory           | 2Bh | ok  |  7.7 | Correctable ECC, Correctable ECC logging limit reached, Presence Detected
 ```
 
+- [ ] To See All Fan-Related Sensors
+
+```
+sudo ipmitool sdr entity
+```
+> Return
+```
+Entity IDs:
+
+     0  Unspecified                            1  Other
+     2  Unknown                                3  Processor
+     4  Disk or Disk Bay                       5  Peripheral Bay
+     6  System Management Module               7  System Board
+     8  Memory Module                          9  Processor Module
+    10  Power Supply                          11  Add-in Card
+    12  Front Panel Board                     13  Back Panel Board
+    14  Power System Board                    15  Drive Backplane
+    16  System Internal Expansion Board       17  Other System Board
+    18  Processor Board                       19  Power Unit
+    20  Power Module                          21  Power Management
+    22  Chassis Back Panel Board              23  System Chassis
+    24  Sub-Chassis                           25  Other Chassis Board
+    26  Disk Drive Bay                        27  Peripheral Bay
+    28  Device Bay                            29  Fan Device
+    30  Cooling Unit                          31  Cable/Interconnect
+    32  Memory Device                         33  System Management Software
+    34  BIOS                                  35  Operating System
+    36  System Bus                            37  Group
+    38  Remote Management Device              39  External Environment
+    40  Battery                               41  Processing Blade
+    42  Connectivity Switch                   43  Processor/Memory Module
+    44  I/O Module                            45  Processor/IO Module
+    46  Management Controller Firmware        47  IPMI Channel
+    48  PCI Bus                               49  PCI Express Bus
+    50  SCSI Bus (parallel)                   51  SATA/SAS Bus
+    52  Processor/Front-Side Bus              53  Real Time Clock(RTC)
+    54  Reserved                              55  Air Inlet
+    56  Reserved                              57  Reserved
+    58  Reserved                              59  Reserved
+    60  Reserved                              61  Reserved
+    62  Reserved                              63  Reserved
+    64  Air Inlet                             65  Processor
+    66  Baseboard/Main System Board          160  PICMG Front Board
+   192  PICMG Rear Transition Module         193  PICMG AdvancedMC Module
+   240  PICMG Shelf Management Controller     241  PICMG Filtration Unit
+   242  PICMG Shelf FRU Information          243  PICMG Alarm Panel
+```
+
 - [ ] :x: Error
 
 The following will be displayed:
