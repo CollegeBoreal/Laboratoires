@@ -23,9 +23,8 @@
 
 ## :ab: ILO3
 
-https://support.hpe.com/hpesc/public/docDisplay?docId=mmr_kc-0103121
-
-https://wysotsky.info/access-to-hp-ilo-remote-console-via-ssh/
+- [ ] [Configuration and Setup Instructions: Configuring The Static IP Address Using The iLO 3 RBSU on HPE ProLiant Servers](https://support.hpe.com/hpesc/public/docDisplay?docId=mmr_kc-0103121)
+- [ ] [Access to HP ILO remote console via SSH](https://wysotsky.info/access-to-hp-ilo-remote-console-via-ssh)
 
 :magnet: PXE Boot
 
