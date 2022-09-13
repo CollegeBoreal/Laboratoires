@@ -12,7 +12,7 @@
 
 <img src="images/IMG_1846.png" width="240" height="320"></img>
 
-## :m: Connection Switch au réseau `10.13.237.0/25`
+## :m: Connection Switch au réseau `10.13.237.0/24`
 
 :pushpin: Switch Catalyst 3600 utilisée uniquement pour les serveurs
 
