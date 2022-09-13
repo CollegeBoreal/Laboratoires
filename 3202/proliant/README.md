@@ -14,12 +14,12 @@
 
 ## :a: DIMM - Memory Setup
  
-[Configuration de la memoire](DIMM) 
+- [ ] [Configuration de la memoire](DIMM) 
 
 
 ## :b: HDD - Raid Setup Utility
  
-[Configuration des disques en RAID 5](RAID) 
+- [ ] [Configuration des disques en RAID 5](RAID) 
 
 ## :ab: ILO3
 
