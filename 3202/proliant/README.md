@@ -1,7 +1,7 @@
 
 # :computer: Materiel HP Proliant Server
 
-## :x: Railing
+## :cl: Railing
 
 [Installation des rails](https://www.youtube.com/watch?v=MTtL-yPS_4I)
 
