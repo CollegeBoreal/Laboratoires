@@ -59,7 +59,7 @@ Commands:
 
 - [ ] :three: Users
 
-* [ ] [How to reset HP iLO Lights-Out User and Password Settings with IPMItool](https://russell.ballestrini.net/how-to-reset-hp-ilo-lights-out-user-and-password-settings-with-ipmitools)
+* [ ] [How to reset HP iLO Lights-Out User and Password Settings with IPMItool](https://russell.ballestrini.net/how-to-reset-hp-ilo-lights-out-user-and-password-settings-with-ipmitools) `sudo ipmitool user list <channel number>`
 
 ```
 sudo ipmitool user list 2
