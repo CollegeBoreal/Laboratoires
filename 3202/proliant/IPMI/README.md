@@ -126,6 +126,48 @@ ID  Name	     Callin  Link Auth	IPMI Msg   Channel Priv Limit
 sudo ipmitool user set name 2 admin
 ```
 
+```
+sudo ipmitool user set password 2 mynew-password
+```
+> Set User Password command successful (user 2)
+
+```
+sudo ipmitool user set password 2 my-password
+```
+> Set User Password command successful (user 2)
+
+
+```
+sudo ipmitool user set password 2
+```
+<pre>
+Password for user 2: 
+Password for user 2: 
+Set User Password command successful (user 2)
+</pre>
+
+
+* Password format
+
+```
+sudo ipmitool user set password 2 my-pwd
+```
+  IPMI command failed: Unknown (0x81)
+  Set User Password command failed (user 2)
+
+```
+sudo ipmitool user set password 2 mynew-
+```
+  IPMI command failed: Unknown (0x81)
+  Set User Password command failed (user 2)
+
+```
+sudo ipmitool user set password 2 boreal
+```
+  IPMI command failed: Unknown (0x81)
+  Set User Password command failed (user 2)
+
+
 
 ```
 sudo ipmitool mc info
