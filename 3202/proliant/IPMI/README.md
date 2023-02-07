@@ -167,12 +167,31 @@ sudo ipmitool user set password 2 boreal
   IPMI command failed: Unknown (0x81)
   Set User Password command failed (user 2)
 
-* Privilege Level
+* Privilege Level (USER by Default)
 
 ```
 sudo ipmitool user priv 2 0x4 2
 ```
 > Set Privilege Level command successful (user 2)
+
+```
+sudo ipmitool user list 2
+```
+<pre>
+ID  Name	     Callin  Link Auth	IPMI Msg   Channel Priv Limit
+1   Administrator    true    false      true       ADMINISTRATOR
+2   admin            true    false      true       ADMINISTRATOR
+3   (Empty User)     true    false      false      NO ACCESS
+4   (Empty User)     true    false      false      NO ACCESS
+5   (Empty User)     true    false      false      NO ACCESS
+6   (Empty User)     true    false      false      NO ACCESS
+7   (Empty User)     true    false      false      NO ACCESS
+8   (Empty User)     true    false      false      NO ACCESS
+9   (Empty User)     true    false      false      NO ACCESS
+10  (Empty User)     true    false      false      NO ACCESS
+11  (Empty User)     true    false      false      NO ACCESS
+12  (Empty User)     true    false      false      NO ACCESS
+</pre>
 
 ```
 sudo ipmitool mc info
