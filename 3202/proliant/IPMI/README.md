@@ -349,6 +349,11 @@ crw------- 1 root root 240, 0 Nov 24 03:52 /dev/ipmi0
 
 - [ ] [IPMI command failed: Invalid command on LUN](https://www.reddit.com/r/homelab/comments/5z0gl1/ilo_ipmi_being_weird_invalid_command_on_lun)
 
+```
+sudo ipmitool user list
+```
+> IPMI command failed: Invalid command on LUN
+
 
 # References
 
