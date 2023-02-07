@@ -193,6 +193,14 @@ ID  Name	     Callin  Link Auth	IPMI Msg   Channel Priv Limit
 12  (Empty User)     true    false      false      NO ACCESS
 </pre>
 
+* Enable `admin`
+
+```
+sudo ipmitool user enable 2
+```
+
+
+
 ```
 sudo ipmitool mc info
 ```
