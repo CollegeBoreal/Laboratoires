@@ -317,6 +317,8 @@ FRU Inventory Device: Default FRU Device (ID 00h)
 
 ## :x: Error
 
+:one: sudo
+
 - [ ] `sudo` command required
    - [ ] [Ubuntu Linux Server - Configuration Required for IPMITOOL Management Utility to Function on any HP ProLiant Server With an Integrated Lights-Out 2 (iLO 2) and Running Ubuntu Linux 9.04 Server](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c01930307)
 
@@ -342,6 +344,10 @@ ls -l /dev/ipmi*
 crw------- 1 root root 240, 0 Nov 24 03:52 /dev/ipmi0
 ```
 
+
+:two: IPMI command failed: Invalid command on LUN
+
+- [ ] [IPMI command failed: Invalid command on LUN](https://www.reddit.com/r/homelab/comments/5z0gl1/ilo_ipmi_being_weird_invalid_command_on_lun)
 
 
 # References
