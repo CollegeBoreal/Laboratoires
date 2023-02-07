@@ -522,11 +522,44 @@ Channel number must be from ranges: <0x0..0xB>, <0xE..0xF>
 
 ## :ab: Test
 
+From :apple: Mac 
+
+- [ ] Install ipmitool 
+
 ```
-sudo ipmitool -I lan -H betelgeuse.orion.gasy.africa -U admin chassis power status
+brew install ipmitool
 ```
+
+- [ ] Test remote connection
+
+```
+ipmitool -I lanplus -H 10.13.2.3 -U admin -P changeme chassis power status
+```
+> Chassis Power is on
+
+```
+ipmitool -I lanplus -H 10.13.2.3 -U admin -P changeme chassis status 
+```
+> Outputs :
+<pre>
+Unable to Get Channel Cipher Suites
+System Power         : on
+Power Overload       : false
+Power Interlock      : inactive
+Main Power Fault     : false
+Power Control Fault  : false
+Power Restore Policy : previous
+Last Power Event     : 
+Chassis Intrusion    : inactive
+Front-Panel Lockout  : inactive
+Drive Fault          : false
+Cooling/Fan Fault    : false
+Front Panel Control  : none
+</pre>
+
 
 # References
 
 - [ ] [Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
 - [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
+- [ ] [](https://www.zenlayer.com/blog/what-is-ipmi/)
