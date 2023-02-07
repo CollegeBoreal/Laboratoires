@@ -80,15 +80,6 @@ Additional Device Support :
     FRU Inventory Device
 ```
 
-Verifiy that the following devices exist: /dev/ipmi0 or /dev/ipmi1
-
-```
-ls -l /dev/ipmi*
-```
-> Return
-```
-crw------- 1 root root 240, 0 Nov 24 03:52 /dev/ipmi0
-```
 
  - [ ] To See Only the Temperature, Voltage, and Fan Sensors - SDR (Sensor Data Record)
 
@@ -338,6 +329,19 @@ On an HP ProLiant server with an Integrated Lights-Out 2 (iLO 2) and running Ubu
 ipmitool
 ```
 > Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+
+- [ ] Resolution 
+
+Verifiy that the following devices exist: /dev/ipmi0 or /dev/ipmi1
+
+```
+ls -l /dev/ipmi*
+```
+> Return
+```
+crw------- 1 root root 240, 0 Nov 24 03:52 /dev/ipmi0
+```
+
 
 
 # References
