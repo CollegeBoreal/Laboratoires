@@ -300,7 +300,7 @@ FRU Device Description : Builtin FRU Device (ID 0)
  Product Asset Tag     :
 ```
 
-## :b: Others [FRU](https://linux.die.net/man/8/ipmi-fru) Field Replaceable Unit
+## :b: Others [FRU](https://linux.die.net/man/8/ipmi-fru) Field Replaceable Unit tool
 
 ```
 sudo apt install freeipmi-tools
@@ -327,6 +327,8 @@ FRU Inventory Device: Default FRU Device (ID 00h)
 
   FRU Error: product info area checksum invalid
 ```
+
+:bulb: use `sudo ipmitool fru print` printout is similar and without error
 
 ## :x: Error
 
