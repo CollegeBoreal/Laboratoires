@@ -4,13 +4,13 @@
 
 ## :a: IPMI Tool
 
-- [ ] Install
+- [ ] :one Install
 
 ```
 sudo apt install ipmitool
 ```
 
-- [ ] Usage
+- [ ] :two: Usage
 
 ```
 sudo ipmitool
@@ -57,6 +57,29 @@ Commands:
         lan6          Configure IPv6 LAN Channels
 ```
 
+- [ ] :three: Users
+
+* [ ] [How to reset HP iLO Lights-Out User and Password Settings with IPMItool](https://russell.ballestrini.net/how-to-reset-hp-ilo-lights-out-user-and-password-settings-with-ipmitools)
+
+```
+sudo ipmitool user list 2
+```
+> Outputs :
+<pre>
+ID  Name	     Callin  Link Auth	IPMI Msg   Channel Priv Limit
+1   Administrator    true    false      true       ADMINISTRATOR
+2   (Empty User)     true    false      false      NO ACCESS
+3   (Empty User)     true    false      false      NO ACCESS
+4   (Empty User)     true    false      false      NO ACCESS
+5   (Empty User)     true    false      false      NO ACCESS
+6   (Empty User)     true    false      false      NO ACCESS
+7   (Empty User)     true    false      false      NO ACCESS
+8   (Empty User)     true    false      false      NO ACCESS
+9   (Empty User)     true    false      false      NO ACCESS
+10  (Empty User)     true    false      false      NO ACCESS
+11  (Empty User)     true    false      false      NO ACCESS
+12  (Empty User)     true    false      false      NO ACCESS
+</pre>
 
 ```
 sudo ipmitool mc info
