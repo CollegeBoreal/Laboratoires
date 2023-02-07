@@ -328,15 +328,15 @@ FRU Inventory Device: Default FRU Device (ID 00h)
   FRU Error: product info area checksum invalid
 ```
 
-- [ ] :x: Error
+## :x: Error
 
-The following will be displayed:
+- [ ] `sudo` command required
 
 ```
-Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0:
-No such file or directory
-Get Device ID command failed
-````
+ipmitool
+```
+> Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+
 
 # References
 
