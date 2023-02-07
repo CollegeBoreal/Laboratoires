@@ -4,7 +4,7 @@
 
 ## :a: IPMI Tool
 
-- [ ] :one Install
+- [ ] :one: Install
 
 ```
 sudo apt install ipmitool
