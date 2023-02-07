@@ -382,8 +382,11 @@ sudo ipmitool user list
 ```
 sudo ipmitool user list /h
 ```
-> Given Channel number '/h' is either invalid or out of range.
-> Channel number must be from ranges: <0x0..0xB>, <0xE..0xF>
+> Outputs :
+<pre>
+Given Channel number '/h' is either invalid or out of range.
+Channel number must be from ranges: <0x0..0xB>, <0xE..0xF>
+</pre>
 
 
 # References
