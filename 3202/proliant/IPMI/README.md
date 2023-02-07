@@ -120,6 +120,13 @@ ID  Name	     Callin  Link Auth	IPMI Msg   Channel Priv Limit
 12  (Empty User)     true    false      false      NO ACCESS
 </pre>
 
+* let's play with user `admin` by creating on on ID 2
+
+```
+sudo ipmitool user set name 2 admin
+```
+
+
 ```
 sudo ipmitool mc info
 ```
