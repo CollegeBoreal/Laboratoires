@@ -377,6 +377,14 @@ sudo ipmitool user list
 ```
 > IPMI command failed: Invalid command on LUN
 
+:three: Users wrong channel number
+
+```
+sudo ipmitool user list /h
+```
+> Given Channel number '/h' is either invalid or out of range.
+> Channel number must be from ranges: <0x0..0xB>, <0xE..0xF>
+
 
 # References
 
