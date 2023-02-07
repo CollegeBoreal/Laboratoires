@@ -59,7 +59,46 @@ Commands:
 
 - [ ] :three: Users
 
-* [ ] [How to reset HP iLO Lights-Out User and Password Settings with IPMItool](https://russell.ballestrini.net/how-to-reset-hp-ilo-lights-out-user-and-password-settings-with-ipmitools) `sudo ipmitool user list <channel number>`
+* [ ] [How to reset HP iLO Lights-Out User and Password Settings with IPMItool](https://russell.ballestrini.net/how-to-reset-hp-ilo-lights-out-user-and-password-settings-with-ipmitools)
+
+* Help
+
+```
+sudo ipmitool user 
+```
+> Outputs :
+<pre>
+Not enough parameters given.
+User Commands:
+               summary      [<channel number>]
+               list         [<channel number>]
+               set name     <user id> <username>
+               set password <user id> [<password> <16|20>]
+               disable      <user id>
+               enable       <user id>
+               priv         <user id> <privilege level> [<channel number>]
+                     Privilege levels:
+                      * 0x1 - Callback
+                      * 0x2 - User
+                      * 0x3 - Operator
+                      * 0x4 - Administrator
+                      * 0x5 - OEM Proprietary
+                      * 0xF - No Access
+
+               test         <user id> <16|20> [<password]>
+</pre>
+
+* Channel 2 is used (by trial and errror)
+
+```
+sudo ipmitool user summary 2
+```
+> Outputs :
+<pre>
+Maximum IDs	    : 12
+Enabled User Count  : 1
+Fixed Name Count    : 0
+</pre>
 
 ```
 sudo ipmitool user list 2
@@ -388,6 +427,12 @@ Given Channel number '/h' is either invalid or out of range.
 Channel number must be from ranges: <0x0..0xB>, <0xE..0xF>
 </pre>
 
+
+## :ab: Test
+
+```
+sudo ipmitool -I lan -H betelgeuse.orion.gasy.africa -U admin chassis power status
+```
 
 # References
 
