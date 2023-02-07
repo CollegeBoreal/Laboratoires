@@ -2,7 +2,15 @@
 
 ![images](images/IPMI-components.png)
 
-- [ ] IPMI Tool
+## :a: IPMI Tool
+
+- [ ] Install
+
+```
+sudo apt install ipmitool
+```
+
+- [ ] Usage
 
 ```
 sudo ipmitool
