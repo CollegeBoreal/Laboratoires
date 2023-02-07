@@ -199,7 +199,18 @@ ID  Name	     Callin  Link Auth	IPMI Msg   Channel Priv Limit
 sudo ipmitool user enable 2
 ```
 
+## :goal_net: connect to ILO
 
+```
+sudo ipmitool -I lan -H betelgeuse.orion.gasy.africa -U admin chassis power status
+```
+<pre>
+Password: 
+Error: Unable to establish LAN session
+Error: Unable to establish IPMI v1.5 / RMCP session
+</pre>
+
+## :toolbox: Other tools
 
 ```
 sudo ipmitool mc info
