@@ -577,6 +577,18 @@ Server Power: On
 </>hpiLO-> 
 </pre>
 
+```
+ping ILOT7---V----b.borealc.on.ca
+```
+<pre>
+PING ilot7---v----b.borealc.on.ca (10.13.2.3): 56 data bytes
+64 bytes from 10.13.2.3: icmp_seq=0 ttl=249 time=18.809 ms
+64 bytes from 10.13.2.3: icmp_seq=1 ttl=249 time=18.175 ms
+^C
+--- ilot7---v----b.borealc.on.ca ping statistics ---
+2 packets transmitted, 2 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 18.175/18.492/18.809/0.317 ms
+</pre>
 
 # References
 
