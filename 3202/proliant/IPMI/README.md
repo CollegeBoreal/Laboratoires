@@ -574,7 +574,7 @@ iLO 3 Standard 1.28 at  Jan 13 2012
 Server Name: host is unnamed
 Server Power: On
 
-</>hpiLO-> 
+<|/>hpiLO-> 
 </pre>
 
 ```
@@ -588,6 +588,60 @@ PING ilot7---v----b.borealc.on.ca (10.13.2.3): 56 data bytes
 --- ilot7---v----b.borealc.on.ca ping statistics ---
 2 packets transmitted, 2 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 18.175/18.492/18.809/0.317 ms
+</pre>
+
+```
+<|>hpiLO-> help
+```
+> Outputs :
+<pre>
+status=0
+status_tag=COMMAND COMPLETED
+Wed Feb  8 02:14:39 2023
+
+
+
+DMTF SMASH CLP Commands:
+
+help    : Used to get context sensitive help.
+show    : Used to display values of a property or contents of a collection target.
+create  : Used to create new instances in the name space of the MAP.
+ Example: create /map1/accounts1 username=<lname1> password=<pwd12345> name= 
+ <dname1> group=<admin,config,oemhp_vm,oehmp_rc,oemhp_power>
+
+delete  : Used to destroy instances in the name space of the MAP.
+ Example: delete /map1/accounts1/<lname1> 
+
+load    : Used to move a binary image from an URL to the MAP.
+ Example : load -source http://192.168.1.1/images/fw/iLO3_130.bin
+
+reset   : Causes a target to cycle from enabled to disabled and back to enabled.
+
+set     : Used to set a property or set of properties to a specific value.
+start   : Used to cause a target to change state to a higher run level.
+stop    : Used to cause a target to change state to a lower run level.
+cd      : Used to set the current default target.
+   Example: cd targetname
+date      : Used to get the current date.
+time      : Used to get the current time.
+exit    : Used to terminate the CLP session.
+version : Used to query the version of the CLP implementation or other CLP elements.
+
+oemhp_ping    : Used to determine if an IP address is reachable from this iLO 3.
+Example : oemhp_ping 192.168.1.1 , where 192.168.1.1 is the IP address that you wish to ping
+
+oemhp_loadSSHKey    : Used to authorize a SSH Key File from an URL
+Example : oemhp_loadSSHKey -source http://UserName:password@192.168.1.1/images/SSHkey1.pub
+
+HP CLI Commands:
+
+POWER    : Control server power.
+UID      : Control Unit-ID light.
+NMI      : Generate an NMI.
+VM       : Virtual media commands.
+LANGUAGE : Command to set or get default language
+VSP      : Invoke virtual serial port.
+TEXTCONS : Invoke Remote Text Console.
 </pre>
 
 # References
