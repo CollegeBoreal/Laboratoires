@@ -683,6 +683,26 @@ Host ILOT7---V----b.borealc.on.ca
 ssh admin@ILOT7---V----b.borealc.on.ca
 ```
 
+## :hiking_boot: 
+
+```
+ipmitool -I lanplus -H 10.13.2.3 -U admin -P changeme chassis bootdev help
+```
+> Outputs :
+<pre>
+Unable to Get Channel Cipher Suites
+bootdev <device> [clear-cmos=yes|no]
+bootdev <device> [options=help,...]
+  none  : Do not change boot device order
+  pxe   : Force PXE boot
+  disk  : Force boot from default Hard-drive
+  safe  : Force boot from default Hard-drive, request Safe Mode
+  diag  : Force boot from Diagnostic Partition
+  cdrom : Force boot from CD/DVD
+  bios  : Force boot into BIOS Setup
+  floppy: Force boot from Floppy/primary removable media
+</pre>
+
 # References
 
 - [ ] [Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
