@@ -591,7 +591,7 @@ round-trip min/avg/max/stddev = 18.175/18.492/18.809/0.317 ms
 </pre>
 
 ```
-<|>hpiLO-> help
+</>hpiLO-> help
 ```
 > Outputs :
 <pre>
