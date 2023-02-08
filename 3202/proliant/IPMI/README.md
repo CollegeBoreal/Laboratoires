@@ -566,6 +566,16 @@ ssh \
     -c aes256-cbc \
     admin@10.13.2.3
 ```
+> Outputs :
+<pre>
+admin@10.13.2.3's password: 
+User:admin logged-in to ILOT7---V----b.borealc.on.ca(10.13.2.3)
+iLO 3 Standard 1.28 at  Jan 13 2012
+Server Name: host is unnamed
+Server Power: On
+
+</>hpiLO-> 
+</pre>
 
 
 # References
