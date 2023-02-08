@@ -666,6 +666,18 @@ Usage:
 
 * [SSH returns: no matching host key type found. Their offer: ssh-dss](https://askubuntu.com/questions/836048/ssh-returns-no-matching-host-key-type-found-their-offer-ssh-dss)
 
+
+~/.ssh/config so you don't have to specify the key algorithm every time:
+
+```
+Host ILOT7---V----b.borealc.on.ca
+  HostName 10.13.2.3
+  KexAlgorithms=+diffie-hellman-group1-sha1
+  HostKeyAlgorithms=+ssh-dss
+  Cyphers aes256-cbc
+```
+
+
 # References
 
 - [ ] [Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
