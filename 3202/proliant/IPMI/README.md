@@ -557,6 +557,16 @@ Cooling/Fan Fault    : false
 Front Panel Control  : none
 </pre>
 
+## :key: SSH
+
+```
+ssh \
+    -oKexAlgorithms=+diffie-hellman-group1-sha1 \
+    -oHostKeyAlgorithms=+ssh-dss \
+    -c aes256-cbc \
+    admin@10.13.2.3
+```
+
 
 # References
 
