@@ -672,8 +672,8 @@ Usage:
 ```
 Host ILOT7---V----b.borealc.on.ca
   HostName 10.13.2.3
-  KexAlgorithms=+diffie-hellman-group1-sha1
-  HostKeyAlgorithms=+ssh-dss
+  KexAlgorithms +diffie-hellman-group1-sha1
+  HostKeyAlgorithms +ssh-dss
   ciphers aes256-cbc
 ```
 
