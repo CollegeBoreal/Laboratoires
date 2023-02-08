@@ -674,9 +674,14 @@ Host ILOT7---V----b.borealc.on.ca
   HostName 10.13.2.3
   KexAlgorithms=+diffie-hellman-group1-sha1
   HostKeyAlgorithms=+ssh-dss
-  Cyphers aes256-cbc
+  ciphers aes256-cbc
 ```
 
+* Connect
+
+```
+ssh admin@ILOT7---V----b.borealc.on.ca
+```
 
 # References
 
