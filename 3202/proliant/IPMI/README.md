@@ -705,6 +705,7 @@ bootdev <device> [options=help,...]
 
 # References
 
-- [ ] [Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
 - [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
-- [ ] [](https://www.zenlayer.com/blog/what-is-ipmi/)
+- [ ] [What Is IPMI And Why You Should Care?](https://www.zenlayer.com/blog/what-is-ipmi/)
+- [ ] [IBM: Managing the system by using the IPMI](https://www.ibm.com/docs/en/power8/8348-21C?topic=systems-managing-system-by-using-ipmi)
+- [ ] [Oracle: Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
