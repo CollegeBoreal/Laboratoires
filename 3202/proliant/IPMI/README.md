@@ -644,6 +644,26 @@ VSP      : Invoke virtual serial port.
 TEXTCONS : Invoke Remote Text Console.
 </pre>
 
+```
+</>hpiLO-> help POWER
+```
+> Outpupts :
+<pre>
+status=0
+status_tag=COMMAND COMPLETED
+Wed Feb  8 02:19:29 2023
+
+
+POWER  : The power command is used to change the power state of the server
+ and is limited to users with the Power and Reset privilege
+Usage:
+  power -- Displays the current server power state
+  power on -- Turns the server on
+  power off -- Turns the server off
+  power off hard -- Force the server off using press and hold
+  power reset -- Reset the server
+</pre>
+
 # References
 
 - [ ] [Using IPMItool to View System Information](https://docs.oracle.com/cd/E19464-01/820-6850-11/IPMItool.html)
