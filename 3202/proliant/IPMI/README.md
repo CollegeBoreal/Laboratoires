@@ -70,7 +70,7 @@ sudo ipmitool user
 <pre>
 Not enough parameters given.
 User Commands:
-               summary      [<channel number>]
+               summary      [|<channel number|>]
                list         [<channel number>]
                set name     <user id> <username>
                set password <user id> [<password> <16|20>]
