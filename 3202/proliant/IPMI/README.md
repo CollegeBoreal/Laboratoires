@@ -753,6 +753,19 @@ sudo ipmitool shell
 ```
 > ipmitool>
 
+```
+ipmitool> help
+```
+> Outputs :
+<pre>
+Commands:
+	raw           Send a RAW IPMI request and print response
+	i2c           Send an I2C Master Write-Read command and print response
+	spd           Print SPD info from remote I2C device
+        ...
+</pre>
+
+
 # References
 
 - [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
