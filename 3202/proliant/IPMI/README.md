@@ -520,6 +520,23 @@ Channel number must be from ranges: <0x0..0xB>, <0xE..0xF>
 </pre>
 
 
+## :link: Set IP ADDR
+
+```
+sudo ipmitool lan set 2  2 ipaddr 10.13.2.4
+```
+> Setting LAN IP Address to 10.13.2.4
+
+```
+sudo ipmitool lan set 2  netmask 255.255.240.0
+```
+> Setting LAN Subnet Mask to 255.255.240.0
+
+```
+sudo ipmitool lan set 2 defgw ipaddr 10.13.0.1
+```
+> Setting LAN Default Gateway IP to 10.13.0.1
+
 ## :ab: Test
 
 From :apple: Mac 
