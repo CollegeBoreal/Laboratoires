@@ -537,6 +537,32 @@ sudo ipmitool lan set 2 defgw ipaddr 10.13.0.1
 ```
 > Setting LAN Default Gateway IP to 10.13.0.1
 
+```
+sudo ipmitool lan print
+```
+> Outputs :
+<pre>
+Get Channel Info command failed: Parameter out of range
+Set in Progress         : Set Complete
+Auth Type Support       : 
+Auth Type Enable        : Callback : 
+                        : User     : 
+                        : Operator : 
+                        : Admin    : MD2 PASSWORD OEM 
+                        : OEM      : NONE MD2 PASSWORD 
+IP Address Source       : DHCP Address
+IP Address              : 10.13.2.4
+Subnet Mask             : 255.255.240.0
+MAC Address             : 00:00:00:00:00:00
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 10.13.0.1
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+Cipher Suite Priv Max   : Not Available
+Bad Password Threshold  : Not Available
+</pre>
+
 ## :ab: Test
 
 From :apple: Mac 
