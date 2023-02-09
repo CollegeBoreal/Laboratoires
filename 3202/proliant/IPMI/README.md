@@ -746,6 +746,13 @@ bootdev <device> [options=help,...]
   floppy: Force boot from Floppy/primary removable media
 </pre>
 
+## :shell: Shell
+
+```
+sudo ipmitool shell
+```
+> ipmitool>
+
 # References
 
 - [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
