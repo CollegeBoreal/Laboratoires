@@ -780,6 +780,7 @@ Set User Password command failed (user 1)
 
 ```
 sudo ipmitool user set password 1 Ba11111111111111111@ 20
+```
 > Outputs :
 <pre>
 IPMI command failed: Requested sensor, data, or record not found
