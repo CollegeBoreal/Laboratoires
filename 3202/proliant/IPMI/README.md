@@ -765,7 +765,26 @@ Commands:
         ...
 </pre>
 
+---
 
+:x: Errors
+
+```
+sudo ipmitool user set password 1 'P@ssw0rd$' 16
+```
+> Outputs :
+<pre>
+IPMI command failed: Request data length invalid
+Set User Password command failed (user 1)
+</pre>
+
+```
+sudo ipmitool user set password 1 Ba11111111111111111@ 20
+> Outputs :
+<pre>
+IPMI command failed: Requested sensor, data, or record not found
+Set User Password command failed (user 1)
+</pre>
 # References
 
 - [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
