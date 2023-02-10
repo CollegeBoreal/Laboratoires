@@ -785,6 +785,49 @@ sudo ipmitool user set password 1 Ba11111111111111111@ 20
 IPMI command failed: Requested sensor, data, or record not found
 Set User Password command failed (user 1)
 </pre>
+
+```
+sudo ipmitool user set password 1 Ba11111111111111111@ 20 -vvv
+```
+> Outputs :
+<pre>
+Using ipmi device 0
+Set IPMB address to 0x20
+OpenIPMI Request Message Header:
+  netfn     = 0x6
+  cmd       = 0x1
+Iana: 11
+Running Get PICMG Properties my_addr 0x20, transit 0, target 0
+OpenIPMI Request Message Header:
+  netfn     = 0x2c
+  cmd       = 0x0
+OpenIPMI Request Message Data (1 bytes)
+ 00
+Error response 0xc1 from Get PICMG Properities
+Running Get VSO Capabilities my_addr 0x20, transit 0, target 0
+OpenIPMI Request Message Header:
+  netfn     = 0x2c
+  cmd       = 0x0
+OpenIPMI Request Message Data (1 bytes)
+ 03
+Invalid completion code received: Invalid command
+Acquire IPMB address
+Discovered IPMB address 0x0
+Interface address: my_addr 0x20 transit 0:0 target 0x20:0 ipmb_target 0
+
+OpenIPMI Request Message Header:
+  netfn     = 0x6
+  cmd       = 0x47
+OpenIPMI Request Message Data (22 bytes)
+ 81 02 42 61 31 31 31 31 31 31 31 31 31 31 31 31
+ 31 31 31 31 31 40
+IPMI command failed: Requested sensor, data, or record not found
+Set User Password command failed (user 1)
+</pre>
+
+
+
+
 # References
 
 - [ ] [IPMI Basics](https://www.thomas-krenn.com/en/wiki/IPMI_Basics)
