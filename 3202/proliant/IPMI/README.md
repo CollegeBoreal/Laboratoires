@@ -767,7 +767,7 @@ Commands:
 
 ---
 
-:x: Errors
+:x: Errors - IPMI command failed: Requested sensor, data, or record not found
 
 ```
 sudo ipmitool user set password 1 'P@ssw0rd$' 16
