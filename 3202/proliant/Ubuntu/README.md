@@ -60,4 +60,14 @@ Install **balenaEtcher** via **Homebrew**, but the command is slightly different
 
 Plug the USB into your **HP ProLiant DL380 G7**, press **F11** at boot, and select the USB device — it will boot straight into the Ubuntu 24.04 installer.
 
-Would you like me to include the **BIOS boot screen and RAID detection tips** next (specific to DL380 G7 once you’ve flashed the USB)?
+# :books: References
+
+```
+https://mirror.arizona.edu/ubuntu-releases/24.04/ubuntu-24.04.3-live-server-amd64.iso
+``` :contentReference[oaicite:0]{index=0}
+
+So the `wget` command would be something like:
+
+```bash
+wget https://mirror.arizona.edu/ubuntu-releases/24.04/ubuntu-24.04.3-live-server-amd64.iso
+```
