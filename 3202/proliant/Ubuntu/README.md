@@ -42,7 +42,7 @@ Install **balenaEtcher** via **Homebrew**, but the command is slightly different
 1. Insert your USB stick (8 GB+).
 2. Open Etcher →
 
-   * **Select :link: Flash from URL:** https://mirror.arizona.edu/ubuntu-releases/24.04/ubuntu-24.04.3-live-server-amd64.iso
+   * **Select :link: Flash from URL:** copy and paste [^1]
    * **Select Target:** your USB drive
    * **Click Flash!**
 3. Wait until Etcher says “Flash complete.”
@@ -62,7 +62,7 @@ Plug the USB into your **HP ProLiant DL380 G7**, press **F11** at boot, and sele
 
 # :books: References
 
-[ubuntu-24.04-live-server-amd64.iso]: https://mirror.arizona.edu/ubuntu-releases/24.04/ubuntu-24.04.3-live-server-amd64.iso
+[^1]: https://mirror.arizona.edu/ubuntu-releases/24.04/ubuntu-24.04.3-live-server-amd64.iso
 
  :contentReference[oaicite:0]{index=0}
 
