@@ -42,7 +42,7 @@ Install **balenaEtcher** via **Homebrew**, but the command is slightly different
 1. Insert your USB stick (8 GB+).
 2. Open Etcher →
 
-   * **Select :link: Flash from URL:** [ubuntu-24.04-live-server-amd64.iso](ubuntu-24.04-live-server-amd64.iso)
+   * **Select :link: Flash from URL:** [ubuntu-24.04-live-server-amd64.iso][ubuntu-24.04-live-server-amd64.iso]
    * **Select Target:** your USB drive
    * **Click Flash!**
 3. Wait until Etcher says “Flash complete.”
