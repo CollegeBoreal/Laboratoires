@@ -20,6 +20,19 @@ err: To avoid ambiguity with numerical UIDs, usernames which
 
 </details>
 
+<details>
+<summary>✅ Better username</summary>
+
+```lua
+info: Adding user `b300099999' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `b300099999' (1001) ...
+info: Adding new user `b300099999' (1001) with group `b300099999 (1001)' ...
+info: Creating home directory `/home/b300099999' ...
+info: Copying files from `/etc/skel' ...
+```
+
+</details>
 * Replace `newusername` with the actual username you want.
 * You’ll be prompted to create a password and optionally fill in user info.
 
