@@ -30,6 +30,19 @@ info: Adding new group `b300099999' (1001) ...
 info: Adding new user `b300099999' (1001) with group `b300099999 (1001)' ...
 info: Creating home directory `/home/b300099999' ...
 info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for b300099999
+Enter the new value, or press ENTER for the default
+	Full Name []: Moi Moi-Meme
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `b300099999' to supplemental / extra groups `users' ...
+info: Adding user `b300099999' to group `users' ...
 ```
 
 </details>
