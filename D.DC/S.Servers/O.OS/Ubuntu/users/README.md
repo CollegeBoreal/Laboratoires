@@ -109,7 +109,3 @@ newusername ALL=(ALL) NOPASSWD:ALL
 | 2    | `sudo usermod -aG sudo newusername` | Add to sudo group                      |
 | 3    | `sudo whoami`                       | Verify sudo access                     |
 | 4    | `visudo`                            | (Optional) Configure passwordless sudo |
-
----
-
-Would you like me to show the **one-liner version** (a single command sequence) to create and configure the sudo user all at once?
