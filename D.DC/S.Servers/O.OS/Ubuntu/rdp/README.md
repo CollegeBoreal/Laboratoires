@@ -28,7 +28,6 @@ sudo apt install xrdp -y
 <details>
 
 ```lua
-t install xrdp -y
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
