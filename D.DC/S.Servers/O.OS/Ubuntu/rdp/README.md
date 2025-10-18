@@ -120,6 +120,11 @@ Reconnect via your RDP client and choose:
 * **Username:** 300099999
 * **Password:** (your password)
 
+The below authentication issue can be ignored.
+
+<img src=images/remote-PC-not-verified.png width='30%' height='30%' > </img>
+
+
 ---
 
 💡 Tip: Even though `xubuntu-desktop` installs XFCE, **xrdp won’t automatically pick it** — you still need the `.xsession` file to tell xrdp which desktop to start.
