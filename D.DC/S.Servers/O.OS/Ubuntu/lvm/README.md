@@ -45,8 +45,8 @@ df -h /
 You should now see:
 
 ```
-Filesystem                        Size  Used Avail Use% Mounted on
-/dev/mapper/ubuntu--vg-ubuntu--lv 271G  16G   255G  6% /
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv  267G   16G  239G   7% /
 ```
 
 ---
