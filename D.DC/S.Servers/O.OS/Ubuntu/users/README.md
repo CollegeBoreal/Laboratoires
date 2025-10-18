@@ -7,8 +7,17 @@ Here’s a clear step-by-step guide to **add a new user with sudo privileges** o
 ### 🧩 1. Create the new user
 
 ```bash
-sudo adduser newusername
+sudo adduser 300098957
 ```
+<details>
+
+```lua
+[sudo] password for ubuntu: 
+err: To avoid ambiguity with numerical UIDs, usernames which
+            consist of only digits are not allowed.
+```
+
+</details>
 
 * Replace `newusername` with the actual username you want.
 * You’ll be prompted to create a password and optionally fill in user info.
