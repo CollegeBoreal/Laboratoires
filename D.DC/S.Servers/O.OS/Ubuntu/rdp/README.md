@@ -105,12 +105,21 @@ chmod +x ~/.xsession
 sudo ufw allow 3389/tcp
 ```
 
+## ✅ After doing all this:
+
+Restart xRDP:
+
+```bash
+sudo systemctl restart xrdp
+```
 4. **Connect via RDP client**.
+
+Reconnect via your RDP client and choose:
+
+* **Session:** Xorg
+* **Username:** 300098957
+* **Password:** (your password)
 
 ---
 
 💡 Tip: Even though `xubuntu-desktop` installs XFCE, **xrdp won’t automatically pick it** — you still need the `.xsession` file to tell xrdp which desktop to start.
-
----
-
-If you want, I can give you a **ready-to-run RDP setup command sequence** specifically for a system with `xubuntu-desktop` already installed, so it’s fully RDP-ready in one go. Do you want me to do that?
