@@ -32,7 +32,7 @@
 
 ## :x: TroubleShoot
 
-See [Trouble Shoot](TroubleShoot.md) 
+See [Trouble Shoot](TroubleShoot) 
 
 :round_pushpin: [Switch On Board](https://support.hpe.com/hpesc/public/docDisplay?docId=c02206928&docLocale=en_US)
 
