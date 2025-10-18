@@ -59,3 +59,6 @@ https://support.hpe.com/hpesc/public/home
 | SmartStart CD pour HP Proliant G7 | https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0121805 |
 | SmartStart CD Download Page       |  https://support.hpe.com/hpesc/public/home/result?qt=SmartStart+CD   |
 
+# :books: References
+
+https://en.wikipedia.org/wiki/ProLiant
