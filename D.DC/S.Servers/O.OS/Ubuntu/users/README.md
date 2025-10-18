@@ -10,6 +10,7 @@ Here’s a clear step-by-step guide to **add a new user with sudo privileges** o
 sudo adduser 300099999
 ```
 <details>
+<summary>❌ numerical UIDs</summary>
 
 ```lua
 [sudo] password for ubuntu: 
