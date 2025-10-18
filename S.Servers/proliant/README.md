@@ -47,7 +47,7 @@ https://support.hpe.com/hpesc/public/home
 |-------------------------|------------------------------------------------------------------------|--|
 | DL360 G6                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c01728723 |FR|
 | DL360 G6 (quick Specs)  | https://h20195.www2.hpe.com/v2/getpdf.aspx/c04284365.pdf               |EN|
-| DL380 G7                | https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02149854 |EN|
+| DL360 G7                | https://support.hpe.com/hpesc/public/docDisplay?docId=c02065150&docLocale=en_US |EN|
 
 
 
