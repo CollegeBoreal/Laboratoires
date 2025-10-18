@@ -117,7 +117,7 @@ sudo systemctl restart xrdp
 Reconnect via your RDP client and choose:
 
 * **Session:** Xorg
-* **Username:** 300098957
+* **Username:** 300099999
 * **Password:** (your password)
 
 ---
