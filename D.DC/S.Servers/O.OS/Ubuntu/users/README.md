@@ -7,7 +7,7 @@ Here’s a clear step-by-step guide to **add a new user with sudo privileges** o
 ### 🧩 1. Create the new user
 
 ```bash
-sudo adduser 300098957
+sudo adduser 300099999
 ```
 <details>
 
