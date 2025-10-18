@@ -1,5 +1,4 @@
 ```lua
- sudo apt install xubuntu-desktop -y
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
