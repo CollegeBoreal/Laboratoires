@@ -64,8 +64,6 @@ Plug the USB into your **HP ProLiant DL380 G7**, press **F11** at boot, and sele
 
 [^1]: https://mirror.arizona.edu/ubuntu-releases/24.04/ubuntu-24.04.3-live-server-amd64.iso
 
- :contentReference[oaicite:0]{index=0}
-
 So the `wget` command would be something like:
 
 ```bash
