@@ -1,4 +1,6 @@
-# 🎥 install the **full XFCE desktop environment** (the same as what you get with **Xubuntu**), here’s the clean, complete way:
+# 🎥 **full XFCE desktop environment**
+
+Install the **full XFCE desktop environment** (the same as what you get with **Xubuntu**), here’s the clean, complete way:
 
 ---
 
