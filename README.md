@@ -58,6 +58,10 @@
 * ENCQOR / OCI (Ontario) — ENCQOR 5G SME program / testbed. ([ENCQOR 5G Ontario][5])
 * NSERC / exemples de décisions de financement 5G. ([NSERC][3])
 
+# 🪗 [OCI](https://www.oc-innovation.ca/projects)
+
+
+
 # :books: Références
 
 [1]: https://www.canada.ca/en/innovation-science-economic-development/news/2024/12/federal-government-strengthens-canadas-telecommunications-ecosystem.html "Federal government strengthens Canada's ..."
