@@ -37,6 +37,8 @@ Voici quelques-uns des programmes notables que gère OCI :
 
 # 📚 References
 
+<img src=images/OCI-boreal.png width='50%' height='50%' > </img>
+
 [1]: https://www.oc-innovation.ca/about/?utm_source=chatgpt.com "About - Ontario Centre of Innovation"
 [2]: https://www.oc-innovation.ca/?utm_source=chatgpt.com "Home - Ontario Centre of Innovation"
 [3]: https://www.canhealth.com/2023/12/21/oci-to-invest-8-2-million-in-health-tech-projects/?utm_source=chatgpt.com "OCI to invest $8.2 million in health tech projects | Canadian Healthcare Technology"
