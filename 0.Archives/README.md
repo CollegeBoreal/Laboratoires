@@ -4,23 +4,23 @@
 | Années                | Liens                                |
 |-----------------------|--------------------------------------|
 |:two::zero::two::five: |                                      |
-|:snowman: Hiver        | https://github.com/CollegeBoreal/25H |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/25A |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/25H |
 |:two::zero::two::four: |                                      |
-|:snowman: Hiver        | https://github.com/CollegeBoreal/24H |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/24A |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/24H |
 |:two::zero::two::three:|                                      |
-|:snowman: Hiver        | https://github.com/CollegeBoreal/23H |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/23A |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/23H |
 |:two::zero::two::two:  |                                      |
-|:snowman: Hiver        | https://github.com/CollegeBoreal/22H |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/22A |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/22H |
 |:two::zero::two::one:  |                                      |
-|:snowman: Hiver        | https://github.com/CollegeBoreal/21H |
 |:maple_leaf: Automne   |                                      |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/21H |
 |:two::zero::two::zero: |                                      |
-|:snowman: Hiver        | https://github.com/CollegeBoreal/20H |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/20A |
+|:snowman: Hiver        | https://github.com/CollegeBoreal/20H |
 |:two::zero::one::nine: |                                      |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/19A |
 |:snowman: Hiver        | https://github.com/CollegeBoreal/19H |
@@ -31,8 +31,8 @@
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/17A |
 |:snowman: Hiver        | https://github.com/CollegeBoreal/17H |
 |:two::zero::one::six:  |                                      |
-|:sunny: Été            | https://github.com/CollegeBoreal/16E |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/16A |
+|:sunny: Été            | https://github.com/CollegeBoreal/16E |
 |:snowman: Hiver        | https://github.com/CollegeBoreal/16H |
 |:two::zero::one::five: |                                      |
 |:maple_leaf: Automne   | https://github.com/CollegeBoreal/15A |
