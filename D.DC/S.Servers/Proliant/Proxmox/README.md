@@ -32,9 +32,9 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 - Sélectionner l’image ISO de **Proxmox VE**
 - Cliquer sur **Start**
 
-<img src="images/img12.png" width="450" height="600" /> <img src="image22/img14.png" width="450" height="600" />
+<img src="images/img12.png" width="450" height="600" /> <img src="images/img14.png" width="450" height="600" />
 
-<img src="images/img15.png" width="450" height="600" /> <img src="image22/img16.png" width="450" height="600" />
+<img src="images/img15.png" width="450" height="600" /> <img src="images/img16.png" width="450" height="600" />
 
 - Attendre la fin de la création iso avant de retirer USB
 
