@@ -87,13 +87,13 @@ Installer les barrettes suivantes :
 --- 
 
 ### # Step 6 : Configuration du RAID 5
-- Supprimer les anciens volumes
-
+- Apres avoir Supprimer les anciens volumes
 
 - Créer un nouveau volume :
   - Type : **RAID 5**
   - Capacité : **272 GB**
-<img src="images/img34.png" width="450" height="600" />  <img src="images/img35.png" width="450" height="600" />  
+<img src="images/img34.png" width="450" height="600" />
+<img src="images/img35.png" width="450" height="600" />  
 
 <img src="images/img36.png" width="450" height="600" /> <img src="images/img37.png" width="450" height="600" />
 
