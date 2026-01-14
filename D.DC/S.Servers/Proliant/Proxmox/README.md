@@ -156,7 +156,8 @@ Installer les barrettes suivantes :
 
 <img src="images/img58.png" width="450" height="600" />
 
-<img src="images/img59.png" width="450" height="600" /> 
+<img src="images/img59.png" width="450" height="600" />
+
 
 
 
