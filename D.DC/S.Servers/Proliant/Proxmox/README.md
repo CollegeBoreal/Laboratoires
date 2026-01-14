@@ -34,10 +34,13 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 
 <img src="images/img12.png" width="450" height="600" /> <img src="images/img14.png" width="450" height="600" />
 
-<img src="images/img15.png" width="450" height="600" /> <img src="images/img16.png" width="450" height="600" />
-
 - Attendre la fin de la création iso avant de retirer USB
+- 
+<img src="images/img15.png" width="450" height="600" /> 
 
+Retirer la cle USB maintenant 
+
+<img src="images/img16.png" width="450" height="600" />
 
 ---
 
