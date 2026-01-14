@@ -5,7 +5,7 @@
 
 | Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Edition Système d'Exploitation |
 |-|-|-|-|-|-|
-| S13 | 10.7.237.16 | 64 | 16 | 272 | Proxmox VE |
+| S13 | https://10.7.237.16:8006 | 64 | 16 | 272 | Proxmox VE |
 
 S17
 
