@@ -93,10 +93,9 @@ Installer les barrettes suivantes :
 - Créer un nouveau volume :
   - Type : **RAID 5**
   - Capacité : **272 GB**
-<img src="images/img34.png" width="450" height="600" /> <img src="images/img35.png" width="450" height="600" />
+<img src="images/img34.png" width="450" height="600" />   <img src="images/img35.png" width="450" height="600" />
 
-
-<img src="images/img36.png" width="450" height="600" /> <img src="images/img37.png" width="450" height="600" />
+<img src="images/img36.png" width="450" height="600" />   <img src="images/img37.png" width="450" height="600" />
 
 - Sauvegarder et quitter
 
