@@ -32,9 +32,9 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 - Sélectionner l’image ISO de **Proxmox VE**
 - Cliquer sur **Start**
 
-<img src="image22/img12.png" width="450" height="600" /> <img src="image22/img14.png" width="450" height="600" />
+<img src="images/img12.png" width="450" height="600" /> <img src="image22/img14.png" width="450" height="600" />
 
-<img src="image22/img15.png" width="450" height="600" /> <img src="image22/img16.png" width="450" height="600" />
+<img src="images/img15.png" width="450" height="600" /> <img src="image22/img16.png" width="450" height="600" />
 
 - Attendre la fin de la création iso avant de retirer USB
 
@@ -44,7 +44,7 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 ## 🖥️ Phase 2 : Préparation du serveur
 #🅰️ Retirer du serveur sur le rack
 
-<img src="image22/img21.png" width="450" height="600" />
+<img src="images/img21.png" width="450" height="600" />
 
 ### # Step 4 : Installation de la RAM 🧠
 Installer les barrettes suivantes :
@@ -52,11 +52,11 @@ Installer les barrettes suivantes :
 - 8 GB  
 - 4 GB
 - 
-<img src="image22/img18.png" width="450" height="600" />
+<img src="images/img18.png" width="450" height="600" />
 
-<img src="image22/img20.png" width="450" height="600" />
+<img src="images/img20.png" width="450" height="600" />
 
-<img src="image22/img19.png" width="450" height="600" />
+<img src="images/img19.png" width="450" height="600" />
 
 ➡ Total : **64 GB**
 
@@ -67,25 +67,25 @@ Installer les barrettes suivantes :
 - Appuyer sur **F8** pour acceder ILO
 - Sélectionner **Exit**
 - 
-<img src="image22/img23.png" width="400" height="600" />
+<img src="images/img23.png" width="400" height="600" />
 
 - Appuyer sur **OK**
   
-<img src="image22/img24.png" width="450" height="600" />
+<img src="images/img24.png" width="450" height="600" />
 
-<img src="image22/img25.png" width="450" height="600" />
+<img src="images/img25.png" width="450" height="600" />
 
 - Appuyer de nouveau sur **F8**
 - 
 -D'abord supprimer logical drive existant
 
-<img src="image22/img28.png" width="450" height="600" />
+<img src="images/img28.png" width="450" height="600" />
 
-<img src="image22/img29.png" width="450" height="600" />
+<img src="images/img29.png" width="450" height="600" />
 
-<img src="image22/img30.png" width="450" height="600" />
+<img src="images/img30.png" width="450" height="600" />
 
-<img src="image22/img31.png" width="450" height="600" />
+<img src="images/img31.png" width="450" height="600" />
 
 
 --- 
@@ -97,13 +97,13 @@ Installer les barrettes suivantes :
 - Créer un nouveau volume :
   - Type : **RAID 5**
   - Capacité : **272 GB**
-<img src="image22/img34.png" width="450" height="600" />
+<img src="images/img34.png" width="450" height="600" />
 
-<img src="image22/img35.png" width="450" height="600" />
+<img src="images/img35.png" width="450" height="600" />
 
-<img src="image22/img36.png" width="450" height="600" />
+<img src="images/img36.png" width="450" height="600" />
 
-<img src="image22/img37.png" width="450" height="600" />
+<img src="images/img37.png" width="450" height="600" />
 - Sauvegarder et quitter
 
 ---
@@ -122,9 +122,9 @@ Installer les barrettes suivantes :
 
 ### # Step 8 : Installation
 
-<img src="image22/img42.png" width="450" height="600" /> <img src="image22/img44.png" width="450" height="600" />
+<img src="images/img42.png" width="450" height="600" /> <img src="image22/img44.png" width="450" height="600" />
 
-<img src="image22/img46.png" width="450" height="600" /> <img src="image22/img48.png" width="450" height="600" />
+<img src="images/img46.png" width="450" height="600" /> <img src="image22/img48.png" width="450" height="600" />
 
 - Sélectionner **Install Proxmox VE**
 - Cliquer sur **Agree**
@@ -154,9 +154,9 @@ Installer les barrettes suivantes :
 - **Login** : root
 - **Mot de passe** défini pendant l’installation
 
-<img src="image22/img58.png" width="450" height="600" />
+<img src="images/img58.png" width="450" height="600" />
 
-<img src="image22/img59.png" width="450" height="600" /> 
+<img src="images/img59.png" width="450" height="600" /> 
 
 
 
