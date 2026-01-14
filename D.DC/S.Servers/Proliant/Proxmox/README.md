@@ -55,11 +55,10 @@ Installer les barrettes suivantes :
 - 8 GB  
 - 4 GB
 - 
-<img src="images/img18.png" width="450" height="600" />
+<img src="images/img18.png" width="450" height="600" /> <img src="images/img20.png" width="450" height="600" />
 
-<img src="images/img20.png" width="450" height="600" />
 
-<img src="images/img19.png" width="450" height="600" />
+  <img src="images/img19.png" width="450" height="600" />
 
 ➡ Total : **64 GB**
 
@@ -74,22 +73,16 @@ Installer les barrettes suivantes :
 
 - Appuyer sur **OK**
   
-<img src="images/img24.png" width="450" height="600" />
+<img src="images/img24.png" width="450" height="600" /> <img src="images/img25.png" width="450" height="600" />
 
-<img src="images/img25.png" width="450" height="600" />
 
 - Appuyer de nouveau sur **F8**
 - 
 -D'abord supprimer logical drive existant
 
-<img src="images/img28.png" width="450" height="600" />
+<img src="images/img28.png" width="450" height="600" /> <img src="images/img29.png" width="450" height="600" />
 
-<img src="images/img29.png" width="450" height="600" />
-
-<img src="images/img30.png" width="450" height="600" />
-
-<img src="images/img31.png" width="450" height="600" />
-
+<img src="images/img30.png" width="450" height="600" /> <img src="images/img31.png" width="450" height="600" />
 
 --- 
 
@@ -100,13 +93,11 @@ Installer les barrettes suivantes :
 - Créer un nouveau volume :
   - Type : **RAID 5**
   - Capacité : **272 GB**
-<img src="images/img34.png" width="450" height="600" />
+<img src="images/img34.png" width="450" height="600" /> <img src="images/img35.png" width="450" height="600" />
 
-<img src="images/img35.png" width="450" height="600" />
 
-<img src="images/img36.png" width="450" height="600" />
+<img src="images/img36.png" width="450" height="600" /> <img src="images/img37.png" width="450" height="600" />
 
-<img src="images/img37.png" width="450" height="600" />
 - Sauvegarder et quitter
 
 ---
@@ -157,9 +148,9 @@ Installer les barrettes suivantes :
 - **Login** : root
 - **Mot de passe** défini pendant l’installation
 
-<img src="images/img58.png" width="450" height="600" />
+<img src="images/img58.png" width="450" height="600" /> <img src="images/img59.png" width="450" height="600" />
 
-<img src="images/img59.png" width="450" height="600" />
+
 
 
 
