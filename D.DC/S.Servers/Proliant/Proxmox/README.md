@@ -122,9 +122,9 @@ Installer les barrettes suivantes :
 
 ### # Step 8 : Installation
 
-<img src="images/img42.png" width="450" height="600" /> <img src="image22/img44.png" width="450" height="600" />
+<img src="images/img42.png" width="450" height="600" /> <img src="images/img44.png" width="450" height="600" />
 
-<img src="images/img46.png" width="450" height="600" /> <img src="image22/img48.png" width="450" height="600" />
+<img src="images/img46.png" width="450" height="600" /> <img src="images/img48.png" width="450" height="600" />
 
 - Sélectionner **Install Proxmox VE**
 - Cliquer sur **Agree**
