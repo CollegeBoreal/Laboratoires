@@ -16,6 +16,14 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 - Aller sur le site officiel de **Proxmox VE**
 - Télécharger le fichier **ISO**
 
+```bash
+ curl https://enterprise.proxmox.com/iso/proxmox-ve_6.4-1.iso -o proxmox-ve_6.4-1.iso
+```
+```powershell
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  885M  100  885M    0     0  68.3M      0  0:00:12  0:00:12 --:--:-- 70.2M
+```
 
 ### # Step 2 : Télécharger Rufus
 - Aller sur le site officiel de **Rufus**
