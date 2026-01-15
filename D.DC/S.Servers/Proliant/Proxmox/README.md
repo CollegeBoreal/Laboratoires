@@ -25,10 +25,6 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 100  885M  100  885M    0     0  68.3M      0  0:00:12  0:00:12 --:--:-- 70.2M
 ```
 
-> ls -lh proxmox-ve_6.4-1.iso 
-
--rw-r--r--  1 root  linux   886M Jan 15 13:39 proxmox-ve_6.4-1.iso
-
 ### # Step 2 : Télécharger Rufus
 - Aller sur le site officiel de **Rufus**
 - Télécharger le logiciel
