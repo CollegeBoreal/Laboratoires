@@ -150,7 +150,7 @@ Installer les barrettes suivantes :
 - Une fois l’installation terminée, le serveur redémarre
 - Appuyer sur **F1** pour continuer
 - Une URL apparaît, par exemple :
-- # https//10.7.237.33:8006/
+- # https://10.7.237.33:8006/
 - Se connecter avec :
 - **Login** : root
 - **Mot de passe** défini pendant l’installation
