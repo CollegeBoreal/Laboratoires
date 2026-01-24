@@ -1,113 +1,103 @@
-# pve6to7
+# 🛠️ Upgrade Preparation & Full Update Script
 
-
-### 🔍 What’s happening
-
-You’re on **pve-manager 6.4-4**, and in that build the **`pve6to7` script is NOT included yet**.
-
-The upgrade checker was added in a **later 6.4 update** (mid/late 6.4.x).
-So the command not being found is **expected** at this version.
-
-👉 Bottom line: **you must fully update Proxmox 6.4 first**.
+Run all commands **as root**.
 
 ---
 
-## ✅ Step 1 — Fix your Proxmox repositories
+## 1️⃣ Backup
 
-From your earlier context, you’re almost certainly missing the **correct Proxmox repo** (or it’s disabled).
-
-### If you **do NOT have a subscription** (most labs)
-
-Create / fix this file:
+Make sure **all VMs, containers, and configs are backed up**.
 
 ```bash
-nano /etc/apt/sources.list.d/pve-no-subscription.list
+# Example: backup all VMs
+vzdump --all --storage local --mode snapshot
 ```
 
-Put **exactly** this inside:
-
-```text
-deb http://download.proxmox.com/debian/pve buster pve-no-subscription
-```
-
-Then **disable enterprise repo** (if present):
-
-```bash
-nano /etc/apt/sources.list.d/pve-enterprise.list
-```
-
-Comment it out:
-
-```text
-# deb https://enterprise.proxmox.com/debian/pve buster pve-enterprise
-```
-
-Save & exit.
+Never skip this step — in-place upgrades can fail.
 
 ---
 
-## ✅ Step 2 — Fully update Proxmox 6.4
+## 2️⃣ Switch Debian repos to archive
 
-Now run:
+```bash
+# Replace /etc/apt/sources.list
+cat > /etc/apt/sources.list <<'EOF'
+deb http://archive.debian.org/debian buster main contrib
+deb http://archive.debian.org/debian buster-updates main contrib
+deb http://archive.debian.org/debian-security buster/updates main contrib
+EOF
+```
+
+---
+
+## 3️⃣ Switch Proxmox 6 repo to archive (no-subscription)
+
+```bash
+cat > /etc/apt/sources.list.d/pve-no-subscription.list <<'EOF'
+deb http://archive.proxmox.com/debian/pve buster pve-no-subscription
+EOF
+
+# Disable enterprise repo if exists
+sed -i 's/^deb/#deb/' /etc/apt/sources.list.d/pve-enterprise.list
+```
+
+---
+
+## 4️⃣ Disable expired metadata check (required for archive repos)
+
+```bash
+cat > /etc/apt/apt.conf.d/99disable-check-valid-until <<'EOF'
+Acquire::Check-Valid-Until "0";
+EOF
+```
+
+---
+
+## 5️⃣ Update & upgrade system
 
 ```bash
 apt update
-apt dist-upgrade
-```
-
-If you see **kernel updates**, reboot:
-
-```bash
+apt dist-upgrade -y
 reboot
 ```
 
-After reboot, confirm:
+> After reboot, your system should have **latest Proxmox 6.4 packages** including `pve6to7`.
+
+---
+
+## 6️⃣ Verify `pve6to7`
 
 ```bash
 pveversion
-```
-
-You want something like:
-
-```
-pve-manager/6.4-1x/xxxxxxxx
-```
-
-(anything **higher than 6.4-4** is fine)
-
----
-
-## ✅ Step 3 — `pve6to7` will now exist
-
-Check again:
-
-```bash
 which pve6to7
-```
-
-Then run:
-
-```bash
 pve6to7 --full
 ```
 
-🎉 Now you’re officially in the **safe upgrade path**.
+> You should now see `/usr/bin/pve6to7` and the pre-upgrade checker output.
 
 ---
 
-## 🧠 Why Proxmox does this
+## 7️⃣ Fix any warnings from `pve6to7`
 
-The upgrade checker was backported **late** in the 6.4 lifecycle.
-Systems frozen on early 6.4 (like yours) won’t have it until repositories are fixed and updated.
+* Follow instructions from the checker.
+* Make sure network, storage, and containers are compatible.
 
 ---
 
-## 🚦Next step
+## 8️⃣ Upgrade to Proxmox 7
 
-Once you run `pve6to7 --full`, paste the **warnings section only**, and I’ll tell you:
+Once the checker shows no blockers:
 
-* what’s safe to ignore
-* what must be fixed **before** moving to Proxmox 7
-* whether an in-place upgrade or clean reinstall is smarter for *your* lab
+1. Update Debian repos to **Bullseye**.
+2. Update Proxmox 7 repos (no-subscription or enterprise).
+3. Run `apt update && apt dist-upgrade` to move the system to Proxmox 7.
 
-You’re doing everything right — this is exactly how a clean upgrade should start 👍
+---
+
+✅ After this, your lab server will be **fully upgraded to Proxmox 7**.
+
+---
+
+If you want, I can make a **single ready-to-run bash script** that does steps 2–6 automatically, so you can just paste it on your lab server.
+
+Do you want me to do that?
