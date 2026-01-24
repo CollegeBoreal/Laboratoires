@@ -27,3 +27,121 @@ Memory block size:       128M
 Total online memory:      12G
 Total offline memory:      0B
 ```
+
+---
+
+## GRUB Edit
+
+
+Perfect — that actually tells us **exactly which installer path you’re on**, and it changes the answer a bit.
+
+On **that screen** (where you see only):
+
+```
+Install Proxmox VE
+Advanced Options
+```
+
+👉 **YES**, pressing **`e`** on **`Install Proxmox VE`** still does what we need.
+
+There is **no separate “Serial Console” entry** in this ISO/menu — that’s normal for some Proxmox 7.x builds and legacy BIOS.
+
+---
+
+## Exactly what to do (no guessing)
+
+### 1️⃣ Highlight **Install Proxmox VE**
+
+Use arrow keys so it’s selected.
+
+---
+
+### 2️⃣ Press **`e`**
+
+You will see a **GRUB edit screen** (not a shell).
+
+It will look similar to:
+
+```
+linux /boot/linux26 ro ramdisk_size=16777216 ...
+initrd /boot/initrd.img
+```
+
+---
+
+### 3️⃣ Edit the `linux` line
+
+* Move the cursor to the **end of the line that starts with `linux`**
+* Append **exactly**:
+
+```
+nomodeset text console=tty1
+```
+
+So the end looks like:
+
+```
+... quiet nomodeset text console=tty1
+```
+
+---
+
+### 4️⃣ Boot with the edited entry
+
+Press:
+
+```
+Ctrl + X
+```
+
+(or **F10**)
+
+---
+
+## What should happen if this works
+
+* Installer stays **pure text**
+* No graphical mode switch
+* No black screen
+* You can complete the install
+
+---
+
+## If the screen still goes black immediately
+
+That tells us something very important:
+
+> **Your G7 VGA path cannot be used at all with Proxmox 7.x**
+
+At that point:
+
+* METHOD 2 is **confirmed not viable**
+* Only **iLO serial install** or **6.4 → 7.x upgrade** will work
+
+---
+
+## One more thing to try (last VGA attempt)
+
+If `tty1` fails, try instead:
+
+```
+nomodeset video=vesafb:off console=tty0
+```
+
+or:
+
+```
+nomodeset console=ttyS0,115200
+```
+
+(Last one requires iLO serial console.)
+
+---
+
+## Straight talk (so you can decide)
+
+* You are **not missing a menu**
+* You are doing the **correct steps**
+* HP ProLiant VGA + Linux 5.x is the real blocker
+* iLO is the clean solution
+
