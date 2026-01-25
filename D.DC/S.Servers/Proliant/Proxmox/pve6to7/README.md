@@ -5632,6 +5632,30 @@ You can safely proceed with **N** here.
 
 ---
 
+```lua
+Installing new version of config file /etc/modprobe.d/pve-blacklist.conf ...
+Installing new version of config file /etc/vzdump.conf ...
+Created symlink /etc/systemd/system/multi-user.target.wants/pvescheduler.service → /lib/systemd/system/pvescheduler.service.
+machine-id check OK
+Backing up lvm.conf before setting pve-manager specific settings..
+'/etc/lvm/lvm.conf' -> '/etc/lvm/lvm.conf.bak'
+Setting 'global_filter' in /etc/lvm/lvm.conf to prevent zvols from being scanned:
+global_filter=["a|.*|"] => global_filter=["r|/dev/zd.*|"]
+Setting up proxmox-ve (7.4-1) ...
+Processing triggers for libc-bin (2.31-13+deb11u13) ...
+Processing triggers for ca-certificates (20210119) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Processing triggers for initramfs-tools (0.140) ...
+update-initramfs: Generating /boot/initrd.img-5.15.158-2-pve
+Running hook script 'zz-proxmox-boot'..
+Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount namespace..
+No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
+Processing triggers for pve-ha-manager (3.6.1) ...
+```
+
 ```bash
 reboot
 ```
