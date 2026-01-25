@@ -1,9 +1,3 @@
-
-```bash
-apt dist-upgrade -y
-```
-<details>
-
 ```lua
 Reading package lists... Done
 Building dependency tree       
@@ -1151,7 +1145,3 @@ No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
 Processing triggers for libc-bin (2.28-10+deb10u4) ...
 Processing triggers for systemd (241-7~deb10u10) ...
 ```
-
-</details>
-
-
