@@ -1060,6 +1060,8 @@ Restarting services possibly affected by the upgrade:
 
 <img src=images/package-restarting-services.png width='50%' height='50%' > </img>
 
+✅ Choose `<yes>` to continue,
+
 <details>
 
 ```lua
