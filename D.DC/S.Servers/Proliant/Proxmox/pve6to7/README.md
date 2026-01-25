@@ -2252,6 +2252,8 @@ W: (pve-apt-hook)
 W: (pve-apt-hook) Press enter to continue, or C^c to abort.
 ```
 
+✅ Press enter to continue,
+
 ```bash
 reboot
 ```
