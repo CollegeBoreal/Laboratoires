@@ -1403,7 +1403,46 @@ EOF
 
 ```bash
 apt update
+```
+<details>
+
+```lua
+Get:1 http://security.debian.org/debian-security bullseye-security InRelease [27.2 kB]
+Get:2 http://deb.debian.org/debian bullseye InRelease [75.1 kB]
+Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.0 kB]
+Get:4 http://download.proxmox.com/debian/pve bullseye InRelease [2,768 B]
+Get:5 http://security.debian.org/debian-security bullseye-security/main amd64 Packages [443 kB]
+Get:6 http://security.debian.org/debian-security bullseye-security/main Translation-en [296 kB]
+Get:7 http://deb.debian.org/debian bullseye/main amd64 Packages [8,066 kB]          
+Get:8 http://security.debian.org/debian-security bullseye-security/contrib amd64 Packages [2,880 B]
+Get:9 http://security.debian.org/debian-security bullseye-security/contrib Translation-en [2,512 B]
+Get:10 http://download.proxmox.com/debian/pve bullseye/pve-no-subscription amd64 Packages [452 kB]
+Get:11 http://deb.debian.org/debian bullseye/main Translation-en [6,235 kB]
+Get:12 http://deb.debian.org/debian bullseye/contrib amd64 Packages [50.4 kB]                     
+Get:13 http://deb.debian.org/debian bullseye/contrib Translation-en [46.9 kB]
+Get:14 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [18.8 kB]
+Get:15 http://deb.debian.org/debian bullseye-updates/main Translation-en [10.5 kB]
+Fetched 15.8 MB in 4s (3,942 kB/s)                                 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+580 packages can be upgraded. Run 'apt list --upgradable' to see them.
+```
+
+  
+</details>
+
+```bash
 apt dist-upgrade -y
+```
+<details>
+
+```lua
+```
+  
+</details>
+
+```bash
 reboot
 ```
 
