@@ -214,7 +214,7 @@ apt dist-upgrade -y
 ```
 <details>
 
-[logs/dist-upgrade.md](logs/dist-upgrade-v6.md)
+[logs/dist-upgrade-v6.md](logs/dist-upgrade-v6.md)
 
 </details>
 
