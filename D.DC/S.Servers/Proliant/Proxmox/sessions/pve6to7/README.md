@@ -4,7 +4,9 @@ Run all commands **as root**.
 
 ---
 
-## 1️⃣ Backup
+# 🛠️ Upgrade Preparation
+
+### 1️⃣ Backup
 
 Make sure **all VMs, containers, and configs are backed up**.
 
@@ -139,7 +141,7 @@ Never skip this step — in-place upgrades can fail.
 
 ---
 
-## 2️⃣ Switch Debian repos to archive
+### 2️⃣ Switch Debian repos to archive
 
 ```bash
 # Replace /etc/apt/sources.list
@@ -152,7 +154,7 @@ EOF
 
 ---
 
-## 3️⃣ Switch Proxmox 6 repo to archive (no-subscription)
+### 3️⃣ Switch Proxmox 6 repo to archive (no-subscription)
 
 ```bash
 cat > /etc/apt/sources.list.d/pve-no-subscription.list <<'EOF'
@@ -165,7 +167,7 @@ sed -i 's/^deb/#deb/' /etc/apt/sources.list.d/pve-enterprise.list
 
 ---
 
-## 4️⃣ Disable expired metadata check (required for archive repos)
+### 4️⃣ Disable expired metadata check (required for archive repos)
 
 ```bash
 cat > /etc/apt/apt.conf.d/99disable-check-valid-until <<'EOF'
@@ -175,7 +177,7 @@ EOF
 
 ---
 
-## 5️⃣ Update & upgrade system
+### 5️⃣ Update & upgrade system
 
 ```bash
 apt update
@@ -225,7 +227,7 @@ reboot
 
 ---
 
-## 6️⃣ Verify `pve6to7`
+### 6️⃣ Verify `pve6to7`
 
 ```bash
 pveversion
@@ -315,7 +317,7 @@ Your system is **fully ready to upgrade to Proxmox 7**. Let’s break down the r
 
 ---
 
-## ✅ What passed
+#### ✅ What passed
 
 * Packages are up to date ✅
 * `proxmox-ve` ≥ 6.4-1 ✅
@@ -330,7 +332,7 @@ Your system is **fully ready to upgrade to Proxmox 7**. Let’s break down the r
 
 ---
 
-## ⚠️ Warning
+#### ⚠️ Warning
 
 ```
 WARN: No Debian security repository detected in /etc/apt/sources.list and /etc/apt/sources.list.d/*.list
@@ -341,7 +343,7 @@ WARN: No Debian security repository detected in /etc/apt/sources.list and /etc/a
 
 ---
 
-## 🏁 Summary
+#### 🏁 Summary
 
 * **TOTAL:** 20 checks
 * **PASSED:** 16
