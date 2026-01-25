@@ -4,7 +4,7 @@ Run all commands **as root**.
 
 ---
 
-# 🛠️ Upgrade Preparation
+## 🛠️ Upgrade Preparation
 
 ### 1️⃣ Backup
 
