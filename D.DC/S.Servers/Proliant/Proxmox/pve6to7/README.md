@@ -57,6 +57,35 @@ EOF
 
 ```bash
 apt update
+```
+<details>
+
+```lua
+Get:1 http://archive.debian.org/debian buster InRelease [122 kB]
+Get:2 http://archive.debian.org/debian buster-updates InRelease [56.6 kB]
+Get:3 http://archive.debian.org/debian-security buster/updates InRelease [34.8 kB]
+Get:4 http://archive.proxmox.com/debian/pve buster InRelease [3,480 B]
+Get:5 http://archive.debian.org/debian buster/main amd64 Packages [7,909 kB]
+Get:6 http://archive.debian.org/debian buster/main Translation-en [5,969 kB]
+Get:7 http://archive.proxmox.com/debian/pve buster/pve-no-subscription amd64 Packages [467 kB]
+Get:8 http://archive.debian.org/debian buster/contrib amd64 Packages [50.1 kB]                    
+Get:9 http://archive.debian.org/debian buster/contrib Translation-en [44.2 kB]              
+Get:10 http://archive.debian.org/debian buster-updates/main amd64 Packages [8,788 B]             
+Get:11 http://archive.debian.org/debian buster-updates/main Translation-en [6,915 B]         
+Get:12 http://archive.debian.org/debian-security buster/updates/main amd64 Packages [610 kB]     
+Get:13 http://archive.debian.org/debian-security buster/updates/main Translation-en [330 kB]
+Get:14 http://archive.debian.org/debian-security buster/updates/contrib amd64 Packages [3,460 B]
+Get:15 http://archive.debian.org/debian-security buster/updates/contrib Translation-en [1,488 B]
+Fetched 15.6 MB in 4s (3,991 kB/s)                                                                
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+231 packages can be upgraded. Run 'apt list --upgradable' to see them.
+```
+
+</details>
+
+
 apt dist-upgrade -y
 reboot
 ```
