@@ -912,6 +912,8 @@ Extracting templates from packages: 100%
 
 <img src=images/package-keyboard-conf.png width='50%' height='50%' > </img>
 
+✅ Press enter to continue,
+
 ```lua
 Preconfiguring packages ...
 (Reading database ... 51517 files and directories currently installed.)
