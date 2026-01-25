@@ -1253,36 +1253,87 @@ reboot
 
 ```bash
 pveversion
-which pve6to7
-pve6to7 --full
 ```
+> pve-manager/6.4-15/af7986e6 (running kernel: 5.4.203-1-pve)
 
+```bash
+which pve6to7
+```
 > You should now see `/usr/bin/pve6to7` and the pre-upgrade checker output.
 
----
+```bash
+pve6to7 --full
+```
+<details>
 
-## 7️⃣ Fix any warnings from `pve6to7`
+```lua
+= CHECKING VERSION INFORMATION FOR PVE PACKAGES =
 
-* Follow instructions from the checker.
-* Make sure network, storage, and containers are compatible.
+Checking for package updates..
+error reading cached package status in /var/lib/pve-manager/pkgupdates
+PASS: all packages uptodate
 
----
+Checking proxmox-ve package version..
+PASS: proxmox-ve package has version >= 6.4-1
 
-## 8️⃣ Upgrade to Proxmox 7
+Checking running kernel version..
+PASS: expected running kernel '5.4.203-1-pve'.
 
-Once the checker shows no blockers:
+= CHECKING CLUSTER HEALTH/SETTINGS =
 
-1. Update Debian repos to **Bullseye**.
-2. Update Proxmox 7 repos (no-subscription or enterprise).
-3. Run `apt update && apt dist-upgrade` to move the system to Proxmox 7.
+SKIP: standalone node.
 
----
+= CHECKING HYPER-CONVERGED CEPH STATUS =
 
-✅ After this, your lab server will be **fully upgraded to Proxmox 7**.
+SKIP: no hyper-converged ceph setup detected!
 
----
+= CHECKING CONFIGURED STORAGES =
 
-Perfect — this is exactly what we want to see 👍
+PASS: storage 'local' enabled and active.
+PASS: storage 'local-lvm' enabled and active.
+
+= MISCELLANEOUS CHECKS =
+
+INFO: Checking common daemon services..
+PASS: systemd unit 'pveproxy.service' is in state 'active'
+PASS: systemd unit 'pvedaemon.service' is in state 'active'
+PASS: systemd unit 'pvestatd.service' is in state 'active'
+INFO: Checking for running guests..
+PASS: no running guest detected.
+INFO: Checking if the local node's hostname 'labinfo' is resolvable..
+INFO: Checking if resolved IP is configured on local node..
+PASS: Resolved node IP '10.7.237.28' configured and active on single interface.
+INFO: Checking backup retention settings..
+INFO: storage 'local' - no backup retention settings defined - by default, PVE 7.x will no longer keep only the last backup, but all backups
+PASS: no problems found.
+INFO: checking CIFS credential location..
+PASS: no CIFS credentials at outdated location found.
+INFO: Checking custom roles for pool permissions..
+INFO: Checking node and guest description/note legnth..
+PASS: All node config descriptions fit in the new limit of 64 KiB
+PASS: All guest config descriptions fit in the new limit of 8 KiB
+INFO: Checking container configs for deprecated lxc.cgroup entries
+PASS: No legacy 'lxc.cgroup' keys found.
+INFO: Checking storage content type configuration..
+PASS: no problems found
+INFO: Checking if the suite for the Debian security repository is correct..
+WARN: No Debian security repository detected in /etc/apt/sources.list and /etc/apt/sources.list.d/*.list
+SKIP: No containers on node detected.
+
+= SUMMARY =
+
+TOTAL:    20
+PASSED:   16
+SKIPPED:  3
+WARNINGS: 1
+FAILURES: 0
+
+ATTENTION: Please check the output for detailed information!
+```
+
+  
+</details>
+
 
 Your system is **fully ready to upgrade to Proxmox 7**. Let’s break down the report:
 
