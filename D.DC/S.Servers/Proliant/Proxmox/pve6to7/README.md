@@ -2254,6 +2254,532 @@ W: (pve-apt-hook) Press enter to continue, or C^c to abort.
 
 ✅ Press enter to continue,
 
+<details>
+
+```lua
+apt-listchanges: Reading changelogs...
+apt-listchanges: News
+---------------------
+
+apt (2.1.16) unstable; urgency=medium
+
+  Automatically remove unused kernels on apt {dist,full}-upgrade. To revert
+  to previous behavior, set APT::Get::AutomaticRemove::Kernels to false or
+  pass --no-auto-remove to the command. apt-get remains unchanged.
+
+  Packages files can now set the Phased-Update-Percentage field to restrict
+  update rollout to a specified percentage of machines. Previously, this has
+  only been available to users of Ubuntu's update-manager tool. See
+  apt_preferences(5) for details and how to configure multiple systems to get
+  the same updates. Phased updates are disabled in chroots for now to not
+  break buildd-style setups.
+
+ -- Julian Andres Klode <jak@debian.org>  Fri, 08 Jan 2021 22:01:50 +0100
+
+apt (1.9.11) experimental; urgency=medium
+
+  apt(8) now waits for the lock indefinitely if connected to a tty, or
+  for 120 seconds if not.
+
+ -- Julian Andres Klode <jak@debian.org>  Wed, 26 Feb 2020 20:30:33 +0100
+
+apt (1.9.6) experimental; urgency=medium
+
+  apt(8) no longer treats package names passed as regular expressions or fnmatch
+  expressions, requiring the use of patterns (apt-patterns(5)) to perform complex
+  searches. For ease of use, regular expressions starting with ^ or ending with
+  $ continue to work.
+
+  This fixes the problem where e.g. g++ could mean either "the package g++"
+  or, if there is no g++ package, "all packages containing g". This change
+  will propagate to apt-* after the release of Debian bullseye.
+
+ -- Julian Andres Klode <jak@debian.org>  Wed, 15 Jan 2020 21:45:18 +0100
+
+apt (1.9.5) unstable; urgency=medium
+
+  Credentials in apt_auth.conf(5) now only apply to https and tor+https
+  sources to avoid them being leaked over plaintext (Closes: #945911). To
+  opt-in to http, add http:// before the hostname. Note that this will transmit
+  credentials in plain text, which you do not want on devices that could be
+  operating in an untrusted network.
+
+ -- Julian Andres Klode <juliank@ubuntu.com>  Mon, 02 Dec 2019 11:45:52 +0100
+
+bridge-utils (1.7-1) unstable; urgency=medium
+
+  Linux kernel has changed bridge MAC address selection.
+
+  In older Linux kernels the MAC of the bridge was the lower mac of the
+  devices attached to it, this is no longer the case now at Bullseye. The
+  kernel now makes up a completely new MAC address.
+
+  This means that if you rely on your bridge's MAC address for something
+  like DHCP leases or similar stuff you'll loose this feature. The only way
+  to go back to your old MAC address is to assign it to the bridge
+  explicitly using bridge_hw followed by the wanted MAC address on your
+  bridge definition.
+  
+  To help with the problem caused by the kernel change of address selection
+  (see below for more info on this) we have overloaded bridge_hw option so
+  that you can specify the address you want or the name of an interface to
+  take the MAC address from it.
+
+  In the past setting the bridge hardware address was not considered safe,
+  this is no longer a problem, currently it is necessary or recommended in a
+  lot of scenarios like IPv6, DHCP reservations, ... the ussage of bridge_hw
+  setting if the recommended way of doing this.
+
+  Support for more than one stanza for one interface is now supported, see
+  README and examples.
+
+ -- Santiago Garcia Mantinan <manty@debian.org>  Wed, 24 Feb 2021 12:34:03 +0100
+
+bsdmainutils (12.1.1) unstable; urgency=medium
+
+  The "calendar" program, formerly provided in this package, now appears in
+  the separate package "calendar".
+
+  The tools "col", "colrm", "column", "hexdump", and "ul" are now provided as
+  "bsdextrautils" from the util-linux sources.
+
+ -- Michael Meskes <meskes@debian.org>  Wed, 27 May 2020 17:05:02 +0200
+
+bsdmainutils (12.1.3) unstable; urgency=medium
+
+  The tools "look" and "write" are also now part of "bsdextrautils" from the
+  util-linux sources.
+
+  The "from", "printerbanner", and "lorder" programs are discontinued. The
+  "mailutils" package contains an alternative implementation of "from".
+
+ -- Michael Meskes <meskes@debian.org>  Wed, 27 May 2020 17:05:02 +0200
+
+chardet (3.0.4-6) unstable; urgency=medium
+
+  Along with the drop of the Python2 package python-chardet, python3-chardet
+  now provides the chardet and chardetect commands at /usr/bin/chardet and
+  /usr/bin/chardetect.
+
+  These commands are now Python3 commands.
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Wed, 22 Apr 2020 16:56:27 +0200
+
+glibc (2.31-5) unstable; urgency=medium
+
+  Starting with glibc 2.31-5, the NIS and NIS+ name service modules
+  libnss_nis.so.2.0.0 and libnss_nisplus.so.2.0.0 are not provided anymore by
+  the libc6 package. People needing those modules have to install the
+  libnss-nis and/or the libnss-nisplus packages, which are recommended by
+  the libc6 package.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 01 Dec 2020 08:42:44 +0100
+
+glibc (2.31-0experimental2) experimental; urgency=medium
+
+  Starting with glibc 2.31, the DNS stub resolver does not blindly trust the
+  AD (authenticated data) flag, indicating a DNSSEC validation:
+
+  - By default the name servers and the network path to them are treated as
+    untrusted. In this mode, the AD flag is not set in queries, and it is
+    automatically cleared in responses, indicating a lack of DNSSEC
+    validation.
+
+  - A new trust-ad option, set via the options directive in /etc/resolv.conf
+    (or if RES_TRUSTAD is set in _res.options), indicates that the name
+    server is trusted. In this mode, the AD bit, as provided by the name
+    server, is made available to the applications.
+
+  Therefore if you trust your name servers, for example because you use a
+  locally running validating resolver (e.g. unbound, systemd-resolved or
+  dnsmasq), you might want to add the following line to /etc/resolv.conf:
+
+    options trust-ad
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 17 May 2020 15:59:38 +0200
+
+gnupg2 (2.2.27-2) unstable; urgency=medium
+
+  Starting with version 2.2.27-1, per-user configuration of the GnuPG
+  suite has completely moved to ~/.gnupg/gpg.conf, and ~/.gnupg/options
+  is no longer in use.  Please rename the file if necessary, or move
+  its contents to the new location.
+
+ -- Christoph Biedl <debian.axhn@manchmal.in-ulm.de>  Thu, 22 Apr 2021 20:37:45 +0200
+
+gnupg2 (2.2.17-1) unstable; urgency=medium
+
+  Upstream GnuPG now defaults to not accepting third-party certifications
+  from the keyserver network.  Given that the SKS keyserver network is
+  under attack via certificate flooding, and third-party certifications
+  will not be accepted anyway, we now ship with the more tightly-constrained
+  and abuse-resistant system hkps://keys.openpgp.org as the default
+  keyserver.
+
+  Users with bandwidth to spare who want to try their luck with the SKS
+  pool should add the following line to ~/.gnupg/dirmngr.conf to revert to
+  upstream's default keyserver:
+
+      keyserver hkps://hkps.pool.sks-keyservers.net
+
+  See the 2.2.17 section in the upstream NEWS file at
+  /usr/share/doc/gnupg/NEWS.gz for more information about fully
+  reverting to the old, risky behavior.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 11 Jul 2019 22:12:07 -0400
+
+ifenslave (2.10) unstable; urgency=medium
+
+  This version of the ifenslave package no longer provides /sbin/ifenslave. The
+  /sbin/ip command from the iproute2 package supports creating bonding masters
+  and enslaving other interfaces to it.
+
+ -- Guus Sliepen <guus@debian.org>  Tue, 08 May 2018 22:47:07 +0200
+
+iptables (1.8.4-1) unstable; urgency=medium
+
+    All the iptables binaries have been moved away from /sbin to /usr/sbin.
+    Compatibility symlinks were provided during the Buster release, but they
+    have been dropped now.
+    Please make sure your scripts aren't using hardcoded binary paths.
+    .
+    Also, please note that iptables is no longer Priority: important. This
+    means it is not installed by default in every system. It has been replaced
+    by nftables.
+
+ -- Arturo Borrero Gonzalez <arturo@debian.org>  Wed,  04 Dec 2019 11:49:00 +0200
+
+libanyevent-perl (7.150-1) unstable; urgency=medium
+
+  [ INCOMPATIBLE CHANGE]
+  AnyEvent::Handle's tls_detect documentation gave separate major and minor
+  versions, while code passed only a single value. This version follows the
+  documentation and now passes separate major and minor values.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 19 Jul 2019 12:16:42 -0300
+
+libjson-xs-perl (4.020-1) unstable; urgency=medium
+
+  * Security implication: this release enables allow_nonref by default
+    for compatibility with RFC 7159 and newer. See "old" vs. "new"
+    JSON under SECURITY CONSIDERATIONS in JSON::XS POD.
+
+ -- intrigeri <intrigeri@debian.org>  Sun, 21 Jul 2019 15:13:24 +0000
+
+libyaml-libyaml-perl (0.81+repack-1) unstable; urgency=medium
+
+  YAML::XS 0.81 sets the default for $YAML::XS::LoadBlessed to false in order
+  to avoid loading untrusted objects, which can be a security vulnerability.
+
+  Cf. http://blogs.perl.org/users/tinita/2020/01/making-yamlpm-yamlsyck-and-yamlxs-safer-by-default.html
+  for background information and hints for handling this change.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 29 Jan 2020 12:14:41 +0100
+
+node-jquery (3.5.1+dfsg+~3.5.5-7) unstable; urgency=medium
+
+  * Files pre-compressed with brotli compression now use suffix .brotli,
+    to avoid clashing with ISO 639-1 language code for breton.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 12 Jan 2021 21:53:11 +0100
+
+open-iscsi (2.1.2-1) unstable; urgency=medium
+
+  open-iscsi is now linked with the OpenSSL library. With the change,
+  the build of open-iscsi in Debian, is close to what upstream expects
+
+  The decision to link to OpenSSL library was made based on the recent
+  conclusions of Debian FTP Master team
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Sun, 15 Nov 2020 12:48:14 +0530
+
+openssh (1:8.4p1-1) unstable; urgency=medium
+
+  OpenSSH 8.4 includes a number of changes that may affect existing
+  configurations:
+
+   * ssh-keygen(1): the format of the attestation information optionally
+     recorded when a FIDO key is generated has changed. It now includes the
+     authenticator data needed to validate attestation signatures. 
+
+   * The API between OpenSSH and the FIDO token middleware has changed and
+     the SSH_SK_VERSION_MAJOR version has been incremented as a result.
+     Third-party middleware libraries must support the current API version
+     (7) to work with OpenSSH 8.4.
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 18 Oct 2020 12:07:48 +0100
+
+openssh (1:8.3p1-1) unstable; urgency=medium
+
+  OpenSSH 8.3 includes a number of changes that may affect existing
+  configurations:
+
+  * sftp(1): reject an argument of "-1" in the same way as ssh(1) and scp(1)
+    do instead of accepting and silently ignoring it.
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 07 Jun 2020 13:44:04 +0100
+
+openssh (1:8.2p1-1) unstable; urgency=medium
+
+  OpenSSH 8.2 includes a number of changes that may affect existing
+  configurations:
+
+   * ssh(1), sshd(8), ssh-keygen(1): This release removes the "ssh-rsa"
+     (RSA/SHA1) algorithm from those accepted for certificate signatures
+     (i.e.  the client and server CASignatureAlgorithms option) and will use
+     the rsa-sha2-512 signature algorithm by default when the ssh-keygen(1)
+     CA signs new certificates.
+
+     Certificates are at special risk to SHA1 collision vulnerabilities as
+     an attacker has effectively unlimited time in which to craft a
+     collision that yields them a valid certificate, far more than the
+     relatively brief LoginGraceTime window that they have to forge a host
+     key signature.
+
+     The OpenSSH certificate format includes a CA-specified (typically
+     random) nonce value near the start of the certificate that should make
+     exploitation of chosen-prefix collisions in this context challenging,
+     as the attacker does not have full control over the prefix that
+     actually gets signed. Nonetheless, SHA1 is now a demonstrably broken
+     algorithm and further improvements in attacks are highly likely.
+
+     OpenSSH releases prior to 7.2 do not support the newer RSA/SHA2
+     algorithms and will refuse to accept certificates signed by an OpenSSH
+     8.2+ CA using RSA keys unless the unsafe algorithm is explicitly
+     selected during signing ("ssh-keygen -t ssh-rsa").  Older
+     clients/servers may use another CA key type such as ssh-ed25519
+     (supported since OpenSSH 6.5) or one of the ecdsa-sha2-nistp256/384/521
+     types (supported since OpenSSH 5.7) instead if they cannot be upgraded.
+
+   * ssh(1), sshd(8): Remove diffie-hellman-group14-sha1 from the default
+     key exchange proposal for both the client and server.
+
+   * ssh-keygen(1): The command-line options related to the generation and
+     screening of safe prime numbers used by the
+     diffie-hellman-group-exchange-* key exchange algorithms have changed.
+     Most options have been folded under the -O flag.
+
+   * sshd(8): The sshd listener process title visible to ps(1) has changed
+     to include information about the number of connections that are
+     currently attempting authentication and the limits configured by
+     MaxStartups.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 21 Feb 2020 16:36:37 +0000
+
+openssh (1:8.1p1-1) unstable; urgency=medium
+
+  OpenSSH 8.1 includes a number of changes that may affect existing
+  configurations:
+
+   * ssh-keygen(1): when acting as a CA and signing certificates with an RSA
+     key, default to using the rsa-sha2-512 signature algorithm.
+     Certificates signed by RSA keys will therefore be incompatible with
+     OpenSSH versions prior to 7.2 unless the default is overridden (using
+     "ssh-keygen -t ssh-rsa -s ...").
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 10 Oct 2019 10:23:19 +0100
+
+openssh (1:8.0p1-1) experimental; urgency=medium
+
+  OpenSSH 8.0 includes a number of changes that may affect existing
+  configurations:
+
+   * sshd(8): Remove support for obsolete "host/port" syntax.
+     Slash-separated host/port was added in 2001 as an alternative to
+     host:port syntax for the benefit of IPv6 users.  These days there are
+     established standards for this like [::1]:22 and the slash syntax is
+     easily mistaken for CIDR notation, which OpenSSH supports for some
+     things.  Remove the slash notation from ListenAddress and PermitOpen.
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 09 Jun 2019 22:47:27 +0100
+
+rpcbind (1.2.5-8) unstable; urgency=medium
+
+  Since version 1.2.5 upstream has turned off the remote calls functionality
+  in order to improve security. This can be turned on at build time.
+  This functionality caused rpcbind to open up random listening ports. This
+  change broke up broadcasts requests to rpcbind making systems depending
+  on this feature unusable, e.g. NIS systems.
+  
+  This release accepts the new command line parameter 'r' to turn on the
+  remote calls functionality when needed.
+
+ -- Josue Ortega <josue@debian.org>  Tue, 17 Sep 2019 19:08:34 -0600
+
+rpcbind (1.2.5-4) unstable; urgency=medium
+
+  rpcbind now ships a default configuration file under '/etc/default'. If
+  /etc/rpcbind.conf exists the default configuration file values will
+   be overridden.
+
+ -- Josue Ortega <josue@debian.org>  Sat, 27 Jul 2019 15:10:35 -0300
+
+rsync (3.2.3-4+deb11u1) bullseye; urgency=medium
+
+  The --copy-devices option has been reintroduced, it was previously removed in
+  favor of the new one --write-devices, but it turns out they are not equivalent
+  enough and upstream is providing the copy-devices patch on rsync-patches.
+
+  Please beware that although the --copy-devices option is provided by
+  upstream, it is not part of the official rsync package and it could be
+  dropped or changed in ways that are not backwards compatible, though this would
+  only happen between Debian releases.
+
+  That being said, we will not drop this option from the Debian packaging as
+  long as upstream keeps providing the patch under rsync-patches.
+
+ -- Samuel Henrique <samueloph@debian.org>  Sun, 12 Sep 2021 17:25:37 +0100
+
+rsync (3.2.0-1) unstable; urgency=low
+
+  This latest release changed two parameters which used to be present on the
+  Debian packaging of rsync as upstream now integrated the patches.
+
+  Previous parameter:
+  --copy-devices: write to devices as files (implies --inplace)
+  Is now called: --write-devices
+
+  Previous parameter:
+  --noatime: avoid changing the atime on opened files.
+  Is now called: --open-noatime
+
+  Please refer to the manpage rsync(1) for more information.
+
+ -- Samuel Henrique <samueloph@debian.org>  Sat, 20 Jun 2020 18:05:57 +0100
+
+rsync (3.1.3-8) unstable; urgency=medium
+
+  Some useful rsync scripts that used to be installed in
+  /usr/share/doc/rsync/scripts are now installed in
+  /usr/share/rsync/scripts. All of them have execution permission.
+
+  The rrsync script is now deployed into /usr/bin/rrsync as a
+  symlink to /usr/share/rsync/scripts/rrsync.
+
+ -- Samuel Henrique <samueloph@debian.org>  Tue, 15 Oct 2019 01:04:36 +0100
+
+scowl (2019.10.06-1) unstable; urgency=medium
+
+  * The scowl binary package now distributes all of its wordlists in UTF-8
+    rather than iso8859-1. This is different than the upstream default of
+    iso8859-1.
+
+ -- Don Armstrong <don@debian.org>  Sun, 29 Mar 2020 16:12:29 -0700
+
+shadow (1:4.7-1) unstable; urgency=medium
+
+  * /etc/securetty is no longer shipped by this package and it is no longer
+    honored in login's PAM configuration by default. Please see #731656 for the
+    details.
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Thu, 20 Jun 2019 13:46:52 +0200
+
+systemd (247.2-2) unstable; urgency=medium
+
+  systemd now defaults to the "unified" cgroup hierarchy (i.e. cgroupv2).
+  This change reflects the fact that cgroupsv2 support has matured
+  substantially in both systemd and in the kernel.
+  All major container tools nowadays should support cgroupv2.
+  If you run into problems with cgroupv2, you can switch back to the previous,
+  hybrid setup by adding "systemd.unified_cgroup_hierarchy=false" to the
+  kernel command line.
+  You can read more about the benefits of cgroupv2 at
+  https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 21 Dec 2020 18:40:10 +0100
+
+systemd (247.2-1) unstable; urgency=medium
+
+  KERNEL API INCOMPATIBILITY: Linux 4.14 introduced two new uevents
+  "bind" and "unbind" to the Linux device model. When this kernel
+  change was made, systemd-udevd was only minimally updated to handle
+  and propagate these new event types. The introduction of these new
+  uevents (which are typically generated for USB devices and devices
+  needing a firmware upload before being functional) resulted in a
+  number of issues which we so far didn't address. We hoped the kernel
+  maintainers would themselves address these issues in some form, but
+  that did not happen. To handle them properly, many (if not most) udev
+  rules files shipped in various packages need updating, and so do many
+  programs that monitor or enumerate devices with libudev or sd-device,
+  or otherwise process uevents. Please note that this incompatibility
+  is not fault of systemd or udev, but caused by an incompatible kernel
+  change that happened back in Linux 4.14, but is becoming more and
+  more visible as the new uevents are generated by more kernel drivers.
+
+  To learn more about the required udev rules changes please check the
+  "CHANGES WITH 247" section of /usr/share/doc/systemd/NEWS.gz.
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Fri, 11 Dec 2020 18:22:42 +0100
+
+tcpdump (4.99.0-1) unstable; urgency=medium
+
+  tcpdump is now installed to /usr/bin, not /usr/sbin.
+
+ -- Romain Francoise <rfrancoise@debian.org>  Sun, 03 Jan 2021 21:23:34 +0100
+
+grep (3.6-1) unstable; urgency=low
+
+  From upstream's NEWS:
+
+  The GREP_OPTIONS environment variable no longer affects grep's behavior.
+  The variable was declared obsolescent in grep 2.21 (2014), and since
+  then any use had caused grep to issue a diagnostic.
+
+ -- Santiago Ruano Rincón <santiago@debian.org>  Mon, 09 Nov 2020 10:57:22 +0100
+
+apt-listchanges: Mailing root: apt-listchanges: news for labinfo
+Extracting templates from packages: 100%
+```
+
+</details>
+
+<img src=images/package-keyboard-conf.png width='50%' height='50%' > </img>
+
+```lua
+Preconfiguring packages ...
+(Reading database ... 51517 files and directories currently installed.)
+Preparing to unpack .../base-files_11.1+deb11u11_amd64.deb ...
+Unpacking base-files (11.1+deb11u11) over (10.3+deb10u13) ...
+Setting up base-files (11.1+deb11u11) ...
+Installing new version of config file /etc/debian_version ...
+Installing new version of config file /etc/dpkg/origins/debian ...
+
+Configuration file '/etc/issue'
+ ==> Modified (by you or by a script) since installation.
+ ==> Package distributor has shipped an updated version.
+   What would you like to do about it ?  Your options are:
+    Y or I  : install the package maintainer's version
+    N or O  : keep your currently-installed version
+      D     : show the differences between the versions
+      Z     : start a shell to examine the situation
+ The default action is to keep your current version.
+*** issue (Y/I/N/O/D/Z) [default=N] ?
+```
+
+Ah — this is a **standard Debian config prompt** during a `dist-upgrade`. It’s asking what to do with `/etc/issue`, which is the file that shows the “login banner” text.
+
+Here’s what each option does:
+
+| Option    | Meaning                                                                                                                  |
+| --------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Y / I** | Install the **maintainer’s version** — replace your current `/etc/issue` with the new default from Debian 11 (Bullseye). |
+| **N / O** | Keep your **current version** — do not change `/etc/issue`.                                                              |
+| **D**     | Show the **diff** between your version and the new one.                                                                  |
+| **Z**     | Drop to a shell to inspect manually.                                                                                     |
+
+---
+
+### Recommendation for `/etc/issue`
+
+* If you **haven’t customized the login banner**, press **Y** (or just Enter if Y is default).
+* If you **want to keep your custom message**, press **N**.
+
+> This is **purely cosmetic** — it does not affect system functionality or the Proxmox upgrade.
+
+---
+
+You can go ahead and choose **Y** to install the new version safely. After this, the upgrade will continue automatically.
+
 ```bash
 reboot
 ```
