@@ -1110,7 +1110,7 @@ Which is your **enterprise repository file**. You had already **disabled it** (c
 
 ---
 
-You can safely proceed with **N** here.
+✅ You can safely proceed with **N** here.
 
 ---
 
