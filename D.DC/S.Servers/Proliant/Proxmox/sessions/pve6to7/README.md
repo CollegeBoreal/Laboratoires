@@ -212,7 +212,7 @@ apt dist-upgrade -y
 ```
 <details>
 
-logs/dist-upgrade.md
+[logs/dist-upgrade.md](logs/dist-upgrade.md)
 
 </details>
 
