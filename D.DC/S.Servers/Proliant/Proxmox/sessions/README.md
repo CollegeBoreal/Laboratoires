@@ -10,7 +10,7 @@
 | S18 | https://10.7.237.33:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
 | S21 | https://10.7.236.19:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
 | S25 | https://10.7.237.38:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
-| S37 | https://10.7.237.10:8006 | 12 | 16 | 272 | Virtual Environment 6.4-1 | ⚠️ |
+| S37 | https://10.7.237.13:8006 | 12 | 16 | 272 | Virtual Environment 6.4-1 | ⚠️ |
 
 
 ```python
