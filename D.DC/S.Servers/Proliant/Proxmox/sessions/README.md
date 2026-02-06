@@ -3,7 +3,7 @@
 
 ## H26
 
-| Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Edition Système d'Exploitation | Check | Classes |
+| Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Proxmox | Check | Classes |
 |-|-|-|-|-|-|-|-|
 | S13 | https://10.7.237.16:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/tree/main) 🥇 |
 | S17 | https://10.7.237.28:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ |
