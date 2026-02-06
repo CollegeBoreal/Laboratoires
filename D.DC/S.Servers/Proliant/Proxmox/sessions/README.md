@@ -5,12 +5,12 @@
 
 | Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Edition Système d'Exploitation | Check | Classes |
 |-|-|-|-|-|-|-|-|
-| S13 | https://10.7.237.16:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/tree/main) 🥇 |
-| S17 | https://10.7.237.28:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
-| S18 | https://10.7.237.33:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
-| S21 | https://10.7.237.19:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
-| S37 | https://10.7.237.13:8006 | 12 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
-| S25 | https://10.7.237.38:8006 | 64 | 16 | 272 | Virtual Environment 7.4-20 | ⤴️ |
+| S13 | https://10.7.237.16:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/tree/main) 🥇 |
+| S17 | https://10.7.237.28:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ |
+| S18 | https://10.7.237.33:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ |
+| S21 | https://10.7.237.19:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ |
+| S37 | https://10.7.237.13:8006 | 12 | 16 | 272 | VE 7.4-20 | ⤴️ |
+| S25 | https://10.7.237.38:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ |
 
 
 ```python
