@@ -4,7 +4,7 @@
 ## H26
 
 | Cabinet | U | Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Proxmox | Check | Classes |
-|-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-|-|-|
 | | | S13 | https://10.7.237.16:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group1.md) 🥇 |
 | | | S37 | https://10.7.237.13:8006 | 12 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group2.md) 🥈 |
 | | | S18 | https://10.7.237.33:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group3.md) 🥉 |
