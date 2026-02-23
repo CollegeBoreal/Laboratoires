@@ -9,7 +9,7 @@
 | :two: | 0️⃣8️⃣ | S37 | https://10.7.237.13:8006 | 12 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group2.md) 🥈 |
 | :two: | 3️⃣5️⃣ | S18 | https://10.7.237.33:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group3.md) 🥉 |
 | :two: | 3️⃣2️⃣ | S21 | https://10.7.237.19:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05/blob/main/3.IaC/.scripts/Participation-group1.md) 🥇 |
-| :two: | | S25 | https://10.7.237.38:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05) 🥈 |
+| :two: | 2️⃣8️⃣ | S25 | https://10.7.237.38:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05) 🥈 |
 | :two: | 3️⃣6️⃣ | S17 | https://10.7.237.28:8006 | 64 | 16 | 272 | VE 7.4-20 | ⤴️ |
 
 
