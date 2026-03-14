@@ -1,4 +1,5 @@
 
+<image src=images/vmbr0.png width='50%' height='50%' > </img>
 
 ```bash
 ip addr | grep vmbr0
