@@ -1,4 +1,14 @@
 
+
+```bash
+ip addr | grep vmbr0
+```
+```lua
+3: enp2s0f1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq master vmbr0 state UP group default qlen 1000
+24: vmbr0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    inet 10.7.237.38/23 brd 10.7.237.255 scope global vmbr0
+```
+
 Here’s a clear recap of what happened with your **`vmbr0 deactivated`** issue on your Proxmox DL360 host:
 
 ---
