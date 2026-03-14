@@ -3,7 +3,7 @@
 
 ## H26
 
-| Cab | U | Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Proxmox | Check | Classes |
+| Cab | U | Etiquette | Host IP | 🧠 (GB) | CPU | DD (GB) | Proxmox | Check | Classes |
 |-|-|-|-|-|-|-|-|-|-|
 | :two: | 4️⃣0️⃣ | S13 | [10.7.237.16](https://10.7.237.16:8006) | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group1.md) 🥇 |
 | :two: | 0️⃣8️⃣ | S37 | [10.7.237.13](https://10.7.237.13:8006) | 12 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group2.md) 🥈 |
