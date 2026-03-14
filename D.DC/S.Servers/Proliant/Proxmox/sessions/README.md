@@ -6,12 +6,12 @@
 | Cab | U | Etiquette | Host IP | RAM (GB) | CPU | DD (GB) | Proxmox | Check | Classes |
 |-|-|-|-|-|-|-|-|-|-|
 | :two: | 4️⃣0️⃣ | S13 | [10.7.237.16](https://10.7.237.16:8006) | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group1.md) 🥇 |
-| :two: | 0️⃣8️⃣ | S37 | https://10.7.237.13:8006 | 12 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group2.md) 🥈 |
-| :two: | 3️⃣5️⃣ | S18 | https://10.7.237.33:8006 | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group3.md) 🥉 |
-| :two: | 3️⃣2️⃣ | S21 | https://10.7.237.19:8006 | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05/blob/main/3.IaC/.scripts/Participation-group1.md) 🥇 |
-| :two: | 2️⃣8️⃣ | S25 | https://10.7.237.38:8006 | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05) 🥈 |
-| :two: | 3️⃣6️⃣ | S17 | https://10.7.237.28:8006 | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | |
-| :two: | 2️⃣7️⃣ | S26 | https://10.7.236.5:8006  | 64 | 16 | 410.1G | VE 7.4-20 | ⤴️ | |
+| :two: | 0️⃣8️⃣ | S37 | [10.7.237.13](https://10.7.237.13:8006) | 12 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group2.md) 🥈 |
+| :two: | 3️⃣5️⃣ | S18 | [10.7.237.33](https://10.7.237.33:8006) | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-03](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group3.md) 🥉 |
+| :two: | 3️⃣2️⃣ | S21 | [10.7.237.19](https://10.7.237.19:8006) | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05/blob/main/3.IaC/.scripts/Participation-group1.md) 🥇 |
+| :two: | 2️⃣8️⃣ | S25 | [10.7.237.38](https://10.7.237.38:8006) | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | [INF1102-201-26H-05](https://github.com/CollegeBoreal/INF1102-201-26H-05) 🥈 |
+| :two: | 3️⃣6️⃣ | S17 | [10.7.237.28](https://10.7.237.28:8006) | 64 | 16 | 273.4G | VE 7.4-20 | ⤴️ | |
+| :two: | 2️⃣7️⃣ | S26 | [10.7.236.5](https://10.7.236.5:8006)  | 64 | 16 | 410.1G | VE 7.4-20 | ⤴️ | |
 
 
 ```python
