@@ -86,15 +86,15 @@ curl https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso -o proxmox-ve_9.1-1
 - Sélectionner l’image ISO de **Proxmox VE**
 - Cliquer sur **Start**
 
-<img src="images/img12.png" width='50%' height='50%' /> <img src="images/img14.png" width='50%' height='50%' />
+<img src="images/img12.png" width='40%' height='40%' /> <img src="images/img14.png" width='40%' height='40%' />
 
 📌 ## Attendre la fin de la création iso avant de retirer USB
 
-<img src="images/img15.png" width='50%' height='50%' />
+<img src="images/img15.png" width='40%' height='40%' />
 
 📌## Retirer la cle USB maintenant 
 
-<img src="images/img16.png" width='50%' height='50%' />
+<img src="images/img16.png" width='40%' height='40%' />
 
 ---
 
