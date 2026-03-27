@@ -65,9 +65,6 @@ L’objectif de ce projet est de reconfigurer le Dell Precision 3460 SFF Worksta
 curl https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso -o proxmox-ve_9.1-1.iso
 ```
 
-```bash
- curl https://enterprise.proxmox.com/iso/proxmox-ve_6.4-1.iso -o proxmox-ve_6.4-1.iso
-```
 ```powershell
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
