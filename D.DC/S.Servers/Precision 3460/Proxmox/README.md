@@ -29,10 +29,10 @@ L’objectif de ce projet est de reconfigurer le Dell Precision 3460 SFF Worksta
 
 ### 💪 Points forts
 
-✔️ **Très fiable (gamme workstation Dell)**
-✔️ **Compact → parfait pour bureau / rack léger / homelab**
-✔️ **Silencieux au repos**
-✔️ **Supporte Linux, Proxmox, ESXi, Windows Server**
+- ✔️ **Très fiable (gamme workstation Dell)**
+- ✔️ **Compact → parfait pour bureau / rack léger / homelab**
+- ✔️ **Silencieux au repos**
+- ✔️ **Supporte Linux, Proxmox, ESXi, Windows Server**
 
 👉 Beaucoup l’utilisent comme petit serveur ou node de virtualisation.
 
@@ -40,10 +40,10 @@ L’objectif de ce projet est de reconfigurer le Dell Precision 3460 SFF Worksta
 
 ### ⚠️ Limitations importantes
 
-❌ **GPU limité (low-profile uniquement)**
-❌ **PSU faible (260–300W)** → bloque upgrades GPU puissants
-❌ **Refroidissement compact → bruit en charge possible**
-❌ **Peu de place pour upgrades comparé à une tour**
+- ❌ **GPU limité (low-profile uniquement)**
+- ❌ **PSU faible (260–300W)** → bloque upgrades GPU puissants
+- ❌ **Refroidissement compact → bruit en charge possible**
+- ❌ **Peu de place pour upgrades comparé à une tour**
 
 💡 Exemple réel (retour communauté) :
 
