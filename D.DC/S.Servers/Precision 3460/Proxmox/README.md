@@ -110,5 +110,16 @@ curl https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso -o proxmox-ve_9.1-1
 
 ## 📦 Phase 4 : Installation de Proxmox VE
 
+<img src="images/signal-2026-03-27-182340.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_002.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_003.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_004.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_005.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_006.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_007.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_008.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_009.jpeg" width='50%' height='50%' />
+<img src="images/signal-2026-03-27-182340_010.jpeg" width='50%' height='50%' />
+
 ### # Step 8 : Installation
 
