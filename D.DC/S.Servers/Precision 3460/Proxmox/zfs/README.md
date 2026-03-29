@@ -1,3 +1,124 @@
+# ZFS CAP 
+
+
+Here’s a clean recap of what you need to do to **cap ZFS memory (ARC)** on your Proxmox system.
+
+---
+
+# 🧠 Goal
+
+Prevent **ZFS** from consuming too much RAM and starving:
+
+* your VM (Vivado / PetaLinux)
+* the host system
+
+---
+
+# ⚙️ 1. Set a hard ARC limit (main fix)
+
+Create or edit:
+
+```bash
+sudo nano /etc/modprobe.d/zfs.conf
+```
+
+Add ONE of these:
+
+### Recommended (safe for your 32 GB system)
+
+```bash
+options zfs zfs_arc_max=6442450944
+```
+
+👉 = **6 GB max ARC**
+
+---
+
+### More relaxed (if you want more caching)
+
+```bash
+options zfs zfs_arc_max=8589934592
+```
+
+👉 = **8 GB max ARC**
+
+---
+
+# ⚙️ 2. (Optional but recommended) set minimum ARC
+
+```bash
+options zfs zfs_arc_min=1073741824
+```
+
+👉 keeps ARC from aggressively pre-allocating too much memory
+👉 ~1 GB minimum
+
+---
+
+# 🔁 3. Apply changes
+
+Run:
+
+```bash
+sudo update-initramfs -u
+sudo reboot
+```
+
+---
+
+# 📊 4. Verify after reboot
+
+Check ARC limit:
+
+```bash
+cat /proc/spl/kstat/zfs/arcstats | grep c_max
+```
+
+You should see ~6–8 GB max.
+
+---
+
+# 🧪 5. Optional monitoring
+
+Install and watch:
+
+```bash
+arcstat 1
+```
+
+or:
+
+```bash
+htop
+```
+
+---
+
+# ⚠️ Why this matters (your case)
+
+Without this cap:
+
+* ZFS grows dynamically
+* competes with VM memory
+* Vivado installer spikes RAM usage
+* system hits **memory deadlock → freeze (no reboot)**
+
+---
+
+# 🏁 Final recommended setting for you
+
+For your Dell Precision 3460 (32 GB RAM):
+
+👉 **Best stable config:**
+
+* ARC max: **6 GB**
+* VM: **16 GB**
+* swap: **16 GB**
+* tmpfs `/tmp`: **4 GB**
+
+---
+
+
 ```bash
 df -h
 ```
