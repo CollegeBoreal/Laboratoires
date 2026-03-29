@@ -9,6 +9,14 @@
 | :two: | 0️⃣8️⃣ | S13-17 | [10.7.237.25](https://10.7.237.25:8006) | 32 | 28 | 1.8T | VE 9.1.1 | ⤴️ |  |
 
 
+```bash
+ip link show  vmbr0
+```
+```lua
+3: vmbr0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether b4:e9:b8:3b:06:63 brd ff:ff:ff:ff:ff:ff
+```
+
 ```powershell
 Get-DhcpServerv4Scope
 ```
