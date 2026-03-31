@@ -2,8 +2,49 @@
 ```bash
 dmesg -T | tail -200
 ```
+```
+                           buffer_info[next_to_clean]:
+                             time_stamp           <106dcb785>
+                             next_to_watch        <51>
+                             jiffies              <1074da3c0>
+                             next_to_watch.status <0>
+                           MAC Status             <40080083>
+                           PHY Status             <796d>
+                           PHY 1000BASE-T Status  <3800>
+                           PHY Extended Status    <3000>
+                           PCI Status             <10>
+[Sun Mar 29 00:18:16 2026] e1000e 0000:00:1f.6 nic0: Detected Hardware Unit Hang:
+                             TDH                  <51>
+                             TDT                  <7e>
+                             next_to_use          <7e>
+                             next_to_clean        <50>
+                           buffer_info[next_to_clean]:
+                             time_stamp           <106dcb785>
+                             next_to_watch        <51>
+                             jiffies              <1074dab80>
+                             next_to_watch.status <0>
+                           MAC Status             <40080083>
+                           PHY Status             <796d>
+                           PHY 1000BASE-T Status  <3800>
+                           PHY Extended Status    <3000>
+                           PCI Status             <10>
+[Sun Mar 29 00:18:18 2026] e1000e 0000:00:1f.6 nic0: Detected Hardware Unit Hang:
+                             TDH                  <51>
+                             TDT                  <7e>
+                             next_to_use          <7e>
+                             next_to_clean        <50>
+                           buffer_info[next_to_clean]:
+                             time_stamp           <106dcb785>
+                             next_to_watch        <51>
+                             jiffies              <1074db380>
+                             next_to_watch.status <0>
+                           MAC Status             <40080083>
+                           PHY Status             <796d>
+                           PHY 1000BASE-T Status  <3800>
+                           PHY Extended Status    <3000>
+                           PCI Status             <10>
 
-> time_stamp <10fd5ab1b> next_to_watch <75> jiffies <10fe25f00> next_to_watch.status <0> MAC Status <40080083> PHY Status <796d> PHY 1000BASE-T Status <3800> PHY Extended Status <3000> PCI Status <10> [Mon Mar 30 16:44:19 2026] e1000e 0000:00:1f.6 nic0: Detected Hardware Unit Hang: TDH <75> TDT <88> next_to_use <88> next_to_clean <74> buffer_info[next_to_clean]: time_stamp <10fd5ab1b> next_to_watch <75> jiffies <10fe266c0> next_to_watch.status <0> MAC Status <40080083> PHY Status <796d> PHY 1000BASE-T Status <3800> PHY Extended Status <3000> PCI Status <10> [Mon Mar 30 16:44:21 2026] e1000e 0000:00:1f.6 nic0: Detected Hardware Unit Hang: TDH <75> TDT <88> next_to_use <88> next_to_clean <74> buffer_info[next_to_clean]: time_stamp <10fd5ab1b> next_to_watch <75> jiffies <10fe26ec0> next_to_watch.status <0> MAC Status <40080083> PHY Status <796d> PHY 1000BASE-T Status <3800> PHY Extended Status <3000> PCI Status <10>
+```
 
 
 
