@@ -1,4 +1,127 @@
 
+# 📝 Proxmox NIC Stability Fix – EEE Disable (nic0)
+
+## 🎯 Objective
+
+Fix intermittent network instability on Proxmox hosts (link drops, NIC hangs, VM bridge resets) by disabling **Energy Efficient Ethernet (EEE)** on the physical NIC.
+
+---
+
+# ⚠️ Problem observed
+
+* Random NIC disconnects under load
+* `NIC Link is Down` events
+* `Hardware Unit Hang` (e1000e driver)
+* Required physical cable unplug/replug to recover
+* Issue reproducible on multiple Dell Precision 3460 systems
+
+---
+
+# 🧠 Root cause
+
+EEE (Energy Efficient Ethernet):
+
+* Causes power-state negotiation with switch
+* Can trigger instability under load with certain NIC + switch combinations
+* Interacts poorly with `e1000e` driver in virtualization environments
+
+---
+
+# 🛠️ Temporary fix (runtime)
+
+Disable EEE immediately:
+
+```bash
+ethtool --set-eee nic0 eee off
+```
+
+---
+
+# 🔍 Verification
+
+```bash
+ethtool --show-eee nic0
+```
+
+Expected result:
+
+```text
+EEE status: disabled
+```
+
+---
+
+# 🧾 Permanent fix (Proxmox configuration)
+
+Edit:
+
+```bash
+nano /etc/network/interfaces
+```
+
+Add to the **physical interface (`nic0`)**:
+
+```bash
+auto lo
+iface lo inet loopback
+
+iface nic0 inet manual
+    post-up /usr/sbin/ethtool --set-eee nic0 eee off
+
+auto vmbr0
+iface vmbr0 inet static
+    address 10.7.237.25/23
+    gateway 10.7.237.1
+    bridge-ports nic0
+    bridge-stp off
+    bridge-fd 0
+
+source /etc/network/interfaces.d/*
+```
+
+---
+
+# 🔄 Apply changes
+
+Without reboot:
+
+```bash
+ifreload -a
+```
+
+or reboot:
+
+```bash
+reboot
+```
+
+---
+
+# ✅ Expected outcome after fix
+
+* EEE permanently disabled
+* Stable NIC under high load
+* No link flapping
+* No hardware unit hang
+* No need to physically reconnect cable
+
+---
+
+# 📌 Key lesson
+
+> NIC-level hardware features (EEE, offloading, power states) must be configured on the **physical interface**, not the bridge.
+
+---
+
+# 🧪 Optional next hardening steps (if needed later)
+
+* Disable offloading (TSO/GSO/GRO)
+* Tune interrupt moderation for `e1000e`
+* Switch to Intel server-grade NIC (i210/i225)
+
+---
+
+
 ```bash
 dmesg -T | tail -200
 ```
