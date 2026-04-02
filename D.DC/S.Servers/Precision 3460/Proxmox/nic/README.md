@@ -424,7 +424,7 @@ If you want stability (FPGA dev environment):
 ## ⚙️ 1. Edit GRUB config
 
 ```bash
-nano /etc/default/grub
+vi /etc/default/grub
 ```
 
 ---
