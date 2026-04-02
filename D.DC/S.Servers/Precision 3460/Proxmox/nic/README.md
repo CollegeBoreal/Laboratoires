@@ -173,7 +173,7 @@ dmesg -T | tail -200
                            PHY 1000BASE-T Status  <3800>
                            PHY Extended Status    <3000>
                            PCI Status             <10>
-
+[Mon Mar 30 16:44:41 2026] e1000e 0000:00:1f.6 nic0: Detected Hardware Unit Hang: TDH <75> TDT <88> next_to_use <88> next_to_clean <74> buffer_info[next_to_clean]: time_stamp <10fd5ab1b> next_to_watch <75> jiffies <10fe2bcc0> next_to_watch.status <0> MAC Status <40080083> PHY Status <796d> PHY 1000BASE-T Status <8ff> PHY Extended Status <3000> PCI Status <10> [Mon Mar 30 16:44:42 2026] e1000e 0000:00:1f.6 nic0: NIC Link is Down [Mon Mar 30 16:44:42 2026] vmbr0: port 1(nic0) entered disabled state [Mon Mar 30 16:44:50 2026] e1000e 0000:00:1f.6 nic0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx [Mon Mar 30 16:44:50 2026] vmbr0: port 1(nic0) entered blocking state [Mon Mar 30 16:44:50 2026] vmbr0: port 1(nic0) entered forwarding state [Mon Mar 30 16:58:45 2026] usb 1-4: USB disconnect, device number 6 [Mon Mar 30 16:58:45 2026] usb 1-5: USB disconnect, device number 7 [Mon Mar 30 16:59:00 2026] perf: interrupt took too long (4022 > 4010), lowering kernel.perf_event_max_sample_rate to 49000 [Mon Mar 30 17:04:04 2026] perf: interrupt took too long (5044 > 5027), lowering kernel.perf_event_max_sample_rate to 39000 [Mon Mar 30 17:09:58 2026] perf: interrupt took too long (6308 > 6305), lowering kernel.perf_event_max_sample_rate to 31000 [Mon Mar 30 18:40:48 2026] hrtimer: interrupt took 1544 ns
 ```
 
 
