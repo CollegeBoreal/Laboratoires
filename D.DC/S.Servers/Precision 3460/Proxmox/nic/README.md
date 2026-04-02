@@ -3,6 +3,10 @@
 
 - [ ] ⚠️ [Intel NIC e1000e hardware unit hang](https://www.reddit.com/r/Proxmox/comments/1drs89s/intel_nic_e1000e_hardware_unit_hang/)
 
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/nic-offloading-fix.sh)"
+```
+
 ### Fixes TOC
 
 - [ ] [1️⃣ Disable EEE](README.md#-permanent-fix-proxmox-configuration)
