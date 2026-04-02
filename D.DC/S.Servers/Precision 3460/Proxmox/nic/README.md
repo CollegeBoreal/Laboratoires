@@ -4,7 +4,7 @@
 ### Fixes TOC
 
 - [ ] [1️⃣ Disable EEE](README.md#-permanent-fix-proxmox-configuration)
-- [ ] :two: [Disable power saving](README.md#-add-kernel-parameters-grub-method)
+- [ ] [2️⃣ Disable power saving](README.md#-add-kernel-parameters-grub-method)
 
 
 ## 🎯 Objective
