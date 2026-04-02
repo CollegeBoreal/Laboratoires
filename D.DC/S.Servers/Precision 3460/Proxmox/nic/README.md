@@ -1,6 +1,8 @@
 
 # 📝 Proxmox NIC Stability Fix – EEE Disable (nic0)
 
+- [ ] ⚠️ [Intel NIC e1000e hardware unit hang](https://www.reddit.com/r/Proxmox/comments/1drs89s/intel_nic_e1000e_hardware_unit_hang/)
+
 ### Fixes TOC
 
 - [ ] [1️⃣ Disable EEE](README.md#-permanent-fix-proxmox-configuration)
