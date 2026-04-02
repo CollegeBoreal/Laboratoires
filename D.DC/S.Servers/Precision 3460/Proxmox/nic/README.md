@@ -3,6 +3,8 @@
 
 - [ ] ⚠️ [Intel NIC e1000e hardware unit hang](https://www.reddit.com/r/Proxmox/comments/1drs89s/intel_nic_e1000e_hardware_unit_hang/)
 
+Run the command below in the Proxmox VE Shell to install Intel e1000e NIC Offloading Fix.
+
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/nic-offloading-fix.sh)"
 ```
