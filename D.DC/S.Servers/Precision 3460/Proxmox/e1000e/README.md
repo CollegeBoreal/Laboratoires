@@ -3,7 +3,7 @@
 
 ### Fixes TOC
 
-- [ ] [Disable EEE]
+- [ ] [Disable EEE](README.md#-permanent-fix-proxmox-configuration)
 - [ ] [Disable power saving]
 
 
