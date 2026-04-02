@@ -62,7 +62,7 @@ EEE status: disabled
 Edit:
 
 ```bash
-nano /etc/network/interfaces
+vi /etc/network/interfaces
 ```
 
 Add to the **physical interface (`nic0`)**:
