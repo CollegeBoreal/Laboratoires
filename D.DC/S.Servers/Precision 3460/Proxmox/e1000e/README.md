@@ -1,6 +1,12 @@
 
 # 📝 Proxmox NIC Stability Fix – EEE Disable (nic0)
 
+### Fixes TOC
+
+- [ ] [Disable EEE]
+- [ ] [Disable power saving]
+
+
 ## 🎯 Objective
 
 Fix intermittent network instability on Proxmox hosts (link drops, NIC hangs, VM bridge resets) by disabling **Energy Efficient Ethernet (EEE)** on the physical NIC.
