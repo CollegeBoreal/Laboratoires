@@ -8,6 +8,12 @@ Run the command below in the Proxmox VE Shell to install Intel e1000e NIC Offloa
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/nic-offloading-fix.sh)"
 ```
+| |
+|-|
+| <image src=images/nic-offloading-fix1.png width='100%' height='100%' > </image> |
+| <image src=images/nic-offloading-fix2.png width='100%' height='100%' > </image> |
+| <image src=images/nic-offloading-fix3.png width='100%' height='100%' > </image> |
+| <image src=images/nic-offloading-fix4.png width='100%' height='100%' > </image> |
 
 ---
 
