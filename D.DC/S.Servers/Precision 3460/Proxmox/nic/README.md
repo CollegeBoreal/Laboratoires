@@ -9,6 +9,37 @@ Run the command below in the Proxmox VE Shell to install Intel e1000e NIC Offloa
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/nic-offloading-fix.sh)"
 ```
 
+---
+
+```
+    _   ____________   ____  __________                ___                ____  _            __    __
+   / | / /  _/ ____/  / __ \/ __/ __/ /___  ____ _____/ (_)___  ____ _   / __ \(_)________ _/ /_  / /__  _____
+  /  |/ // // /      / / / / /_/ /_/ / __ \/ __ `/ __  / / __ \/ __ `/  / / / / / ___/ __ `/ __ \/ / _ \/ ___/
+ / /|  // // /___   / /_/ / __/ __/ / /_/ / /_/ / /_/ / / / / / /_/ /  / /_/ / (__  ) /_/ / /_/ / /  __/ /
+/_/ |_/___/\____/   \____/_/ /_/ /_/\____/\__,_/\__,_/_/_/ /_/\__, /  /_____/_/____/\__,_/_.___/_/\___/_/
+                                                             /____/
+Enhanced version supporting both e1000e and e1000 drivers
+
+  ℹ️   Searching for Intel e1000e and e1000 interfaces...
+  ✔️   Found 1 Intel e1000e/e1000 interfaces
+  ✔️   Selected interface: nic0 (e1000e)
+  ℹ️   Creating systemd service for interface: nic0 (e1000e)...
+  ✔️   Service for nic0 (e1000e) created and enabled!
+  ℹ️     Service: disable-nic-offload-nic0.service...
+  ℹ️     Status: Active...
+  ℹ️     Start on boot: Enabled...
+  ✔️   Intel e1000e/e1000 optimization complete for 1 interface(s)!
+
+  ℹ️   Verification commands:...
+  ethtool -k nic0 # Check offloading status
+  systemctl status disable-nic-offload-nic0.service # Check service status
+```
+
+---
+
+
+
+
 ### Fixes TOC
 
 - [ ] [1️⃣ Disable EEE](README.md#-permanent-fix-proxmox-configuration)
