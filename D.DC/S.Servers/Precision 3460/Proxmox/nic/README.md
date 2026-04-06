@@ -111,6 +111,22 @@ hsr-dup-offload: off [fixed]
     
 </details>
 
+```bash
+systemctl status disable-nic-offload-nic0.service
+```
+```
+● disable-nic-offload-nic0.service - Disable NIC offloading for Intel e1000e interface nic0
+     Loaded: loaded (/etc/systemd/system/disable-nic-offload-nic0.service; enabled; preset: enabled)
+     Active: active (exited) since Mon 2026-04-06 17:15:41 EDT; 56s ago
+ Invocation: f61ed62634f54f12b43b921ead4a4f05
+   Main PID: 1312512 (code=exited, status=0/SUCCESS)
+   Mem peak: 2M
+        CPU: 23ms
+
+Apr 06 17:15:41 labinfo systemd[1]: Starting disable-nic-offload-nic0.service - Disable NIC offloading for Intel e1000e>
+Apr 06 17:15:41 labinfo systemd[1]: Finished disable-nic-offload-nic0.service - Disable NIC offloading for Intel e1000e>
+```
+
 
 ### Fixes TOC
 
