@@ -6,24 +6,24 @@
 | 1    | 25       | DELL PowerEdge R660  | TBD       | 10.7.237.60             | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller                                    |
 | 2    | Haut     | DELL PowerEdge R660  | TBD       | 10.7.236.6–10.7.236.11  | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller, DHCP                              |
 | 2    | Bas      | DELL PowerEdge R660  | TBD       | 10.7.236.13–10.7.236.17 | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller                                    |
-| 1    | 32       | HP Proliant DL360 G7 | S04       | 10.7.237.3              | 64       | 16  | 546     | Windows Server 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
-| 1    | 29       | HP Proliant DL360 G7 | S05       | 10.7.237.48             | 64       | 8   | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
-| 1    | 31       | HP Proliant DL360 G7 | S07       | 10.7.237.37             | 64       | 16  | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
-| 1    | 28       | HP Proliant DL360 G6 | S08       | 10.7.237.18             | 8        | 16  | 272     | —                              | —                                                        |
-| 1    | 27       | HP Proliant DL360 G6 | S09       | 10.7.237.42             | 56       | 16  | 272     | —                              | PaaS programmation systèmes                              |
-| 2    | 40       | HP Proliant DL360 G6 | S13       | 10.7.237.16             | 56       | 16  | 272     | —                              | —                                                        |
-| 2    | 36       | HP Proliant DL360 G6 | S17       | 10.7.237.28             | 48       | 16  | 409     | —                              | —                                                        |
-| 2    | 35       | HP Proliant DL360 G6 | S18       | 10.7.237.22             | 28       | 16  | 272     | —                              | —                                                        |
-| 2    | 34       | HP Proliant DL360 G6 | S19       | 10.7.237.7              | 16       | 16  | 272     | —                              | —                                                        |
-| 2    | 33       | HP Proliant DL360 G7 | S20       | 10.7.237.45             | 32       | 16  | 273     | —                              | —                                                        |
-| 2    | 32       | HP Proliant DL360 G6 | S21       | 10.7.237.19             | 36       | 16  | 272     | —                              | —                                                        |
-| 2    | 28       | HP Proliant DL360 G6 | S25       | 10.7.237.24             | 56       | 16  | 272     | —                              | —                                                        |
-| 2    | 27       | HP Proliant DL360 G7 | S26       | 10.7.237.40             | 48       | 16  | 272     | —                              | —                                                        |
-| 2    | 26       | HP Proliant DL360 G6 | S27       | 10.7.237.34             | 44       | 16  | 272     | —                              | —                                                        |
-| 2    | 25       | HP Proliant DL360 G7 | S28       | 10.7.237.11             | 64       | 16  | 273     | —                              | —                                                        |
-| 2    | 10       | HP Proliant DL360 G7 | S35       | [10.7.237.5](https://10.7.237.5:8006)   | 64       | 16  | 273.4G     | PVE 7.4-20                         |                                          |
-| 2    | 8        | HP Proliant DL360 G6 | S37       | [10.7.237.13](https://10.7.237.13:8006) | 64       | 16  | 273.4G     | PVE 7.4-20               | —                                                        |
-| 2    | 6        | HP Proliant DL360 G6 | S39       | 10.7.237.35             | 28       | 16  | 409     | —                              | —                                                        |
+| 1    | 32       | HP Proliant DL360 G7️⃣ | S04       | 10.7.237.3              | 64       | 16  | 546     | Windows Server 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
+| 1    | 29       | HP Proliant DL360 G7️⃣ | S05       | 10.7.237.48             | 64       | 8   | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
+| 1    | 31       | HP Proliant DL360 G7️⃣ | S07       | 10.7.237.37             | 64       | 16  | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
+| 1    | 28       | HP Proliant DL360 G6️⃣ | S08       | 10.7.237.18             | 8        | 16  | 272     | —                              | —                                                        |
+| 1    | 27       | HP Proliant DL360 G6️⃣ | S09       | 10.7.237.42             | 56       | 16  | 272     | —                              | PaaS programmation systèmes                              |
+| 2    | 40       | HP Proliant DL360 G6️⃣ | S13       | 10.7.237.16             | 56       | 16  | 272     | —                              | —                                                        |
+| 2    | 36       | HP Proliant DL360 G6️⃣ | S17       | 10.7.237.28             | 48       | 16  | 409     | —                              | —                                                        |
+| 2    | 35       | HP Proliant DL360 G6️⃣ | S18       | 10.7.237.22             | 28       | 16  | 272     | —                              | —                                                        |
+| 2    | 34       | HP Proliant DL360 G6️⃣ | S19       | 10.7.237.7              | 16       | 16  | 272     | —                              | —                                                        |
+| 2    | 33       | HP Proliant DL360 G7️⃣ | S20       | 10.7.237.45             | 32       | 16  | 273     | —                              | —                                                        |
+| 2    | 32       | HP Proliant DL360 G6️⃣ | S21       | 10.7.237.19             | 36       | 16  | 272     | —                              | —                                                        |
+| 2    | 28       | HP Proliant DL360 G6️⃣ | S25       | 10.7.237.24             | 56       | 16  | 272     | —                              | —                                                        |
+| 2    | 27       | HP Proliant DL360 G7️⃣ | S26       | 10.7.237.40             | 48       | 16  | 272     | —                              | —                                                        |
+| 2    | 26       | HP Proliant DL360 G6️⃣ | S27       | 10.7.237.34             | 44       | 16  | 272     | —                              | —                                                        |
+| 2    | 25       | HP Proliant DL360 G7️⃣ | S28       | 10.7.237.11             | 64       | 16  | 273     | —                              | —                                                        |
+| 2    | 10       | HP Proliant DL360 G7️⃣ | S35       | [10.7.237.5](https://10.7.237.5:8006)   | 64       | 16  | 273.4G     | PVE 7.4-20                         |                                          |
+| 2    | 8        | HP Proliant DL360 G6️⃣ | S37       | [10.7.237.13](https://10.7.237.13:8006) | 64       | 16  | 273.4G     | PVE 7.4-20               | —                                                        |
+| 2    | 6        | HP Proliant DL360 G6️⃣ | S39       | 10.7.237.35             | 28       | 16  | 409     | —                              | —                                                        |
 
 ---
 
