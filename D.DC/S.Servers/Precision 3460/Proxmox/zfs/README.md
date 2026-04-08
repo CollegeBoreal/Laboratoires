@@ -251,10 +251,22 @@ Pour être sûr :
 zpool status
 ```
 
-Tu devrais voir :
+Tu devrais voir : `raidz1`
 
 ```text
-raidz1
+  pool: rpool
+ state: ONLINE
+config:
+
+	NAME                                                 STATE     READ WRITE CKSUM
+	rpool                                                ONLINE       0     0     0
+	  raidz1-0                                           ONLINE       0     0     0
+	    nvme-eui.ace42e00416838d62ee4ac0000000001-part3  ONLINE       0     0     0
+	    nvme-eui.ace42e0041683e772ee4ac0000000001-part3  ONLINE       0     0     0
+	    nvme-eui.ace42e0041683e7a2ee4ac0000000001-part3  ONLINE       0     0     0
+
+errors: No known data errors
+
 ```
 
 ---
