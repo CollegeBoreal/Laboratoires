@@ -1,5 +1,7 @@
 # ⚙️ Commandes CLI pour installer FreeCAD
 
+[New to FreeCAD? Start HERE (Ultimate Beginner Tutorial)]
+
 Voici des **commandes CLI concises pour installer FreeCAD** sur les principales plateformes :
 
 ***
@@ -208,3 +210,7 @@ FreeCAD → STL → Cura / Orca → G-code → imprimante
 
 *   un profil slicer prêt à utiliser
 *   des réglages optimisés pour classe/labo
+
+---
+
+[New to FreeCAD? Start HERE (Ultimate Beginner Tutorial)]: https://www.youtube.com/watch?v=KmtqNaGPiiQ
