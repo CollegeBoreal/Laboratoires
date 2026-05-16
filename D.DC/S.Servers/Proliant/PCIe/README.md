@@ -194,15 +194,12 @@ sudo blkid /dev/nvme0n1
 5. Testez que la configuration est correcte sans redémarrer :
 ```bash
 sudo mount -a
-
 ```
 
 
 *Si aucune erreur ne s'affiche, c'est parfait ! Votre SSD NVMe sera automatiquement disponible dans `/mnt/nvme_storage` à chaque démarrage du serveur.*
 
 Il ne vous restera plus qu'à configurer Ollama pour stocker ses modèles dans ce dossier ultra-rapide !
-
-```
 
 
 [PCIe Slots Explained: Types, Speeds, and Uses in Modern Computers]: https://www.hp.com/us-en/shop/tech-takes/what-are-pcie-slots-pc
