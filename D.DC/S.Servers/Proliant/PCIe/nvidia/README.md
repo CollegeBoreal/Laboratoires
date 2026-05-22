@@ -462,6 +462,25 @@ The built-in `nouveau` driver conflicts with the proprietary NVIDIA driver.
     ```bash
     update-initramfs -u -k all
     ```
+    <details><summary>🪵</summary>
+    
+    ```lua
+    update-initramfs: Generating /boot/initrd.img-5.15.158-2-pve
+    Running hook script 'zz-proxmox-boot'..
+    Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount namespace..
+    No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
+    update-initramfs: Generating /boot/initrd.img-5.4.203-1-pve
+    Running hook script 'zz-proxmox-boot'..
+    Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount namespace..
+    No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
+    update-initramfs: Generating /boot/initrd.img-5.4.106-1-pve
+    Running hook script 'zz-proxmox-boot'..
+    Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount namespace..
+    No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
+    ```
+    
+    </details>
+    
     Then **reboot** your Proxmox host (`reboot` command). After reboot, run `lsmod | grep nouveau` to ensure it's not loaded (should return nothing).
 
 ### 📥 3. Install the NVIDIA Driver
