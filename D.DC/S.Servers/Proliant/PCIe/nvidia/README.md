@@ -198,16 +198,16 @@ Purging configuration files for bsdmainutils (12.1.7+nmu3) ...
     <details><summary>🪵</summary>
 
     ```lua
-Get:1 http://security.debian.org/debian-security bullseye-security InRelease [27.2 kB]
-Hit:2 http://deb.debian.org/debian bullseye InRelease
-Hit:3 http://deb.debian.org/debian bullseye-updates InRelease
-Hit:4 http://download.proxmox.com/debian/pve bullseye InRelease
-Get:5 http://security.debian.org/debian-security bullseye-security/main amd64 Packages [456 kB]
-Fetched 483 kB in 1s (436 kB/s)    
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-33 packages can be upgraded. Run 'apt list --upgradable' to see them.
+    Get:1 http://security.debian.org/debian-security bullseye-security InRelease [27.2 kB]
+    Hit:2 http://deb.debian.org/debian bullseye InRelease
+    Hit:3 http://deb.debian.org/debian bullseye-updates InRelease
+    Hit:4 http://download.proxmox.com/debian/pve bullseye InRelease
+    Get:5 http://security.debian.org/debian-security bullseye-security/main amd64 Packages [456 kB]
+    Fetched 483 kB in 1s (436 kB/s)    
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... Done
+    33 packages can be upgraded. Run 'apt list --upgradable' to see them.
     ```
 
     </details>
