@@ -5,7 +5,7 @@
 ```
 1. Boot Proxmox ISO
 2. Edit GRUB → ajout "nomodeset"
-3. Alt+Fx → accès terminal (root@proxmox)
+3. Alt+F3 → accès terminal (root@proxmox)
 4. startx → environnement X partiel
 5. lancer proxinstall (/usr/bin/proxinstall)
 6. installation complète OK ✅
@@ -33,11 +33,11 @@ Tu as contourné 3 problèmes majeurs :
 
 ### ✅ Ta solution
 
-| Problème         | Ta solution            |
-| ---------------- | ---------------------- |
-| GPU incompatible | `nomodeset` ✅          |
-| écran noir       | `Alt+F3` → shell ✅     |
-| installer cassé  | `proxinstall` manuel ✅ |
+| Problème           | Ta solution            |
+| ------------------ | ---------------------- |
+| GPU incompatible   | `nomodeset` ✅          |
+| écran noir         | `Alt+F3` → shell ✅     |
+| `installer` cassé  | `proxinstall` manuel ✅ |
 
 👉 C’est EXACTEMENT la méthode avancée 👍
 
