@@ -7,6 +7,7 @@ First, ensure your Proxmox host is ready, especially if **Secure Boot** is enabl
     ```bash
     # Remove drivers installed via .run package
     sudo /usr/bin/nvidia-uninstall
+    ```
 > sudo: cannot access '/usr/bin/nvidia-uninstall': No such file or directory    ```
 
     Or use:
