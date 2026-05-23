@@ -66,6 +66,7 @@ Installer les barrettes suivantes :
 - 8 GB  
 - 4 GB
 - 1 GB
+  
 <img src="images/img18.png" width="450" height="600" /> <img src="images/img20.png" width="450" height="600" />
 
 
