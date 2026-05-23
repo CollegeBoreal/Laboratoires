@@ -61,7 +61,7 @@ Install Proxmox VE
 
 ### 2. Edit GRUB (CRUCIAL)
 
-Ajouter à la ligne linux:
+Ajouter à la ligne `linux`:
 
 ```
 nomodeset
