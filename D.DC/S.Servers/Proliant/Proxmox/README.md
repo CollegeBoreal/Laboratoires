@@ -8,7 +8,7 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 
 ## ⚠️ Cette page couvre l'installation de PVE6
 
-Pour installer [PVE9](pve/v9) ou migrer de cette version à la version [PVE7](pve/v6to7)
+Se référer à ces pages, pour installer [PVE9](pve/v9) ou migrer de cette version à la version [PVE7](pve/v6to7)
 
 
 ---
