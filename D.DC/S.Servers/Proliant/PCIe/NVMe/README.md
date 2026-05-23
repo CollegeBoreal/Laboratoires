@@ -44,7 +44,7 @@ Sur G7 → inutile de prendre un NVMe “haut de gamme”:
 * Format : **M.2 2280**
 * Type : TLC (évite QLC cheap)
 
-<image src=images/signal-2026-05-23-175646_010.jpeg width='50%' heigth='50%' > </image>
+<image src=images/signal-2026-05-23-175646_011.jpeg width='20%' heigth='20%' > </image>
 
 ### 👉 Bons modèles (compatibles et stables)
 
