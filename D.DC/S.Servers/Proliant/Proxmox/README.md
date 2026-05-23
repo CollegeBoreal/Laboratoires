@@ -17,10 +17,6 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 - Télécharger le fichier **ISO**
 
 ```bash
-curl https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso -o proxmox-ve_9.1-1.iso
-```
-
-```bash
  curl https://enterprise.proxmox.com/iso/proxmox-ve_6.4-1.iso -o proxmox-ve_6.4-1.iso
 ```
 ```powershell
