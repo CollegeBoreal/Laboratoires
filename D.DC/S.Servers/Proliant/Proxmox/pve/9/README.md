@@ -193,18 +193,3 @@ Debian → Proxmox ✅
 * installation manuelle ✅
 
 ➡️ C’est du niveau admin senior 👍
-
-***
-
-# 🚀 Next step (si tu veux optimiser)
-
-Je peux t’aider à:
-
-✅ config vmbr0 propre (réseau VM)  
-✅ créer template Ubuntu étudiant  
-✅ script pour déployer 10–60 VM automatiquement
-
-***
-
-👉 Question rapide pour la suite :  
-Tu veux maintenant **configurer les VM étudiants (clones auto)** ou juste stabiliser le serveur Proxmox?
