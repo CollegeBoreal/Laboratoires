@@ -10,7 +10,9 @@ Les emplacements PCIe se distinguent par le nombre de "lignes" (lanes) physiques
 
 * **PCIe x1 (1 ligne) :** Le plus petit ; idéal pour les cartes son ou les cartes réseau basiques.
 * **PCIe x4 (4 lignes) :** Format moyen ; couramment utilisé pour les **SSD NVMe** et les cartes de capture vidéo.
+  
   <image src=images/signal-2026-05-23-175646_005.jpeg width='20%' height='20%' > </image>
+
 * **PCIe x8 (8 lignes) :** Pour les cartes réseau haute performance ou certains contrôleurs de stockage.
 * **PCIe x16 (16 lignes) :** Le plus grand et le plus puissant ; presque exclusivement réservé aux **cartes graphiques (GPU)**.
 
