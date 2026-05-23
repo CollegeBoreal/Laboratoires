@@ -6,6 +6,9 @@ L’objectif de ce projet est de reconfigurer le serveur HP ProLiant DL360 G6 et
 - 🧠 **RAM** : 64 GB  
 - 💾 **Stockage** : 272 GB en **RAID 5**
 
+## ⚠️ Cette page couvre l'installation de PVE6
+
+Pour installer [PVE9](pve/v9) ou migrer de cette version à la version [PVE7](pve/v6to7)
 
 
 ---
