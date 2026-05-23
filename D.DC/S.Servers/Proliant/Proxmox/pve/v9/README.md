@@ -91,6 +91,8 @@ root
 startx
 ```
 
+<image src=images/signal-2026-05-23-175646_003.jpeg width='50%' height='50%' > </image>
+
 ***
 
 ### 5. Lancer installateur manuel
