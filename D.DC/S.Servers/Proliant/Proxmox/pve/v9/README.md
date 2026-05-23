@@ -1,5 +1,9 @@
 ## **Proxmox 9 DIRECTEMENT sur G7** ✅ 
 
+```bash
+curl https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso -o proxmox-ve_9.1-1.iso
+```
+
 ### Ton workflow réel :
 
 ```
