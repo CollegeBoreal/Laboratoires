@@ -16,6 +16,8 @@ Les emplacements PCIe se distinguent par le nombre de "lignes" (lanes) physiques
 * **PCIe x8 (8 lignes) :** Pour les cartes réseau haute performance ou certains contrôleurs de stockage.
 * **PCIe x16 (16 lignes) :** Le plus grand et le plus puissant ; presque exclusivement réservé aux **cartes graphiques (GPU)**.
 
+  <image src=images/signal-2026-05-23-175646_006.jpeg width='20%' height='20%' > </image>
+
 ### **Générations et Doublement de Vitesse**
 
 La technologie PCIe évolue par générations. Chaque nouvelle version **double la bande passante** par ligne par rapport à la précédente :
