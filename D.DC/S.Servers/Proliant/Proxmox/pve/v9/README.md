@@ -7,8 +7,9 @@
 2. Edit GRUB → ajout "nomodeset"
 3. Alt+F3 → accès terminal (root@proxmox)
 4. startx → environnement X partiel
-5. lancer proxinstall (/usr/bin/proxinstall)
-6. installation complète OK ✅
+5. Terminal X → right-click `Lancer Terminal`
+6. lancer proxinstall (/usr/bin/proxinstall)
+7. installation complète OK ✅
 ```
 
 👉 ✅ Résultat :
@@ -95,7 +96,15 @@ startx
 
 ***
 
-### 5. Lancer installateur manuel
+### 5. Lancer le terminal X (il faut la souris)
+
+```
+right-click lancer Terminal X
+```
+
+***
+
+### 6. Lancer installateur manuel
 
 ```
 proxinstall
@@ -103,7 +112,7 @@ proxinstall
 
 ***
 
-### 6. Installer normalement
+### 7. Installer normalement
 
 * sélectionner disque RAID ✅
 * config réseau ✅
