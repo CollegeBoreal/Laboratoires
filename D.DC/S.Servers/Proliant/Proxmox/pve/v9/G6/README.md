@@ -165,4 +165,160 @@ Proxmox 9 → souvent kernel panic ❌
 nomodeset noapic nolapic acpi=off
 ```
 
+---
+
+Bonne question 👍 — c’est **clé pour comprendre ton erreur G6**.
+
+***
+
+# 🧠 ✅ APIC = quoi?
+
+**APIC = Advanced Programmable Interrupt Controller**
+
+👉 en simple :
+
+```
+un composant du CPU qui gère les interruptions
+```
+
+***
+
+# 🎯 ✅ Explication simple
+
+Quand ton serveur fonctionne :
+
+* le CPU exécute du code ✅
+* les périphériques (disque, réseau, etc.) envoient des **interruptions**  
+  ➡️ "hey CPU, j’ai fini une tâche!"
+
+👉 APIC sert à :
+
+```
+✔ recevoir ces interruptions
+✔ les organiser
+✔ les envoyer au bon CPU / bon core
+```
+
+***
+
+# 🔧 ✅ Types d’APIC
+
+Sur ton serveur :
+
+### 1. APIC classique
+
+* gère les interruptions globales
+
+### 2. **LAPIC (Local APIC)**
+
+* par CPU (chaque core)
+
+***
+
+# 🚨 ❌ Pourquoi ça casse sur ton G6
+
+Sur vieux serveurs HP (G6) :
+
+```
+BIOS ancien + APIC moderne = conflit
+```
+
+Résultat :
+
+```
+Kernel panic
+NMI errors
+freeze au boot
+```
+
+***
+
+# ⚠️ NMI dans ton message
+
+Tu as vu:
+
+```
+An NMI occurred
+```
+
+👉 NMI = **Non Maskable Interrupt**
+\= une interruption critique (hardware)
+
+➡️ souvent causée par:
+
+```
+APIC bug
+BIOS bug
+hardware legacy
+```
+
+***
+
+# ✅ ✅ Pourquoi on désactive APIC
+
+Quand tu ajoutes:
+
+```
+noapic nolapic
+```
+
+👉 tu dis au kernel:
+
+```
+❌ n’utilise pas APIC
+✅ utilise un mode simple (fallback)
+```
+
+***
+
+# 🎯 ✅ Résultat
+
+```
+✅ plus de kernel panic
+✅ boot réussi
+❌ performances légèrement moins bonnes (OK pour lab)
+```
+
+***
+
+# ✅ Résumé ultra simple
+
+```
+APIC = gestion des interruptions CPU
+
+G6:
+APIC = problème → crash
+
+Solution:
+noapic nolapic → bypass
+```
+
+***
+
+# 🚀 BONUS (utile pour toi)
+
+👉 Sur ton lab:
+
+| Machine | APIC                |
+| ------- | ------------------- |
+| G7      | souvent OK          |
+| G6      | часто problématique |
+
+***
+
+# ✅ Recommandation pour G6
+
+Dans GRUB:
+
+```
+nomodeset noapic nolapic acpi=off
+```
+
+***
+
+# 👍 Conclusion
+
+👉 APIC = normal sur serveurs récents  
+👉 mais **sur G6 → source de kernel panic**
+
 ***
