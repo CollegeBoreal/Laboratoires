@@ -2,7 +2,7 @@
 
 | | | |
 |-|-|-|
-| <image src=images/GPU-nvidia-PCIe.jpeg width='' height='' > </image> | <image src=images/GPU-nvidia-PCIe1.jpeg width='' height='' > </image> | <image src=images/GPU-nvidia-PCIe2.jpeg width='' height='' > </image> |
+| <image src=images/GPU-nvidia-PCIe.png width='' height='' > </image> | <image src=images/GPU-nvidia-PCIe1.png width='' height='' > </image> | <image src=images/GPU-nvidia-PCIe2.png width='' height='' > </image> |
 
 # 📚 References
 
