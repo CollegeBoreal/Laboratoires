@@ -4,7 +4,6 @@
 
 | Rack | Position | Type de serveur      | Étiquette | Host IP                 | RAM (GB) | CPU | DD (GB) | OS                             | Services                                                 |
 | ---- | -------- | -------------------- | --------- | ----------------------- | -------- | --- | ------- | ------------------------------ | -------------------------------------------------------- |
-
 | 1️⃣    | 32       | HP Proliant DL360 G7️⃣ | S04       | 10.7.237.3              | 64       | 16  | 546     | Windows Server 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣    | 31       | HP Proliant DL360 G7️⃣ | S05       | 10.7.237.48             | 64       | 8   | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
 | 1️⃣    | 27       | HP Proliant DL360 G7️⃣ | S07       | 10.7.237.37             | 64       | 16  | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
