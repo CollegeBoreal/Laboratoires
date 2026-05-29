@@ -2,16 +2,16 @@
 
 ## 🗄️ Rack 1️⃣
 
-| Rack | Position | Type de serveur      | Étiquette | Host IP                 | RAM (GB) | CPU | DD (GB) | OS                             | Services                                                 |
-| ---- | -------- | -------------------- | --------- | ----------------------- | -------- | --- | ------- | ------------------------------ | -------------------------------------------------------- |
-| 1️⃣    | 32       | HP Proliant DL360 G7️⃣ | S04       | 10.7.237.3              | 64       | 16  | 546     | Windows Server 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
-| 1️⃣    | 31       | HP Proliant DL360 G7️⃣ | S05       | 10.7.237.48             | 64       | 8   | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
-| 1️⃣    | 27       | HP Proliant DL360 G7️⃣ | S07       | 10.7.237.37             | 64       | 16  | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
-| 1️⃣    | 28       | HP Proliant DL360 G6️⃣ | S08       | 10.7.237.18             | 8        | 16  | 272     | —                              | —                                                        |
-| 1️⃣    | 27       | HP Proliant DL360 G6️⃣ | S09       | 10.7.237.42             | 56       | 16  | 272     | —                              | PaaS programmation systèmes                              |
-| 1️⃣    | 27     | DELL PowerEdge R660  | TBD       | 10.7.236.6–10.7.236.11  | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller, DHCP INFRA002                             |
-| 1️⃣    | 26      | DELL PowerEdge R660  | TBD       | 10.7.236.13–10.7.236.17 | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller INFRA003                                   |
-| 1️⃣    | 25       | DELL PowerEdge R660  | TBD       | 10.7.237.60             | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller INFRA001                                   |
+| Rack | #️⃣ | Type de serveur      | Étiquette | Host IP                 | RAM (GB) | CPU | DD (GB) | OS                             | Services                                                 |
+| ---- | -- | -------------------- | --------- | ----------------------- | -------- | --- | ------- | ------------------------------ | -------------------------------------------------------- |
+| 1️⃣  | 32 | HP Proliant DL360 G7️⃣ | S04       | 10.7.237.3              | 64       | 16  | 546     | Windows Server 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
+| 1️⃣  | 31 | HP Proliant DL360 G7️⃣ | S05       | 10.7.237.48             | 64       | 8   | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
+| 1️⃣  | 27 | HP Proliant DL360 G7️⃣ | S07       | 10.7.237.37             | 64       | 16  | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
+| 1️⃣  | 28 | HP Proliant DL360 G6️⃣ | S08       | 10.7.237.18             | 8        | 16  | 272     | —                              | —                                                        |
+| 1️⃣  | 27 | HP Proliant DL360 G6️⃣ | S09       | 10.7.237.42             | 56       | 16  | 272     | —                              | PaaS programmation systèmes                              |
+| 1️⃣  | 27 | DELL PowerEdge R660   | TBD       | 10.7.236.6–10.7.236.11  | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller, DHCP INFRA002                             |
+| 1️⃣  | 26 | DELL PowerEdge R660   | TBD       | 10.7.236.13–10.7.236.17 | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller INFRA003                                   |
+| 1️⃣  | 25 | DELL PowerEdge R660   | TBD       | 10.7.237.60             | 1024     | 32  | 14233.6 | Windows Server 2022 Datacenter | VM, Domain Controller INFRA001                                   |
 
 ## 🗄️ Rack 2️⃣
 
