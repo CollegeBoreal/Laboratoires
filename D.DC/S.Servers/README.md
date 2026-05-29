@@ -12,6 +12,11 @@
 | 1️⃣    | 27       | HP Proliant DL360 G7️⃣ | S07       | 10.7.237.37             | 64       | 16  | 272     | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
 | 1️⃣    | 28       | HP Proliant DL360 G6️⃣ | S08       | 10.7.237.18             | 8        | 16  | 272     | —                              | —                                                        |
 | 1️⃣    | 27       | HP Proliant DL360 G6️⃣ | S09       | 10.7.237.42             | 56       | 16  | 272     | —                              | PaaS programmation systèmes                              |
+
+## 🗄️ Rack 2️⃣
+
+| Rack | Position | Type de serveur      | Étiquette | Host IP                 | RAM (GB) | CPU | DD (GB) | OS                             | Services                                                 |
+| ---- | -------- | -------------------- | --------- | ----------------------- | -------- | --- | ------- | ------------------------------ | -------------------------------------------------------- |
 | 2️⃣    | 40       | HP Proliant DL360 G6️⃣ | S13       | 10.7.237.16             | 56       | 16  | 272     | —                              | —                                                        |
 | 2️⃣    | 36       | HP Proliant DL360 G6️⃣ | S17       | 10.7.237.28             | 48       | 16  | 409     | —                              | —                                                        |
 | 2️⃣    | 35       | HP Proliant DL360 G6️⃣ | S18       | 10.7.237.22             | 28       | 16  | 272     | —                              | —                                                        |
