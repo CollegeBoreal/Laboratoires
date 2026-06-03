@@ -8,8 +8,8 @@
 
 ## 🗄️ Rack 1️⃣ - 📇 42U
 
-| Rack | U#️⃣ | Type de serveur      | 🏷️ | Host IP                 | RAM (GB) | CPU | DD (GB) | OS                             | Services                                                 |
-| ---- | -: | -------------------- | --------- | ----------------------- | -------- | --- | ------- | ------------------------------ | -------------------------------------------------------- |
+| Rack | U#️⃣ | Type de serveur      | 🏷️ | Host IP                 | RAM  | CPU | HD  | OS                             | Services                                                 |
+| ---- | -: | -------------------- | --------- | ----------------------- | ------: | --- | ------- | ------------------------------ | -------------------------------------------------------- |
 | 1️⃣  | 32 | 🅰️ G7️⃣ | S04       | 10.7.237.3              | 64GB       | 16  | 546GB   | Windows Server 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣  | 31 | 🅰️ G7️⃣ | S05       | 10.7.237.48             | 64GB       | 8   | 273.4GB | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
 | 1️⃣  | 27 | 🅰️ G7️⃣ | S07       | 10.7.237.37             | 64GB       | 16  | 273.4GB | Windows Server 2022 Datacenter | PaaS programmation systèmes                              |
