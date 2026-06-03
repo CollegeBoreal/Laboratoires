@@ -138,12 +138,3 @@ MDT → crée + personnalise les images
 ```
 WDS = PXE + WinPE + deploy image Windows en masse
 ```
-
-***
-
-Si tu veux, je peux te générer :
-✅ diagramme Mermaid pour le cours  
-✅ topo “lab complet WDS + DHCP” prêt pour 28 étudiants  
-✅ ou comparatif WDS vs Autopilot (modern stack)
-
-Tu veux lequel 👇
