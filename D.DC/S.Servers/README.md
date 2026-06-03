@@ -17,16 +17,16 @@
 
 ## 🗄️ Rack 1️⃣ - 📇 42U
 
-| Rack | U#️⃣ | 🏙️ Serveurs | 🏷️ | Host IP                 | RAM  | CPU | HD  | OS                             | Services                                   |
-| ---- | -: | --------------- | -- | ----------------------- | ---: | ---:| --- | ------------------------------ | ------------------------------------------ |
-| 1️⃣   | 32  | 🅰️ G7️⃣ | S04    | 10.7.237.3              | 64GB       | 16  | 546GB  | 🪟 2022 Datacenter | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
-| 1️⃣   | 31 | 🅰️ G7️⃣ | S05    | 10.7.237.48             | 64GB       | 8   | 273.4GB | 🪟 2022 Datacenter | PaaS programmation systèmes        |
-| 1️⃣   | 27 | 🅰️ G7️⃣ | S07    | 10.7.237.37             | 64GB       | 16  | 273.4GB | 🪟 2022 Datacenter | PaaS programmation systèmes        |
-| 1️⃣   | 28 | 🅰️ G6️⃣ | S08    | 10.7.237.18             | 8GB        | 16  | 273.4GB | —                              | —                                   |
-| 1️⃣   | 27 | 🅰️ G6️⃣ | S09    | 10.7.237.42             | 56GB       | 16  | 273.4GB | —                              | PaaS programmation systèmes          |
-| 1️⃣   | 27 | 🅱️     | TBD    | 10.7.236.6–10.7.236.11  | 1TB     | 32  |  13.9TB | Windows Server 2022 Datacenter | VM, Domain Controller, DHCP INFRA002  |
-| 1️⃣   | 26 | 🅱️     | TBD    | 10.7.236.13–10.7.236.17 | 1TB     | 32  | 13.9TB | Windows Server 2022 Datacenter | VM, Domain Controller INFRA003                                   |
-| 1️⃣  | 25 | 🅱️   | TBD       | 10.7.237.60             | 1TB     | 32  | 13.9TB | Windows Server 2022 Datacenter | VM, Domain Controller INFRA001                                   |
+| Rack | U#️⃣| 🏙️ Serveurs | 🏷️ | Host IP                 | RAM  | CPU | HD  | OS                     | Services                                   |
+| ---- | -:| ------------| -- | ----------------------- | ---: | ---:| --- | ---------------------- | ------------------------------------------ |
+| 1️⃣   | 32 | 🅰️ G7️⃣      | S04| 10.7.237.3             | 64GB | 16  | 546GB  | 🪟 2022 Datacenter   | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
+| 1️⃣   | 31 | 🅰️ G7️⃣      | S05| 10.7.237.48             | 64GB | 8   | 273.4GB | 🪟 2022 Datacenter | PaaS programmation systèmes        |
+| 1️⃣   | 27 | 🅰️ G7️⃣      | S07| 10.7.237.37             | 64GB | 16  | 273.4GB | 🪟 2022 Datacenter | PaaS programmation systèmes        |
+| 1️⃣   | 28 | 🅰️ G6️⃣      | S08| 10.7.237.18             | 8GB  | 16  | 273.4GB | —                  | —                                   |
+| 1️⃣   | 27 | 🅰️ G6️⃣      | S09| 10.7.237.42             | 56GB | 16  | 273.4GB | —                  | PaaS programmation systèmes          |
+| 1️⃣   | 27 | 🅱️          |TBD| 10.7.236.6–10.7.236.11  | 1TB  | 32  |  13.9TB | 🪟 2022 Datacenter  | VM, Domain Controller, DHCP INFRA002  |
+| 1️⃣   | 26 | 🅱️          |TBD| 10.7.236.13–10.7.236.17 | 1TB  | 32  | 13.9TB | 🪟 2022 Datacenter   | VM, Domain Controller INFRA003        |
+| 1️⃣   | 25 | 🅱️          |TBD| 10.7.237.60             | 1TB  | 32  | 13.9TB | 🪟 2022 Datacenter   | VM, Domain Controller INFRA001        |
 
 ## 🗄️ Rack 2️⃣ - 📇 42U
 
