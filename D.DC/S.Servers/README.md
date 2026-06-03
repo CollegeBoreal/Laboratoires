@@ -8,6 +8,13 @@
 | 🅱️ | DELL | PowerEdge R660 | |
 | ⭕ | DELL | Precision 3460 |
 
+## 🌰 Types OSs
+
+| OS | Version |
+|-|-|
+| 🪟 Windows Server | 2022 Datacenter |
+| 🐧 Linux Server   | 2024 Ubuntu |
+
 ## 🗄️ Rack 1️⃣ - 📇 42U
 
 | Rack | U#️⃣ | 🏙️ Serveurs | 🏷️ | Host IP                 | RAM  | CPU | HD  | OS                             | Services                                   |
