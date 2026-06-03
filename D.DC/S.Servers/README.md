@@ -10,10 +10,10 @@
 
 ## 🌰 Types OSs
 
-| OS | Version |
-|-|-|
-| 🪟 Windows Server | 2022 Datacenter |
-| 🐧 Linux Server   | 2024 Ubuntu |
+| Symbol | OS | Version |
+|-|-|-|
+| 🪟 | Windows Server | 2022 Datacenter |
+| 🐧 | Linux Server   | 2024 Ubuntu |
 
 ## 🗄️ Rack 1️⃣ - 📇 42U
 
