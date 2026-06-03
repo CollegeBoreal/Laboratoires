@@ -2,9 +2,9 @@
 
 | Symbol | Make | Brand | Series |
 |-|-|-|-|
-| 🅰️ | HP | Proliant DL360 |  G6️⃣ and G7️⃣ |
+| 🅰️ | HP   | Proliant DL360 |  G6️⃣ and G7️⃣ |
 | 🅱️ | DELL | PowerEdge R660 | |
-| :o: | DELL | 
+| ⭕ | DELL | Precision 3460 |
 
 ## 🗄️ Rack 1️⃣ - 📇 42U
 
