@@ -34,7 +34,7 @@
 
 ## 🗄️ Rack 2️⃣ - 📇 42U
 
-| Rack | U#️⃣| 🏙️ Serveurs | 🏷️  | Host IP                                 | RAM  | CPU | HD      | OS                     | Services                           |
+| Rack | U#️⃣| 🏙️ Serveurs | 🏷️  | Host IP                                 | RAM  | CPU | HD      | Operating Systems      | Services                           |
 | ---- | -:| ------------| --- | --------------------------------------- | ---: | ---:| ------- | ---------------------- | ---------------------------------- |
 | 1️⃣   | 42 | Switch     |     |                                         |      |     |         | CISCO
 | 2️⃣   |    |
