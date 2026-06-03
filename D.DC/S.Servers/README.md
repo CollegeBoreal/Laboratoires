@@ -22,7 +22,10 @@
 | ---- | -:| ------------| -- | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
 | 1️⃣   |    |
 | 1️⃣   | 44 | Fibre      |    |                        |      |      |     |  COMSCOPE EPX              | Accès Fibre BELL |
-| 1️⃣   | 41 | Switch     |    | 10.7.48.4              |      |      |     |  CISCO Catalist 9200 48 PoE+              | VLAN 237 10.7.236.0/23 |
+| 1️⃣   | 43 | Switch     |    | 10.7.48.4              |      |      |     |  CISCO Catalist 9200 48 PoE+              | VLAN 237 10.7.236.0/23 |
+| 1️⃣   | 42 | BELDEN 24
+| 1️⃣   | 41 | BELDEN 24
+| 1️⃣   | 40 | BELDEN 24
 | 1️⃣   |    |
 | 1️⃣   | 32 | 🅰️ G7️⃣      | S04| 10.7.237.3             | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣   | 31 | 🅰️ G7️⃣      | S05| 10.7.237.48            | 64GB | 8   | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
