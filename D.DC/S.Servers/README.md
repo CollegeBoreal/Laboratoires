@@ -18,7 +18,7 @@
 
 ## 🗄️ Rack 1️⃣ - 📇 42U
 
-| Rack | U#️⃣| 🏙️ Serveurs | 🏷️ | Host IP                | RAM  | CPU | HD      | OS          | Services                                                 |
+| Rack | U#️⃣| 🏙️ Serveurs | 🏷️ | Host IP                | RAM  | CPU | HD      | Operating Systems | Services                                                 |
 | ---- | -:| ------------| -- | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
 | 1️⃣   | 42 | Fibre      |    |                        |      |      |     |                | Accès Fibre BELL |
 | 1️⃣   | 41 | Switch     |    |                        |      |      |     |                | VLAN 237 10.7.236.0/23 |
