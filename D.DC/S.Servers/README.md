@@ -69,7 +69,7 @@
 
 # References
 
-[1]: Erreur Memoire P2-G
+[1]: [Erreur Memoire P2-G]
 
 ### Observations rapides
 
