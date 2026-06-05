@@ -28,7 +28,9 @@
 | 1️⃣   | 40 | BELDEN 24
 | 1️⃣   |    |
 | 1️⃣   | 37 | Switch     |    |              |      |      |     |  CISCO Catalist 3560 48 PoE              | |
-| 1️⃣   |    |
+
+| Rack | U#️⃣| 🏙️ Serveurs | 🏷️ | Host IP                | RAM  | CPU | HD      | Operating Systems | Services                                                 |
+| ---- | -:| ------------| -- | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
 | 1️⃣   | 33 | 🅰️ G6️⃣      | S08| 10.7.237.18            | 8GB  | 16  | 273.4GB |
 | 1️⃣   | 32 | 🅰️ G7️⃣      | S04| 10.7.237.3             | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣   | 31 | 🅰️ G7️⃣      | S05| 10.7.237.48            | 64GB | 8   | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
