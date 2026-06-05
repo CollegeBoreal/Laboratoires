@@ -69,7 +69,7 @@
 
 # References
 
-[1]: [Erreur Memoire P2-G]
+[1]: https://community.hpe.com/t5/hpe-proliant-servers-ml-dl-sl/ram-error-on-proliant-dl360-g6/td-p/4596820
 
 ### Observations rapides
 
