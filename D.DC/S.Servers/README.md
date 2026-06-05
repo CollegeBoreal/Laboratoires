@@ -22,7 +22,7 @@
 | ---- | -:| ------------| -- | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
 | 1️⃣   |    |
 | 1️⃣   | 44 | Fibre      |    |                        |      |      |     |  COMSCOPE EPX              | Accès Fibre BELL |
-| 1️⃣   | 43 | Switch     |    | 10.7.48.4              |      |      |     |  CISCO Catalist 9200 48 PoE+              | VLAN 237 10.7.236.0/23 |
+| 1️⃣   | 43 | [CISCO Catalist 9200 48 PoE+](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)     |    | 10.7.48.4              |      |      |     |                | VLAN 237 10.7.236.0/23 |
 | 1️⃣   | 42 | [KCONN Angled PP 24 1U](https://www.belden.com/products/panels-patching-systems/rj45-patch-panels/rack-mount-panel/kconn-angled-pp-24-1u)
 | 1️⃣   | 41 | BELDEN 24
 | 1️⃣   | 40 | BELDEN 24
