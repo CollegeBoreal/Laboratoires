@@ -47,7 +47,7 @@
 | ---- | -:| ------------| --- | --------------------------------------- | ---: | ---:| ------- | ---------------------- | ---------------------------------- |
 | 1️⃣   | 42 | Switch     |     |                                         |      |     |         | CISCO
 | 2️⃣   |    |
-| 2️⃣   | 40 | 🅰️ G6️⃣      | S13 | [10.7.237.16](https://10.7.237.16:8006) | 64GB | 16  | 273.4G  | 🏵️ PVE 7.4 | [INF1102-201-26H-03 🥇](https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group1.md)
+| 2️⃣   | 40 | 🅰️ G6️⃣      | S13 | [10.7.237.16](https://10.7.237.16:8006) | 64GB | 16  | 273.4G  | 🏵️ PVE 7.4 | [INF1102-201-26H-03 🥇]
 | 2️⃣   |    |
 | 2️⃣   | 34 | 🅰️ G6️⃣      | S18 | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
 | 2️⃣   | 33 | 🅰️ G6️⃣      | S19 | 10.7.237.7                              | 64GB | 16  | 273.4G  | 🪟 2022 DC
@@ -69,6 +69,7 @@
 
 # References
 
+[INF1102-201-26H-03 🥇]: https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group1.md
 [1]: https://community.hpe.com/t5/hpe-proliant-servers-ml-dl-sl/ram-error-on-proliant-dl360-g6/td-p/4596820
 
 ### Observations rapides
