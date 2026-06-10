@@ -59,7 +59,7 @@
 | 2️⃣   | 28 | 🅰️ G6️⃣      | S21 | MXQ0390BMX | 10.7.237.19                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
 | 2️⃣   | 27 | 🅰️ G6️⃣      | S25 | MXQ016001V | 10.7.237.24                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
 | 2️⃣   | 25 | 🅰️ G6️⃣      | S17 | MXQ02302FC | 10.7.237.28                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
-| 2️⃣   | 24 | 🅰️ G6️⃣      | S13 | MXQ0030BLP | 10.7.237.16                             | 64GB | 16  | 273.4G  | 🪟 2022 DC | [INF1092-201-26H-01]
+| 2️⃣   | 24 | 🅰️ G6️⃣      | S13 | MXQ0030BLP | 10.7.237.16                             | 64GB | 16  | 273.4G  | 🪟 2022 DC | [INF1092-201-E26-01 🥇]
 | 2️⃣   |    |
 | 2️⃣   | 10 | 🅰️ G7️⃣      | S28 |  | 10.7.237.11                             | 64GB | 16  | 273.4G  |
 | 2️⃣   |  9 | 🅰️ G7️⃣      | S35 |  | [10.7.237.5](https://10.7.237.5:8006)   | 64GB | 16  | 273.4G $\color{blue}\text{1TBNVMe}$ | 🏵️ PVE 7.4
@@ -71,7 +71,7 @@
 
 # References
 
-[INF1092-201-E26-01]: https://github.com/CollegeBoreal/INF1092-201-E26-01
+[INF1092-201-E26-01 🥇]: https://github.com/CollegeBoreal/INF1092-201-E26-01
 [1]: https://community.hpe.com/t5/hpe-proliant-servers-ml-dl-sl/ram-error-on-proliant-dl360-g6/td-p/4596820
 
 ### Observations rapides
