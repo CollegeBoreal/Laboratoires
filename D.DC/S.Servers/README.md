@@ -34,7 +34,7 @@
 | 1️⃣   | 33 | 🅰️ G6️⃣      | S08| USE110N1MZ | 10.7.237.18            | 8GB  | 16  | 273.4GB |
 | 1️⃣   | 32 | 🅰️ G7️⃣      | S04| MXQ1200F5B | 10.7.237.3             | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣   | 31 | 🅰️ G7️⃣      | S05|            | 10.7.237.48            | 64GB | 8   | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
-| 1️⃣   | 30 | 🅰️ G6️⃣      | S09|            | 10.7.237.42            | 56GB | 16  | 273.4GB |             | PaaS programmation systèmes          |
+| 1️⃣   | 30 | 🅰️ G6️⃣      | S09|            | 10.7.237.131           | 56GB | 16  | 273.4GB $\color{blue}\text{1TBNVMe}$ | 🪟 2022 DC  | PaaS programmation systèmes          |
 | 1️⃣   | 29 | 🅰️ G7️⃣      | S07| USE107NACM | 10.7.237.37            | 64GB | 16  | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
 | 1️⃣   |    |
 | 1️⃣   | 27 | 🅱️          |TBD| 7FXTY84 | 10.7.236.6–10.7.236.11  | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller, DHCP INFRA002  |
