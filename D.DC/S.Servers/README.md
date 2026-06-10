@@ -39,7 +39,7 @@
 | 1️⃣   |    |
 | 1️⃣   | 27 | 🅱️          |TBD| 7FXTY84 | 10.7.236.6–10.7.236.11  | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller, DHCP INFRA002  |
 | 1️⃣   | 26 | 🅱️          |TBD| 8FXTY84 | 10.7.236.13–10.7.236.17 | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller INFRA003        |
-| 1️⃣   | 25 | 🅱️          |TBD|         | 10.7.237.60             | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller INFRA001        |
+| 1️⃣   | 25 | 🅱️          |TBD| 9KDZ6D4 | 10.7.237.60             | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller INFRA001        |
 
 ## 🗄️ Rack 2️⃣ - 📇 42U
 
