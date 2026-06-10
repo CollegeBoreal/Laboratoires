@@ -91,3 +91,51 @@ No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
 ```
 
 </details>
+
+```bash
+apt update && apt install dmraid -y
+```
+<details><summary>🪵 Log </summary>
+
+```lua
+Hit:1 http://download.proxmox.com/debian/pve bullseye InRelease
+Hit:2 http://security.debian.org/debian-security bullseye-security InRelease
+Hit:3 http://deb.debian.org/debian bullseye InRelease            
+Hit:4 http://deb.debian.org/debian bullseye-updates InRelease
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+54 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libdmraid1.0.0.rc16
+The following NEW packages will be installed:
+  dmraid libdmraid1.0.0.rc16
+0 upgraded, 2 newly installed, 0 to remove and 54 not upgraded.
+Need to get 137 kB of archives.
+After this operation, 350 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 libdmraid1.0.0.rc16 amd64 1.0.0.rc16-8+b1 [101 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 dmraid amd64 1.0.0.rc16-8+b1 [36.3 kB]
+Fetched 137 kB in 0s (347 kB/s)   
+Selecting previously unselected package libdmraid1.0.0.rc16.
+(Reading database ... 110126 files and directories currently installed.)
+Preparing to unpack .../libdmraid1.0.0.rc16_1.0.0.rc16-8+b1_amd64.deb ...
+Unpacking libdmraid1.0.0.rc16 (1.0.0.rc16-8+b1) ...
+Selecting previously unselected package dmraid.
+Preparing to unpack .../dmraid_1.0.0.rc16-8+b1_amd64.deb ...
+Unpacking dmraid (1.0.0.rc16-8+b1) ...
+Setting up libdmraid1.0.0.rc16 (1.0.0.rc16-8+b1) ...
+Setting up dmraid (1.0.0.rc16-8+b1) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u13) ...
+Processing triggers for initramfs-tools (0.140) ...
+update-initramfs: Generating /boot/initrd.img-5.15.158-2-pve
+Running hook script 'zz-proxmox-boot'..
+Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount namespace..
+No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
+```
+
+</details>
