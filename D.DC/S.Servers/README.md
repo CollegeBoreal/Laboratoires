@@ -48,8 +48,8 @@
 | 2️⃣   |    |
 | 1️⃣   | 44 | Switch     |     |    |         10.7.48.5                             |      |     |         | CISCO Catalyst 9200 48 PoE+ 
 | 2️⃣   |    |
-| 2️⃣   | 41 | 🅰️ G6️⃣      |     | USE928N320 |                                         |  0GB | ?? |          | 🚨 $\color{red}\text{NO BOOT}$
-| 2️⃣   | 40 | 🅰️ G6️⃣      | S18 | MXQ9410AFZ | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🚨 $\color{red}\text{CPU-P2 DEAD NO BOOT}$
+| 2️⃣   | 41 | 🅰️ G6️⃣      |     | USE928N320 |                                         |  0GB | ?? |          | 🚨 $\color{red}\text{NO BOOT}$             | :x:
+| 2️⃣   | 40 | 🅰️ G6️⃣      | S18 | MXQ9410AFZ | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🚨 $\color{red}\text{CPU-P2 DEAD NO BOOT}$ | :x:
 | 2️⃣   |    |
 | 2️⃣   | 34 | 🅰️ G6️⃣      | S27 | USE928N320 | 10.7.237.34                             | 64GB | 16  | 273.4G  | 🪟 2022 DC 🚨 $\color{red}RAM-P2(6,9)$ [1] | [INF1092-201-E26-01 🥇]
 | 2️⃣   | 33 | 🅰️ G6️⃣      | S19 | MXQ00309PP | 10.7.237.7                              | 64GB | 16  | 273.4G  | 🪟 2022 DC | [INF1092-201-E26-01 🥇]
