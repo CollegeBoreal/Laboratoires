@@ -49,7 +49,7 @@
 | 1️⃣   | 44 | Switch     |     |    |         10.7.48.5                             |      |     |         | CISCO Catalyst 9200 48 PoE+ 
 | 2️⃣   |    |
 | 2️⃣   | 41 | 🅰️ G6️⃣      |     | USE928N320 |                                         |  0GB | ?? |          | 🚨 $\color{red}\text{NO BOOT}$
-| 2️⃣   | 40 | 🅰️ G6️⃣      | S13 | MXQ0030BLP | [10.7.237.16](https://10.7.237.16:8006) | 64GB | 16  | 273.4G  | 🏵️ PVE 7.4 | [INF1102-201-26H-03 🥇]
+| 2️⃣   | 26 | 🅰️ G6️⃣      | S27 | USE928N320 | 10.7.237.34                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
 | 2️⃣   |    |
 | 2️⃣   | 34 | 🅰️ G6️⃣      | S18 | MXQ9410AFZ | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🚨 $\color{red}\text{CPU-P2 DEAD NO BOOT}$
 | 2️⃣   | 33 | 🅰️ G6️⃣      | S19 | MXQ00309PP | 10.7.237.7                              | 64GB | 16  | 273.4G  | 🪟 2022 DC
@@ -59,7 +59,7 @@
 | 2️⃣   | 28 | 🅰️ G6️⃣      | S21 | MXQ0390BMX | 10.7.237.19                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
 | 2️⃣   | 27 | 🅰️ G6️⃣      | S25 | MXQ016001V | 10.7.237.24                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
 | 2️⃣   | 25 | 🅰️ G6️⃣      | S17 | MXQ02302FC | 10.7.237.28                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
-| 2️⃣   | 26 | 🅰️ G6️⃣      | S27 | USE928N320 | 10.7.237.34                             | 64GB | 16  | 273.4G  | 🪟 2022 DC
+| 2️⃣   | 24 | 🅰️ G6️⃣      | S13 | MXQ0030BLP | 10.7.237.16                             | 64GB | 16  | 273.4G  | 🪟 2022 DC | [INF1092-201-26H-01]
 | 2️⃣   |    |
 | 2️⃣   | 10 | 🅰️ G7️⃣      | S28 |  | 10.7.237.11                             | 64GB | 16  | 273.4G  |
 | 2️⃣   |  9 | 🅰️ G7️⃣      | S35 |  | [10.7.237.5](https://10.7.237.5:8006)   | 64GB | 16  | 273.4G $\color{blue}\text{1TBNVMe}$ | 🏵️ PVE 7.4
@@ -71,7 +71,7 @@
 
 # References
 
-[INF1102-201-26H-03 🥇]: https://github.com/CollegeBoreal/INF1102-201-26H-03/blob/main/3.IaC/.scripts/Participation-group1.md
+[INF1092-201-E26-01]: https://github.com/CollegeBoreal/INF1092-201-E26-01
 [1]: https://community.hpe.com/t5/hpe-proliant-servers-ml-dl-sl/ram-error-on-proliant-dl360-g6/td-p/4596820
 
 ### Observations rapides
