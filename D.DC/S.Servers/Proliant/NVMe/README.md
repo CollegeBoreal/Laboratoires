@@ -32,7 +32,24 @@ nvme0n1                          259:0    0 953.9G  0 disk
 
 </details>
 
+- [ ] Trying to create PV but device is not empty
 
+```bash
+pvcreate /dev/nvme0n1
+```
+> Cannot use /dev/nvme0n1: device is an md component
+
+- [ ] View what's on it
+
+```bash
+cat /proc/mdstat
+```
+```
+Personalities : 
+unused devices: <none>
+```
+
+- [ ] Trying to erase what's on it
 
 ```bash
 mdadm --zero-superblock /dev/nvme0n1
