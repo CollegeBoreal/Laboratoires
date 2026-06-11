@@ -271,3 +271,70 @@ nvme0n1
 ```
 
 nothing left
+
+- [ ] Finally, create the `Physical Volume` pv
+
+```bash
+pvcreate /dev/nvme0n1
+```
+>  Physical volume "/dev/nvme0n1" successfully created.
+
+* extend `pve` volume group
+
+```bash
+vgextend pve /dev/nvme0n1
+```
+>  Volume group "pve" successfully extended
+
+* extend all the `lv`
+
+```
+lvextend -l +100%FREE pve/data
+```
+```
+  Size of logical volume pve/data_tdata changed from 177.28 GiB (45384 extents) to 1.12 TiB (293668 extents).
+  Logical volume pve/data_tdata successfully resized.
+```
+
+- [ ] Check the LV and VG
+
+```bash
+lvs
+```
+```
+  LV                VG           Attr       LSize   Pool Origin           Data%  Meta%  Move Log Cpy%Sync Convert
+  vm-100-disk-0     fast-storage -wi-a----- 120.00g                                                              
+  base-9000-disk-0  pve          Vri---tz-k  <2.20g data                                                         
+  data              pve          twi-aotz--   1.12t                       6.41   2.46                            
+  root              pve          -wi-ao----  68.00g                                                              
+  swap              pve          -wi-ao----   8.00g                                                              
+  vm-100-cloudinit  pve          Vwi-a-tz--   4.00m data                  9.38                                   
+  vm-100-disk-0     pve          Vwi-a-tz-- 160.00g data base-9000-disk-0 45.69                                  
+  vm-9000-cloudinit pve          Vwi-a-tz--   4.00m data                  9.38                                   
+```
+
+```bash
+vgs
+```
+```
+  VG           #PV #LV #SN Attr   VSize    VFree  
+  fast-storage   1   1   0 wz--n- <136.70g <16.70g
+  pve            2   7   0 wz--n-   <1.20t      0
+```
+
+```bash
+pvesm status
+```
+```
+Name                Type     Status           Total            Used       Available        %
+fast-storage         lvm     active       143335424       125829120        17506304   87.79%
+local                dir     active        69606648         6139652        59885456    8.82%
+local-lvm        lvmthin     active      1202864128        77103590      1125760537    6.41%
+```
+
+```bash
+systemctl enable fstrim.timer
+systemctl start fstrim.timer
+```
+> Created symlink /etc/systemd/system/timers.target.wants/fstrim.timer → /lib/systemd/system/fstrim.timer.
+
