@@ -1,7 +1,9 @@
+
+
 ```bash
 lsblk
 ```
-<details>
+<details><summary>🪵 After Installing PCIe/NVMe 1TB card</summary>
 
 ```lua
 NAME                             MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
