@@ -241,3 +241,33 @@ dd if=/dev/zero of=/dev/nvme0n1 bs=1M count=200 seek=$(( $(blockdev --getsz /dev
 wipefs -a /dev/nvme0n1
 ```
 (none)
+
+```bash
+lsblk -f
+```
+```lua
+NAME                             FSTYPE      FSVER    LABEL  UUID                                   FSAVAIL FSUSE% MOUNTPOINT
+sda                                                                                                                
+├─sda1                                                                                                             
+├─sda2                           vfat        FAT32           DE15-86D4                                             
+└─sda3                           LVM2_member LVM2 001        NNZxnr-ff2Q-r53H-Xyrw-J4uO-ecjd-iVeUe7                
+  ├─pve-swap                     swap        1               8509424a-4fa1-40ab-9cec-e796ba126b6e                  [SWAP]
+  ├─pve-root                     ext4        1.0             856cea40-a6c7-43e0-aebb-c5577cc28a60     57.1G     9% /
+  ├─pve-data_tmeta                                                                                                 
+  │ └─pve-data-tpool                                                                                               
+  │   ├─pve-data                                                                                                   
+  │   ├─pve-vm--9000--cloudinit  iso9660              cidata 2026-02-23-19-16-18-00                                
+  │   ├─pve-vm--100--cloudinit   iso9660              cidata 2026-06-03-16-14-33-00                                
+  │   └─pve-vm--100--disk--0                                                                                       
+  └─pve-data_tdata                                                                                                 
+    └─pve-data-tpool                                                                                               
+      ├─pve-data                                                                                                   
+      ├─pve-vm--9000--cloudinit  iso9660              cidata 2026-02-23-19-16-18-00                                
+      ├─pve-vm--100--cloudinit   iso9660              cidata 2026-06-03-16-14-33-00                                
+      └─pve-vm--100--disk--0                                                                                       
+sdb                              LVM2_member LVM2 001        k6DUPe-Beib-4nrc-J0Ye-8BKU-RC7I-UBUTfB                
+└─fast--storage-vm--100--disk--0 ext4        1.0             c29e7c9c-0698-4f1d-9c86-d32f1a04eb77                  
+nvme0n1
+```
+
+nothing left
