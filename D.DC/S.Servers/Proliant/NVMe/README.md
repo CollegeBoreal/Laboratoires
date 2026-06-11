@@ -234,3 +234,10 @@ dd if=/dev/zero of=/dev/nvme0n1 bs=1M count=200 seek=$(( $(blockdev --getsz /dev
 200+0 records out
 209715200 bytes (210 MB, 200 MiB) copied, 0.307004 s, 683 MB/s
 ```
+
+- [ ] Anything left?
+
+```bash
+wipefs -a /dev/nvme0n1
+```
+(none)
