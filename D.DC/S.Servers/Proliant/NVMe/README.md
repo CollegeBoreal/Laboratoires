@@ -142,7 +142,19 @@ Re-executing '/etc/kernel/postinst.d/zz-proxmox-boot' in new private mount names
 No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
 ```
 
+- [ ] Still can't
+
 </details>
+
+```bash
+mdadm --zero-superblock /dev/nvme0n1
+```
+```
+mdadm: /dev/nvme0n1 is not attached to Intel(R) RAID controller.
+mdadm: /dev/nvme0n1 is not attached to Intel(R) RAID controller.
+```
+
+- [ ] Try with RAID
 
 ```bash
 apt update && apt install dmraid -y
@@ -191,3 +203,34 @@ No /etc/kernel/proxmox-boot-uuids found, skipping ESP sync.
 ```
 
 </details>
+
+```bash
+dmraid -rE /dev/nvme0n1
+```
+> no raid disks and with names: "/dev/nvme0n1"
+
+- [ ] Let's wipe it out
+
+```bash
+wipefs -a /dev/nvme0n1
+> /dev/nvme0n1: 8 bytes were erased at offset 0x00000218 (LVM2_member): 4c 56 4d 32 20 30 30 31
+
+```bash
+# début (metadata classique)
+dd if=/dev/zero of=/dev/nvme0n1 bs=1M count=200
+```
+```
+200+0 records in
+200+0 records out
+209715200 bytes (210 MB, 200 MiB) copied, 0.305607 s, 686 MB/s
+```
+
+```
+# fin du disque (ISW RAID se cache souvent là)
+dd if=/dev/zero of=/dev/nvme0n1 bs=1M count=200 seek=$(( $(blockdev --getsz /dev/nvme0n1) / 2048 - 200 ))
+```
+```
+200+0 records in
+200+0 records out
+209715200 bytes (210 MB, 200 MiB) copied, 0.307004 s, 683 MB/s
+```
