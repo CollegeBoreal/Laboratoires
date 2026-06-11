@@ -1,3 +1,36 @@
+```bash
+lsblk
+```
+<details>
+
+```lua
+NAME                             MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda                                8:0    0 273.4G  0 disk 
+├─sda1                             8:1    0  1007K  0 part 
+├─sda2                             8:2    0   512M  0 part 
+└─sda3                             8:3    0 272.9G  0 part 
+  ├─pve-swap                     253:1    0     8G  0 lvm  [SWAP]
+  ├─pve-root                     253:2    0    68G  0 lvm  /
+  ├─pve-data_tmeta               253:3    0   1.8G  0 lvm  
+  │ └─pve-data-tpool             253:5    0 177.3G  0 lvm  
+  │   ├─pve-data                 253:6    0 177.3G  1 lvm  
+  │   ├─pve-vm--9000--cloudinit  253:7    0     4M  0 lvm  
+  │   ├─pve-vm--100--cloudinit   253:8    0     4M  0 lvm  
+  │   └─pve-vm--100--disk--0     253:9    0   160G  0 lvm  
+  └─pve-data_tdata               253:4    0 177.3G  0 lvm  
+    └─pve-data-tpool             253:5    0 177.3G  0 lvm  
+      ├─pve-data                 253:6    0 177.3G  1 lvm  
+      ├─pve-vm--9000--cloudinit  253:7    0     4M  0 lvm  
+      ├─pve-vm--100--cloudinit   253:8    0     4M  0 lvm  
+      └─pve-vm--100--disk--0     253:9    0   160G  0 lvm  
+sdb                                8:16   0 136.7G  0 disk 
+└─fast--storage-vm--100--disk--0 253:0    0   120G  0 lvm  
+nvme0n1                          259:0    0 953.9G  0 disk 
+```
+
+</details>
+
+
 
 ```bash
 mdadm --zero-superblock /dev/nvme0n1
