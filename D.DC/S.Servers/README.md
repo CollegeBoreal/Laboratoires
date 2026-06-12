@@ -34,7 +34,7 @@
 | 1️⃣   | 33 | 🅰️ G6️⃣      | S08| USE110N1MZ | 10.7.237.18            | 8GB  | 16  | 273.4GB |
 | 1️⃣   | 32 | 🅰️ G7️⃣      | S04| MXQ1200F5B | 10.7.237.3             | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣   | 31 | 🅰️ G7️⃣      | S05|            | 10.7.237.48            | 64GB | 8   | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
-| 1️⃣   | 30 | 🅰️ G6️⃣      | S09|            | 10.7.237.131           | 56GB | 16  | 273.4GB $\color{blue}\text{1TBNVMe}$ | 🪟 2022 DC  | PaaS programmation systèmes          |
+| 1️⃣   | 30 | 🅰️ G6️⃣      | S09| MXQ0070413 | 10.7.237.131           | 56GB | 16  | 273.4GB 🚨 $\color{red}RAM-P2(4,5,6)$ | 🪟 2022 DC  | PaaS programmation systèmes          |
 | 1️⃣   | 29 | 🅰️ G7️⃣      | S07| USE107NACM | 10.7.237.37            | 64GB | 16  | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
 | 1️⃣   |    |
 | 1️⃣   | 27 | 🅱️          |TBD| 7FXTY84 | 10.7.236.6–10.7.236.11  | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller, DHCP INFRA002  |
@@ -52,7 +52,7 @@
 | 2️⃣   | 40 | 🅰️ G6️⃣      | S18 | MXQ9410AFZ | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🚨 $\color{red}\text{CPU-P2 DEAD NO BOOT}$ | :x:
 | 2️⃣   |    |
 | 2️⃣   | 34 | 🅰️ G6️⃣      | S27 | USE928N320  ⚠️ | 10.7.237.34 | 64GB | 16  | 273.4G  | ⚠️ A installer 🚨 $\color{red}RAM-P2(6,9)$ [1] | [INF1092-201-E26-01 🥇]
-| 2️⃣   | 33 | 🅰️ G6️⃣      | S19 | MXQ00309PP  ✅ | 10.7.237.7 | 64GB | 16  | 273.4G  | 🪟 2022 DC | [INF1092-201-E26-01 🥇]
+| 2️⃣   | 33 | 🅰️ G6️⃣      | S19 | MXQ00309PP  ✅ | 10.7.237.7 | 64GB | 16  | 273.4G  | 🪟 2022 DC $\color{blue}\text{1TBNVMe}$ | [INF1092-201-E26-01 🥇]
 | 2️⃣   | 32 | 🅰️ G6️⃣      | S37 | MXQ01105H4  ❌ | 10.7.237.13 | 64GB | 16  | 273.4G  | ❌
 | 2️⃣   | 31 | 🅰️ G6️⃣      | S39 | USE025N7B5  ⚠️ | 10.7.237.35 | 64GB | 16  | 273.4G  | 🪟 2022 DC 🚨 $\color{red}RAM-P2(1)$ [1] | [INF1092-201-E26-01 🥇]
 | 2️⃣   |    |
