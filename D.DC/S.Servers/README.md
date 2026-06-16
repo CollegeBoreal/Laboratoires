@@ -41,7 +41,7 @@
 | 1️⃣   | 26 | 🅱️          |TBD| 8FXTY84 | 10.7.236.13–10.7.236.17 | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller INFRA003        |
 | 1️⃣   | 25 | 🅱️          |TBD| 9KDZ6D4 | 10.7.237.60             | 1TB  | 32  | 13.9TB  | 🪟 2022 DC  | VM, Domain Controller INFRA001        |
 
-## 🗄️ Rack 2️⃣ - 📇 42U
+## 🗄️ Rack 2️⃣ - 📇 45U
 
 | Rack | U#️⃣| 🏙️ Serveurs | 🏷️  | S/N #️⃣ | Host IP                      | RAM  | CPU | HD      | Operating Systems      | Services                           |
 | ---- | -:| ------------| --- | - | ------------------------------------ | ---: | ---:| ------- | ---------------------- | ---------------------------------- |
