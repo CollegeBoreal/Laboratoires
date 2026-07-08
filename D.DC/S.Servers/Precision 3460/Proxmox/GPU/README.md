@@ -104,6 +104,16 @@ Vérifier :
 ```bash
 lspci -nnk -s 01:00.0
 ```
+<details>
+
+```lua
+0000:01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GA107GL [RTX A400] [10de:25b2] (rev a1)
+	Subsystem: Dell Device [1028:1879]
+	Kernel driver in use: vfio-pci
+	Kernel modules: nvidiafb, nouveau
+```
+	
+</details>
 
 Résultat attendu :
 
