@@ -132,6 +132,7 @@ Kernel driver in use: nouveau
 ```bash
 qm set 100 -hostpci0 01:00,pcie=1
 ```
+> update VM 100: -hostpci0 01:00,pcie=1
 
 Vérification :
 
