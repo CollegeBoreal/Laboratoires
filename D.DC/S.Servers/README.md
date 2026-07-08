@@ -18,20 +18,21 @@
 
 ## 🗄️ Rack 1️⃣ - 📇 45U
 
-| Rack | U#️⃣| 🏙️ Serveurs | 🏷️ | Host IP                | RAM  | CPU | HD      | Operating Systems | Services                                                 |
-| ---- | -:| ------------| -- | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
-| 1️⃣   |    |
-| 1️⃣   | 44 | Fibre      |    |                        |      |      |     |  COMSCOPE EPX              | Accès Fibre BELL |
-| 1️⃣   | 43 | [CISCO Catalist 9200 48 PoE+](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)     |    | 10.7.48.4              |      |      |     |                | VLAN 237 10.7.236.0/23 |
-| 1️⃣   | 42 | [KCONN Angled PP 24 1U](https://www.belden.com/products/panels-patching-systems/rj45-patch-panels/rack-mount-panel/kconn-angled-pp-24-1u)
-| 1️⃣   | 41 | BELDEN 24
-| 1️⃣   | 40 | BELDEN 24
-| 1️⃣   |    |
-| 1️⃣   | 37 | Switch     |    |              |      |      |     |  CISCO Catalist 3560 48 PoE              | |
+| U#️⃣| 🏙️ Serveurs | 🏷️ | Host IP                | RAM  | CPU | HD      | Operating Systems | Services                                                 |
+| -:| ------------| -- | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
+|    |
+| 44 | Fibre      |    |                        |      |      |     |  COMSCOPE EPX              | Accès Fibre BELL |
+| 43 | [CISCO Catalist 9200 48 PoE+](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html)     |    | 10.7.48.4              |      |      |     |                | VLAN 237 10.7.236.0/23 |
+| 42 | [KCONN Angled PP 24 1U](https://www.belden.com/products/panels-patching-systems/rj45-patch-panels/rack-mount-panel/kconn-angled-pp-24-1u)
+| 41 | BELDEN 24
+| 40 | BELDEN 24
+|    |
+| 37 | Switch     |    |              |      |      |     |  CISCO Catalist 3560 48 PoE              | |
 
-| Rack | U#️⃣| 🏙️ Serveurs | 🏷️ | S/N #️⃣     | Host IP                | RAM  | CPU | HD      | Operating Systems | Services                                                 |
-| ---- | -:| ------------| -- | ---------  | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
-| 1️⃣   | 33 | 🅰️ G6️⃣      | S08| USE110N1MZ | 10.7.237.18            | 8GB  | 16  | 273.4GB |
+| U#️⃣| 🏙️ Serveurs | 🏷️ | S/N #️⃣     | Host IP                | RAM  | CPU | HD      | Operating Systems | Services                                                 |
+| -:| ------------| -- | ---------  | ---------------------- | ---: | ---:| ------- | ----------- | -------------------------------------------------------- |
+|    |
+| 33 | 🅰️ G6️⃣      | S08| USE110N1MZ | 10.7.237.18            | 8GB  | 16  | 273.4GB |
 | 1️⃣   | 32 | 🅰️ G7️⃣      | S04| MXQ1200F5B | 10.7.237.3             | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 1️⃣   | 31 | 🅰️ G7️⃣      | S05|            | 10.7.237.48            | 64GB | 8   | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
 | 1️⃣   | 30 | 🅰️ G6️⃣      | S09| MXQ0070413 | 10.7.237.131           | 56GB | 16  | 273.4GB 🚨 $\color{red}RAM-P2(4,5,6)$ | 🪟 2022 DC  | PaaS programmation systèmes          |
@@ -46,7 +47,7 @@
 | Rack | U#️⃣| 🏙️ Serveurs | 🏷️  | S/N #️⃣ | Host IP                      | RAM  | CPU | HD      | Operating Systems      | Services                           |
 | ---- | -:| ------------| --- | - | ------------------------------------ | ---: | ---:| ------- | ---------------------- | ---------------------------------- |
 | 2️⃣   |    |
-| 1️⃣   | 44 | Switch     |     |    |         10.7.48.5                             |      |     |         | CISCO Catalyst 9200 48 PoE+ 
+| 2️⃣   | 44 | Switch     |     |    |         10.7.48.5                             |      |     |         | CISCO Catalyst 9200 48 PoE+ 
 | 2️⃣   |    |
 | 2️⃣   | 41 | 🅰️ G6️⃣      |     | USE928N320 |                                         |  0GB | ?? |          | 🚨 $\color{red}\text{NO BOOT}$             | :x:
 | 2️⃣   | 40 | 🅰️ G6️⃣      | S18 | MXQ9410AFZ | 10.7.237.22                             | 64GB | 16  | 273.4G  | 🚨 $\color{red}\text{CPU-P2 DEAD NO BOOT}$ | :x:
