@@ -1,7 +1,7 @@
 # Remote Access
 
 
-## 🔗 RDP
+## 🔗 RDP on 🍎 Mac
 
 😂 Classic — yep, that one bites *a lot* of people right now.
 
