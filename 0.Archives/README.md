@@ -4,6 +4,7 @@
 | Années                | Liens                                |
 |-----------------------|--------------------------------------|
 |:two::zero::two::six:  |                                      |
+|:maple_leaf: Automne   | https://github.com/CollegeBoreal/26A |
 |:sunny: Été            | https://github.com/CollegeBoreal/26E |
 |:snowman: Hiver        | https://github.com/CollegeBoreal/26H |
 |:two::zero::two::five: |                                      |
