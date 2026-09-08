@@ -34,7 +34,7 @@
 | 34 | ⭕     |   |  | [10.7.237.25](https://10.7.237.25:8006)   | 32GB | 28  | $\color{green}\text{3TBNVMe}$ | 🏵️ PVE 9.1
 |    |
 | 33 | 🅰️ G6️⃣ | S08| USE110N1MZ | 10.7.237.18            | 8GB  | 16  | 273.4GB |
-| 32 | 🅰️ G7️⃣ | S04| MXQ1200F5B | 10.7.237.3             | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
+| 32 | 🅰️ G7️⃣ | S04| MXQ1200F5B | 10.7.237.3  ✅          | 64GB | 16  | 546GB   | 🪟 2022 DC  | DC, DHCP, WDS, VM Linux (Nginx+Python), VM Linux (MySQL) |
 | 31 | 🅰️ G7️⃣ | S05|            | 10.7.237.48            | 64GB | 8   | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
 | 30 | 🅰️ G6️⃣ | S09| MXQ0070413 | 10.7.237.131           | 56GB | 16  | 273.4GB 🚨 $\color{red}RAM-P2(4,5,6)$ | 🪟 2022 DC  | PaaS programmation systèmes          |
 | 29 | 🅰️ G7️⃣ | S07| USE107NACM | 10.7.237.37            | 64GB | 16  | 273.4GB | 🪟 2022 DC  | PaaS programmation systèmes        |
