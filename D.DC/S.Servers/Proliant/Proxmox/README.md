@@ -36,6 +36,7 @@ Se référer à ces pages, pour installer [PVE9](pve/v9) ou migrer de cette vers
  |----------------|----------------------------------------|
  | Proxmox VE ISO | [https://www.proxmox.com/en/](https://www.proxmox.com/en/) |
  | Rufus          | [https://rufus.ie/fr/](https://rufus.ie/fr/) |
+ | Etcher         | [https://etcher.balena.io](https://etcher.balena.io)
 
 ### # Step 3 : Créer la clé USB bootable 🔑
 - Insérer une clé USB
